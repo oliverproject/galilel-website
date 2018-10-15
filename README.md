@@ -1,7 +1,7 @@
 # Introduction
 
-This is the Galilel Cloud website. It includes our landing page with all
-necessary coin specification, reward structure, team information and partners.
+This is the Galilel Cloud website. It includes the landing page with all
+necessary coin specifications, reward structure, team information and partners.
 It is a static HTML website, however some dynamic content is created using PHP.
 It used the Materialize CSS Framework based on material design with customer
 coloring according to our branding information. Pictures have to be Scalable
