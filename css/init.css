@@ -1,0 +1,69 @@
+/*
+ * Customized Materialize settings.
+ */
+nav ul a {
+  color: #444;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #bba38a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.parallax-container-narrow {
+  min-height: 100px;
+  height: 100px;
+}
+
+.teal-text.text-lighten-2 {
+  color: #f2e7db !important;
+}
+
+.teal.lighten-1 {
+  background-color: #bba38a !important;
+}
+
+.teal {
+  background-color: #ffffff !important;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.page-footer {
+  color: #444 !important;
+}
+
+.link-text {
+  color: #bba38a !important;
+}
+
+.headline {
+  font-size: 4rem;
+  line-height: 100%;
+  margin: 1.0933333333rem 0 0.656rem 0;
+}
