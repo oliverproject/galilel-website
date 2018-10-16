@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -78,22 +78,22 @@
      inkscape:window-height="908"
      id="namedview4981"
      showgrid="false"
-     inkscape:zoom="0.65186405"
-     inkscape:cx="-270.95249"
-     inkscape:cy="231.28791"
-     inkscape:window-x="1985"
-     inkscape:window-y="130"
+     inkscape:zoom="0.96950969"
+     inkscape:cx="163.71432"
+     inkscape:cy="249.94876"
+     inkscape:window-x="104"
+     inkscape:window-y="76"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg4979" />
-  <rect
-     width="512"
-     height="512"
-     rx="15%"
-     id="rect4971"
-     style="fill:#795548;fill-opacity:1" />
+  <circle
+     style="opacity:1;fill:#795548;fill-opacity:1;stroke:none;stroke-width:25.67475319;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path817"
+     cx="256"
+     cy="256"
+     r="256" />
   <g
      id="Graviex"
-     transform="matrix(0.44772341,0,0,0.44772341,31.106751,31.406583)">
+     transform="matrix(0.51557464,0,0,0.51557466,-1.7873201,-3.7873342)">
     <circle
        r="428"
        cy="500"

@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,35 +41,38 @@
      inkscape:window-height="908"
      id="namedview4981"
      showgrid="false"
-     inkscape:zoom="0.4609375"
-     inkscape:cx="-189.83051"
-     inkscape:cy="256"
+     inkscape:zoom="0.921875"
+     inkscape:cx="238.35576"
+     inkscape:cy="242.0557"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg4979" />
-  <rect
-     width="512"
-     height="512"
-     rx="15%"
-     id="rect4971"
-     style="fill:#795548;fill-opacity:1" />
-  <path
-     d="M346 392l-21-25c41-11 57-39 57-39-52 49-194 51-249 0 0 0 14 26 56 39l-23 25c-70-1-97-48-97-48 0-104 46-187 46-187 47-33 90-33 90-33l3 4c-58 16-83 42-83 42 68-46 208-42 263 0 1-1-33-28-86-42l5-4s43 0 90 33c0 0 46 83 46 187 0 0-27 47-97 48z"
-     fill="#fff"
-     id="path4973" />
-  <ellipse
-     cx="196"
-     cy="279"
-     rx="33"
-     ry="35"
-     id="ellipse4975"
-     style="fill:#795548;fill-opacity:1" />
-  <ellipse
-     cx="312"
-     cy="279"
-     rx="33"
-     ry="35"
-     id="ellipse4977"
-     style="fill:#795548;fill-opacity:1" />
+  <circle
+     style="opacity:1;fill:#795548;fill-opacity:1;stroke:none;stroke-width:25.67475319;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path817"
+     cx="256"
+     cy="256"
+     r="256" />
+  <g
+     id="g2666">
+    <path
+       id="path4973"
+       fill="#fff"
+       d="M346 392l-21-25c41-11 57-39 57-39-52 49-194 51-249 0 0 0 14 26 56 39l-23 25c-70-1-97-48-97-48 0-104 46-187 46-187 47-33 90-33 90-33l3 4c-58 16-83 42-83 42 68-46 208-42 263 0 1-1-33-28-86-42l5-4s43 0 90 33c0 0 46 83 46 187 0 0-27 47-97 48z" />
+    <ellipse
+       style="fill:#795548;fill-opacity:1"
+       id="ellipse4975"
+       ry="35"
+       rx="33"
+       cy="279"
+       cx="196" />
+    <ellipse
+       style="fill:#795548;fill-opacity:1"
+       id="ellipse4977"
+       ry="35"
+       rx="33"
+       cy="279"
+       cx="312" />
+  </g>
 </svg>
