@@ -1,3 +1,6 @@
+<?php
+  require('lib/bootstrap.php');
+?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <HTML lang="en">
 <HEAD>
@@ -547,6 +550,42 @@
                 <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v2.0.0/SHA256SUMS">SHA256SUMS</A></TD>
                 <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v2.0.0/SHA256SUMS.asc">SHA256SUMS.asc</A></TD>
               </TR>
+            </TBODY>
+          </TABLE>
+          <H5 class="center">Blockchain Snapshot</H5>
+          <P class="center light">Galilel blockchain snapshot is created every night, used for fast bootstrap of new wallets.</P>
+          <TABLE class="highlight">
+            <THEAD>
+              <TR>
+                <TH class="left-align light"><B>File</B></TH>
+                <TH class="left-align light"><B>Size</B></TH>
+                <TH class="left-align light"><B>Date</B></TH>
+                <TH class="left-align light"><B>Height</B></TH>
+              </TR>
+            </THEAD>
+            <TBODY>
+<?php
+
+/* directory of bootstrap files. */
+$directroy = "downloads/bootstrap";
+
+/* loop through all files in directory. */
+foreach (FileNamesDirectory($directroy) as $filename)
+{
+
+    /* get block height from filename. */
+    $height = explode("-", $filename)[1];
+    $height = explode(".", $height)[0];
+
+    /* dynamic created table (one row = one file). */
+    echo '              <TR>
+                <TD class="left-align light"><A class="link-text" href="'.$directroy.'/'.$filename.'">'.$filename.'</A></TD>
+                <TD class="left-align light">'.FileSizeHumanReadable(filesize($directroy.'/'.$filename)).'</TD>
+                <TD class="left-align light">'.date("Y-m-d", filemtime($directroy.'/'.$filename)).'</TD>
+                <TD class="left-align light"><A class="link-text" href="'.$directroy.'/'.$filename.'"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>'.$height.'</B></SPAN></A></TD>
+              </TR>';
+}
+?>
             </TBODY>
           </TABLE>
         </DIV>
