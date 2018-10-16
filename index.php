@@ -993,10 +993,16 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col s12 m12">
+      <DIV class="col s12 m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://satoshisolutions.online/"><IMG width="96" height="96" src="images/marketing/satoshi.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://satoshisolutions.online/">satoshisolutions.online</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col s12 m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://gali.chopcoin.io/"><IMG width="96" height="96" src="images/marketing/chopcoin.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://gali.chopcoin.io/">chopcoin.io</A></DIV>
         </DIV>
       </DIV>
     </DIV>
