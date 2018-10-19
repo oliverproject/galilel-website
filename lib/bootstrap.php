@@ -62,4 +62,25 @@ function FileNamesDirectory($directory)
     rsort($result);
     return $result;
 }
+
+/*
+ * Read the statistics from wallet notification file.
+ *
+ * @param string $filename
+ * @return array with key -> value
+ */
+function GalilelStatistics($filename)
+{
+    $result = array();
+
+    /* loop through all lines in file. */
+    foreach (file("$filename") as $line)
+    {
+
+        /* build array. */
+        list ($key, $value) = explode(' ', $line, 2);
+        $result[$key] = $value;
+    }
+    return $result;
+}
 ?>

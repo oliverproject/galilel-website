@@ -1,5 +1,10 @@
 <?php
-  require('lib/bootstrap.php');
+
+/* include required files. */
+require('lib/bootstrap.php');
+
+/* get dynamic values. */
+$GalilelStatistics = GalilelStatistics(".statistics");
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <HTML lang="en">
@@ -67,24 +72,24 @@
         <LI><A href="#specifications">Specifications</A></LI>
         <LI><A href="#downloads">Downloads</A></LI>
         <LI><A href="#wallets">Wallets</A></LI>
-	<LI><A href="#team">Team</A></LI>
-	<LI><A href="#roadmap">Roadmap</A></LI>
-	<LI><A href="#exchanges">Exchanges</A></LI>
-	<LI><A href="#marketing">Marketing</A></LI>
-	<LI><A href="#community">Community</A></LI>
-	<LI><A href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Explorer</A></LI>
+        <LI><A href="#team">Team</A></LI>
+        <LI><A href="#roadmap">Roadmap</A></LI>
+        <LI><A href="#exchanges">Exchanges</A></LI>
+        <LI><A href="#marketing">Marketing</A></LI>
+        <LI><A href="#community">Community</A></LI>
+        <LI><A href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Explorer</A></LI>
       </UL>
       <UL id="nav-mobile" class="sidenav">
         <LI><A href="#about">About</A></LI>
         <LI><A href="#specifications">Specifications</A></LI>
         <LI><A href="#downloads">Downloads</A></LI>
         <LI><A href="#wallets">Wallets</A></LI>
-	<LI><A href="#team">Team</A></LI>
-	<LI><A href="#roadmap">Roadmap</A></LI>
-	<LI><A href="#exchanges">Exchanges</A></LI>
-	<LI><A href="#marketing">Marketing</A></LI>
-	<LI><A href="#community">Community</A></LI>
-	<LI><A href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Explorer</A></LI>
+        <LI><A href="#team">Team</A></LI>
+        <LI><A href="#roadmap">Roadmap</A></LI>
+        <LI><A href="#exchanges">Exchanges</A></LI>
+        <LI><A href="#marketing">Marketing</A></LI>
+        <LI><A href="#community">Community</A></LI>
+        <LI><A href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Explorer</A></LI>
       </UL>
       <A href="#" data-target="nav-mobile" class="sidenav-trigger"><I class="material-icons">menu</I></A>
     </DIV>
@@ -176,6 +181,35 @@
             <H2 class="center brown-text"><I class="material-icons">lightbulb_outline</I></H2>
             <H5 class="center">Transparency and Split Development</H5>
             <P class="light">The trust relationship between investors and the project team is key to success. Therefore, we have created a GitHub organization named <A class="link-text" href="https://github.com/Galilel-Project">Galilel-Project</A>, which tracks all our development activities in public repositories including all our backend code and passed <A class="link-text" href="https://review.kydcoin.io/galicoin/">Know Your Developer (KYD)</A> public verification. The project uses mostly <A class="link-text" href="https://opensource.org/licenses/MIT">MIT</A>, <A class="link-text" href="https://www.gnu.org/licenses/gpl.txt">GPLv3</A> and <A class="link-text" href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt">CC-BY-NC 4.0</A> open source and open content licenses. We use a divided engineering resource and project goal model: 75% service platform development and 25% blockchain research development.</P>
+          </DIV>
+        </DIV>
+      </DIV>
+      <DIV class="row">
+        <DIV class="col s12 m12">
+          <DIV class="icon-block">
+            <H2 class="center brown-text"><I class="material-icons">timeline</I></H2>
+            <H5 class="center">Galilel Statistics</H5>
+            <P class="left-align light">Galilel Statistics visualize the current real-time snapshot of the blockchain network. The wallet notification system updates the statistics automatically in asynchronous way to avoid blocking of the website during multiple concurrent connections.</P>
+            <TABLE class="highlight">
+              <THEAD>
+                <TR>
+                  <TH width="16%" class="left-align light"><B>Network (GH/s)</B></TH>
+                  <TH width="16%" class="right-align light"><B>Difficulty</B></TH>
+                  <TH width="16%" class="right-align light"><B>Height</B></TH>
+                  <TH width="25%" class="right-align light"><B>Masternodes</B></TH>
+                  <TH width="27%" class="right-align light"><B>Average Reward Time</B></TH>
+                </TR>
+              </THEAD>
+              <TBODY>
+                <TR>
+                  <TD class="left-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelStatistics['HASHRATE'] ?></B></SPAN></TD>
+                  <TD class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelStatistics['DIFFICULTY'] ?></B></SPAN></TD>
+                  <TD class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelStatistics['HEIGHT'] ?></B></SPAN></TD>
+                  <TD class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelStatistics['MASTERNODES'] ?></B></SPAN></TD>
+                  <TH class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelStatistics['REWARDS'] ?></B></SPAN></TH>
+                </TR>
+              </TBODY>
+            </TABLE>
           </DIV>
         </DIV>
       </DIV>
@@ -723,7 +757,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
                     <TR><TD class="right-align light">3.</TD><TD class="left-align light">Create new landing page with coin and team information</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">4.</TD><TD class="left-align light">Create and release whitepaper (WP)</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">5.</TD><TD class="left-align light">Push galilel-media (logos, banners, videos and whitepaper into GitHub</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">6.</TD><TD class="left-align light">Release v2.0.1 wallet with new checkpoint block</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">6.</TD><TD class="left-align light">Release v2.1.0 wallet with new checkpoint block</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">7.</TD><TD class="left-align light">Create new Bitcointalk announcement, new bounties, reviewed use case and whitepaper</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">8.</TD><TD class="left-align light">Push galilel-website (new Galilel landing page) into GitHub</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">9.</TD><TD class="left-align light">Push ghlib (Galilel Hosting backend library) into GitHub</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
