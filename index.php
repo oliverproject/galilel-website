@@ -37,7 +37,7 @@ $GalilelStatistics = GalilelStatistics(".statistics");
 
   <!-- Twitter (Start) -->
   <META name="twitter:card" content="summary_large_image">
-  <META name="twitter:image:src" content="https://galilel.cloud/landing/images/logo.svg">
+  <META name="twitter:image:src" content="https://galilel.cloud/images/logo.svg">
   <META name="twitter:site" content="@GalilelEN">
   <!-- Twitter (End) -->
 
@@ -143,7 +143,7 @@ $GalilelStatistics = GalilelStatistics(".statistics");
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">storage</I></H2>
             <H5 class="center">Masternode as a Service (MaaS)</H5>
-            <P class="light">We implement an automated solution for hosting masternode crypto currencies. It allows users to run hot node in our infrastructure and cold wallet on their premises or - for simplicity - to run both wallets in our platform. <A class="link-text" href="https://linuxcontainers.org/">Linux Containers (LXC)</A> guarantees isolation of the different customer tenants. Developers can upload and verify features of new crypto currencies before launch and run them in testnet mode. Once they launch their crypto currency, a simple click turn it into production mode.</P>
+            <P class="light">We implement an automated solution for hosting masternode crypto currencies. It allows users to run hot node in our infrastructure and cold wallet on their premises or - for simplicity - to run both wallets in our platform. <A class="link-text" href="https://linuxcontainers.org/" target="_blank" rel="noopener noreferrer">Linux Containers (LXC)</A> guarantees isolation of the different customer tenants. Developers can upload and verify features of new crypto currencies before launch and run them in testnet mode. Once they launch their crypto currency, a simple click turn it into production mode.</P>
           </DIV>
         </DIV>
         <DIV class="col s12 m4">
@@ -166,21 +166,21 @@ $GalilelStatistics = GalilelStatistics(".statistics");
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">enhanced_encryption</I></H2>
             <H5 class="center">Security Design Principals</H5>
-            <P class="light">Security is a crucial part for any kind of web service. Whenever user interacts with a service that require authentication, backend get these data via an encrypted channel between the user and the system. The bcrypt algorithm hashes the data and securely store it in our redundant databases. Google Chrome, Firefox, Opera, Safari, Internet Explorer and Edge include the platform domain <A class="link-text" href="#top">galilel.cloud</A> already in their <A class="link-text" href="https://cs.chromium.org/codesearch/f/chromium/src/net/http/transport_security_state_static.json">HTTP Strict Transport Security (HSTS)</A> preload list built-in the browser. We heavily use Linux Containers (LXC) for infrastructure isolation.</P>
+            <P class="light">Security is a crucial part for any kind of web service. Whenever user interacts with a service that require authentication, backend get these data via an encrypted channel between the user and the system. The bcrypt algorithm hashes the data and securely store it in our redundant databases. Google Chrome, Firefox, Opera, Safari, Internet Explorer and Edge include the platform domain <A class="link-text" href="#top">galilel.cloud</A> already in their <A class="link-text" href="https://cs.chromium.org/codesearch/f/chromium/src/net/http/transport_security_state_static.json" target="_blank" rel="noopener noreferrer">HTTP Strict Transport Security (HSTS)</A> preload list built-in the browser. We heavily use Linux Containers (LXC) for infrastructure isolation.</P>
           </DIV>
         </DIV>
         <DIV class="col s12 m4">
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">create</I></H2>
             <H5 class="center">Unique Blockchain Features</H5>
-            <P class="light">The blockchain is the base for our payment service; however, we have identified already weak points for further improvements. While offering a masternode hosting service it is logical step to implement a shared blockchain to run <A class="link-text" href="https://en.wikipedia.org/wiki/One-to-many_(data_model)">one-to-many</A> wallet daemons in a client server model. For further attraction of investors, we implement <A class="link-text" href="https://en.bitcoin.it/wiki/Proof_of_burn">Proof-of-Burn (PoB)</A> algorithm into our blockchain. This algorithm rewards the destruction of coins send to an un-spendable address. For a wider adoption of the Galilel wallet, we introduce ready-to-use binaries for new architectures.</P>
+            <P class="light">The blockchain is the base for our payment service; however, we have identified already weak points for further improvements. While offering a masternode hosting service it is logical step to implement a shared blockchain to run <A class="link-text" href="https://en.wikipedia.org/wiki/One-to-many_(data_model)" target="_blank" rel="noopener noreferrer">one-to-many</A> wallet daemons in a client server model. For further attraction of investors, we implement <A class="link-text" href="https://en.bitcoin.it/wiki/Proof_of_burn" target="_blank" rel="noopener noreferrer">Proof-of-Burn (PoB)</A> algorithm into our blockchain. This algorithm rewards the destruction of coins send to an un-spendable address. For a wider adoption of the Galilel wallet, we introduce ready-to-use binaries for new architectures.</P>
           </DIV>
         </DIV>
         <DIV class="col s12 m4">
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">lightbulb_outline</I></H2>
             <H5 class="center">Transparency and Split Development</H5>
-            <P class="light">The trust relationship between investors and the project team is key to success. Therefore, we have created a GitHub organization named <A class="link-text" href="https://github.com/Galilel-Project">Galilel-Project</A>, which tracks all our development activities in public repositories including all our backend code and passed <A class="link-text" href="https://review.kydcoin.io/galicoin/">Know Your Developer (KYD)</A> public verification. The project uses mostly <A class="link-text" href="https://opensource.org/licenses/MIT">MIT</A>, <A class="link-text" href="https://www.gnu.org/licenses/gpl.txt">GPLv3</A> and <A class="link-text" href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt">CC-BY-NC 4.0</A> open source and open content licenses. We use a divided engineering resource and project goal model: 75% service platform development and 25% blockchain research development.</P>
+            <P class="light">The trust relationship between investors and the project team is key to success. Therefore, we have created a GitHub organization named <A class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer">Galilel-Project</A>, which tracks all our development activities in public repositories including all our backend code and passed <A class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">Know Your Developer (KYD)</A> public verification. The project uses mostly <A class="link-text" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT</A>, <A class="link-text" href="https://www.gnu.org/licenses/gpl.txt" target="_blank" rel="noopener noreferrer">GPLv3</A> and <A class="link-text" href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt" target="_blank" rel="noopener noreferrer">CC-BY-NC 4.0</A> open source and open content licenses. We use a divided engineering resource and project goal model: 75% service platform development and 25% blockchain research development.</P>
           </DIV>
         </DIV>
       </DIV>
@@ -296,7 +296,7 @@ $GalilelStatistics = GalilelStatistics(".statistics");
               </TR>
               <TR>
                 <TD class="left-align light">Community Donation Address</TD>
-                <TD class="left-align light"><A class="link-text" href="https://explorer.galilel.cloud/address/UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX">UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://explorer.galilel.cloud/address/UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX" target="_blank" rel="noopener noreferrer">UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX</A></TD>
               </TR>
             </TBODY>
           </TABLE>
@@ -636,8 +636,8 @@ foreach (FileNamesDirectory($directroy) as $filename)
     <DIV class="row">
       <DIV class="col s12 m12">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://github.com/Galilel-Project"><IMG width="96" height="96" src="images/wallet/github.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://github.com/Galilel-Project">github.com</A></DIV>
+          <DIV class="center"><A class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/wallet/github.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer">github.com</A></DIV>
         </DIV>
       </DIV>
     </DIV>
@@ -668,11 +668,11 @@ foreach (FileNamesDirectory($directroy) as $filename)
         <DIV class="icon-block">
           <DIV class="center"><IMG width="300" height="300" src="images/team/maik.png"></A></DIV>
           <DIV class="center">
-            <A class="link-text" href="https://www.linkedin.com/in/mbroemme/"><IMG width="32" height="32" src="images/team/linkedin.svg"></A>
-            <A class="link-text" href="https://www.xing.com/profile/Maik_Broemme/cv"><IMG width="32" height="32" src="images/team/xing.svg"></A>
-            <A class="link-text" href="https://www.facebook.com/mbroemme"><IMG width="32" height="32" src="images/team/facebook.svg"></A>
-            <A class="link-text" href="https://github.com/mbroemme"><IMG width="32" height="32" src="images/team/github.svg"></A>
-            <A class="link-text" href="https://zuppy.pm/"><IMG width="32" height="32" src="images/team/home.svg"></A>
+            <A class="link-text" href="https://www.linkedin.com/in/mbroemme/" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/linkedin.svg"></A>
+            <A class="link-text" href="https://www.xing.com/profile/Maik_Broemme/cv" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/xing.svg"></A>
+            <A class="link-text" href="https://www.facebook.com/mbroemme" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/facebook.svg"></A>
+            <A class="link-text" href="https://github.com/mbroemme" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/github.svg"></A>
+            <A class="link-text" href="https://zuppy.pm/" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/home.svg"></A>
             <A class="link-text" href="mailto:mbroemme@libmpq.org"><IMG width="32" height="32" src="images/team/email.svg"></A>
           </DIV>
           <DIV class="center light"><B>Maik Broemme</B></DIV>
@@ -684,9 +684,9 @@ foreach (FileNamesDirectory($directroy) as $filename)
         <DIV class="icon-block">
           <DIV class="center"><IMG width="300" height="300" src="images/team/miles.png"></A></DIV>
           <DIV class="center">
-            <A class="link-text" href="https://twitter.com/bossteck"><IMG width="32" height="32" src="images/team/twitter.svg"></A>
-            <A class="link-text" href="https://www.facebook.com/BBR.MILES.CLAY"><IMG width="32" height="32" src="images/team/facebook.svg"></A>
-            <A class="link-text" href="https://github.com/Bossteck"><IMG width="32" height="32" src="images/team/github.svg"></A>
+            <A class="link-text" href="https://twitter.com/bossteck" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/twitter.svg"></A>
+            <A class="link-text" href="https://www.facebook.com/BBR.MILES.CLAY" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/facebook.svg"></A>
+            <A class="link-text" href="https://github.com/Bossteck" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/github.svg"></A>
             <A class="link-text" href="mailto:botx@gmx.com"><IMG width="32" height="32" src="images/team/email.svg"></A>
           </DIV>
           <DIV class="center light"><B>Miles Clay</B></DIV>
@@ -959,8 +959,8 @@ foreach (FileNamesDirectory($directroy) as $filename)
     <DIV class="row">
       <DIV class="col s12 m12">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://graviex.net/markets/galibtc"><IMG width="96" height="96" src="images/exchange/graviex.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://graviex.net/markets/galibtc">graviex.net</A></DIV>
+          <DIV class="center"><A class="link-text" href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/graviex.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">graviex.net</A></DIV>
         </DIV>
       </DIV>
     </DIV>
@@ -989,54 +989,54 @@ foreach (FileNamesDirectory($directroy) as $filename)
     <DIV class="row">
       <DIV class="col s12 m4">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://masternodes.online/currencies/GALI/"><IMG width="96" height="96" src="images/marketing/mno.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://masternodes.online/currencies/GALI/">masternodes.online</A></DIV>
+          <DIV class="center"><A class="link-text" href="https://masternodes.online/currencies/GALI/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/mno.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://masternodes.online/currencies/GALI/" target="_blank" rel="noopener noreferrer">masternodes.online</A></DIV>
         </DIV>
       </DIV>
       <DIV class="col s12 m4">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://coinlib.io/coin/GALI/Galilel"><IMG width="96" height="96" src="images/marketing/coinlib.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://coinlib.io/coin/GALI/Galilel">coinlib.io</A></DIV>
+          <DIV class="center"><A class="link-text" href="https://coinlib.io/coin/GALI/Galilel" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/coinlib.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://coinlib.io/coin/GALI/Galilel" target="_blank" rel="noopener noreferrer">coinlib.io</A></DIV>
         </DIV>
       </DIV>
       <DIV class="col s12 m4">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://mntop.co.in/"><IMG width="96" height="96" src="images/marketing/mntop.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://mntop.co.in/">mntop.co.in</A></DIV>
-        </DIV>
-      </DIV>
-    </DIV>
-    <DIV class="row">
-      <DIV class="col s12 m4">
-        <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://mnode.club/g/info/GALI"><IMG width="96" height="96" src="images/marketing/mnode.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://mnode.club/g/info/GALI">mnode.club</A></DIV>
-        </DIV>
-      </DIV>
-      <DIV class="col s12 m4">
-        <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://review.kydcoin.io/galicoin/"><IMG width="96" height="96" src="images/marketing/kyd.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://review.kydcoin.io/galicoin/">kydcoin.io</A></DIV>
-        </DIV>
-      </DIV>
-      <DIV class="col s12 m4">
-        <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://beam.works/user/galilel/"><IMG width="96" height="96" src="images/marketing/beam.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://beam.works/user/galilel/">beam.works</A></DIV>
+          <DIV class="center"><A class="link-text" href="https://mntop.co.in/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/mntop.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://mntop.co.in/" target="_blank" rel="noopener noreferrer">mntop.co.in</A></DIV>
         </DIV>
       </DIV>
     </DIV>
     <DIV class="row">
       <DIV class="col s12 m4">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://satoshisolutions.online/"><IMG width="96" height="96" src="images/marketing/satoshi.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://satoshisolutions.online/">satoshisolutions.online</A></DIV>
+          <DIV class="center"><A class="link-text" href="https://mnode.club/g/info/GALI" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/mnode.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://mnode.club/g/info/GALI" target="_blank" rel="noopener noreferrer">mnode.club</A></DIV>
         </DIV>
       </DIV>
       <DIV class="col s12 m4">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://gali.chopcoin.io/"><IMG width="96" height="96" src="images/marketing/chopcoin.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://gali.chopcoin.io/">chopcoin.io</A></DIV>
+          <DIV class="center"><A class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/kyd.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">kydcoin.io</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col s12 m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://beam.works/user/galilel/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/beam.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://beam.works/user/galilel/" target="_blank" rel="noopener noreferrer">beam.works</A></DIV>
+        </DIV>
+      </DIV>
+    </DIV>
+    <DIV class="row">
+      <DIV class="col s12 m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://satoshisolutions.online/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/satoshi.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://satoshisolutions.online/" target="_blank" rel="noopener noreferrer">satoshisolutions.online</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col s12 m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://gali.chopcoin.io/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/chopcoin.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://gali.chopcoin.io/" target="_blank" rel="noopener noreferrer">chopcoin.io</A></DIV>
         </DIV>
       </DIV>
     </DIV>
@@ -1065,20 +1065,20 @@ foreach (FileNamesDirectory($directroy) as $filename)
     <DIV class="row">
       <DIV class="col s12 m4">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://discord.galilel.cloud"><IMG width="96" height="96" src="images/community/discord.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://discord.galilel.cloud">Discord</A></DIV>
+          <DIV class="center"><A class="link-text" href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/community/discord.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer">Discord</A></DIV>
         </DIV>
       </DIV>
       <DIV class="col s12 m4">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://twitter.com/GalilelEN"><IMG width="96" height="96" src="images/community/twitter.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://twitter.com/GalilelEN">Twitter</A></DIV>
+          <DIV class="center"><A class="link-text" href="https://twitter.com/GalilelEN" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/community/twitter.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://twitter.com/GalilelEN" target="_blank" rel="noopener noreferrer">Twitter</A></DIV>
         </DIV>
       </DIV>
       <DIV class="col s12 m4">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://bitcointalk.org/index.php?topic=4238243.0"><IMG width="96" height="96" src="images/community/bitcointalk.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://bitcointalk.org/index.php?topic=4238243.0">BitcoinTalk</A></DIV>
+          <DIV class="center"><A class="link-text" href="https://bitcointalk.org/index.php?topic=4238243.0" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/community/bitcointalk.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://bitcointalk.org/index.php?topic=4238243.0" target="_blank" rel="noopener noreferrer">BitcoinTalk</A></DIV>
         </DIV>
       </DIV>
     </DIV>
