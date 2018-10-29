@@ -125,7 +125,7 @@ $GalilelStatistics = GalilelStatistics(".statistics");
           <DIV class="icon-block">
             <DIV class="center"><IMG width="56" height="56" src="images/logo.svg"></DIV>
             <H5 class="center">Galilel Coin</H5>
-            <P class="left-align light">Galilel Coin (GALI) is an open-source Proof-of-Stake digital crypto currency for fast (using SwiftX), private (Zerocoin protocol) and secure microtransactions. Our main goal is to create a decentralized fully secure and anonymous network to run applications which do not rely on any central body control. By having a distributed system, thousands of users will be responsible for maintaining the application and data so that there is no single point of failure.</P>
+            <P class="left-align light">Galilel Coin (GALI and zGALI) is an open-source public and private Proof-of-Stake digital crypto currency for fast (using SwiftX), private (Zerocoin protocol) and secure microtransactions. Our main goal is to create a decentralized fully secure and anonymous network to run applications which do not rely on any central body control. By having a distributed system, thousands of users will be responsible for maintaining the application and data so that there is no single point of failure.</P>
           </DIV>
         </DIV>
       </DIV>
@@ -189,7 +189,7 @@ $GalilelStatistics = GalilelStatistics(".statistics");
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">timeline</I></H2>
             <H5 class="center">Galilel Statistics</H5>
-            <P class="left-align light">Galilel Statistics visualize the current real-time snapshot of the blockchain network. The wallet notification system updates the statistics automatically in asynchronous way to avoid blocking of the website during multiple concurrent connections.</P>
+            <P class="left-align light">Galilel Statistics visualize the current real-time snapshot of the blockchain network. The wallet notification system updates the statistics automatically once a new block is detected in the network.</P>
             <TABLE class="highlight">
               <THEAD>
                 <TR>
