@@ -4,7 +4,7 @@ $(document).ready(
     $('.parallax').parallax();
     $('.sidenav').sidenav();
     $('.collapsible').collapsible();
-    $(".dropdown-trigger").dropdown({
+    $('.dropdown-trigger').dropdown({
       hover: true,
       coverTrigger: false
     });

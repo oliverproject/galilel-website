@@ -53,7 +53,7 @@ $GalilelStatistics = GalilelStatistics(".statistics");
 
   <!-- Compiled and minified JavaScript -->
   <SCRIPT src="https://code.jquery.com/jquery-3.3.1.min.js"></SCRIPT>
-  <SCRIPT src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <SCRIPT src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></SCRIPT>
   <SCRIPT src="js/init.js"></SCRIPT>
 
   <!-- Favicon -->
@@ -114,12 +114,12 @@ $GalilelStatistics = GalilelStatistics(".statistics");
   <NAV class="white" role="navigation" id="top">
     <DIV class="nav-wrapper container">
       <UL class="main-menu hide-on-med-and-down">
-        <LI><A class="grey-text text-darken-4 dropdown-trigger" href="#!" data-target="about">About</A></LI>
-        <LI><A class="grey-text text-darken-4 dropdown-trigger" href="#!" data-target="download">Downloads</A></LI>
-        <LI><A class="grey-text text-darken-4 dropdown-trigger" href="#!" data-target="exchange">Exchanges</A></LI>
-        <LI><A class="grey-text text-darken-4 dropdown-trigger" href="#!" data-target="partner">Partners</A></LI>
-        <LI><A class="grey-text text-darken-4 dropdown-trigger" href="#!" data-target="community">Community</A></LI>
-        <LI><A class="grey-text text-darken-4 dropdown-trigger" href="#!" data-target="explorer">Explorers</A></LI>
+        <LI><A class="grey-text text-darken-4 dropdown-trigger" data-target="about">About</A></LI>
+        <LI><A class="grey-text text-darken-4 dropdown-trigger" data-target="download">Downloads</A></LI>
+        <LI><A class="grey-text text-darken-4 dropdown-trigger" data-target="exchange">Exchanges</A></LI>
+        <LI><A class="grey-text text-darken-4 dropdown-trigger" data-target="partner">Partners</A></LI>
+        <LI><A class="grey-text text-darken-4 dropdown-trigger" data-target="community">Community</A></LI>
+        <LI><A class="grey-text text-darken-4 dropdown-trigger" data-target="explorer">Explorers</A></LI>
       </UL>
       <UL id="nav-mobile" class="collapsible collapsible-accordion sidenav">
         <LI><A class="collapsible-header waves-effect waves-grey grey-text text-darken-4">About</A>
@@ -190,7 +190,7 @@ $GalilelStatistics = GalilelStatistics(".statistics");
           </DIV>
         </LI>
       </UL>
-      <A href="#" data-target="nav-mobile" class="sidenav-trigger"><I class="material-icons">menu</I></A>
+      <A class="sidenav-trigger" data-target="nav-mobile"><I class="material-icons">menu</I></A>
     </DIV>
   </NAV>
   <!-- Main Menu (End) -->
