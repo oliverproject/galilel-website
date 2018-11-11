@@ -5,6 +5,7 @@ require('lib/bootstrap.php');
 
 /* get dynamic values. */
 $GalilelStatistics = GalilelStatistics(".statistics");
+$GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <HTML lang="en">
@@ -75,7 +76,7 @@ $GalilelStatistics = GalilelStatistics(".statistics");
   </UL>
   <UL id="download" class="dropdown-content" style="min-width: 150px">
     <LI><A class="grey-text text-darken-4" href="#papers">Whitepaper</A></LI>
-    <LI><A class="grey-text text-darken-4" href="#papers">Branding Guide</A></LI>
+    <LI><A class="grey-text text-darken-4" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Branding Guide</A></LI>
     <LI><A class="grey-text text-darken-4" href="#wallets">Wallets</A></LI>
     <LI><A class="grey-text text-darken-4" href="#bootstrap">Bootstrap</A></LI>
     <LI><A class="grey-text text-darken-4" href="#repositories">Repositories</A></LI>
@@ -203,7 +204,7 @@ $GalilelStatistics = GalilelStatistics(".statistics");
         <BR>
         <H1 class="header center teal-text text-lighten-2">Galilel Cloud</H1>
         <DIV class="row center">
-          <H5 class="header col s12 light">Welcome to the fully automated masternode and staking hosting platform</H5>
+          <H5 class="header col light">Welcome to the fully automated masternode and staking hosting platform</H5>
         </DIV>
         <DIV class="row center">
           <A href="#wallets" id="wallets-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</A>
@@ -219,84 +220,102 @@ $GalilelStatistics = GalilelStatistics(".statistics");
   <DIV class="container">
     <DIV class="section">
       <DIV class="row">
-        <DIV class="col s12 m12">
+        <DIV class="col m12">
           <DIV class="icon-block" id="coin">
             <DIV class="center"><IMG width="56" height="56" src="images/logo.svg"></DIV>
             <H5 class="center">Galilel Coin</H5>
-            <P class="left-align light">Galilel Coin (GALI and zGALI) is an open-source public and private Proof-of-Stake digital crypto currency for fast (using SwiftX), private (Zerocoin protocol) and secure microtransactions. Our main goal is to create a decentralized fully secure and anonymous network to run applications which do not rely on any central body control. By having a distributed system, thousands of users will be responsible for maintaining the application and data so that there is no single point of failure.</P>
+            <P class="left-align light">Galilel Coin (GALI and zGALI) is an open-source public and private Proof-of-Stake digital crypto currency for fast (using SwiftX), private (Zerocoin protocol) and secure micro transactions. Our main goal is to create a decentralized fully secure and anonymous network to run applications, which do not rely on any central body control. By having a distributed system, thousands of users will be responsible for maintaining the application and data so that there is no single point of failure.</P>
           </DIV>
         </DIV>
-        <DIV class="col s12 m12">
+      </DIV>
+      <DIV class="row">
+        <DIV class="col m12">
           <DIV class="icon-block" id="platform">
             <H2 class="center brown-text"><I class="material-icons">cloud_done</I></H2>
             <H5 class="center">Galilel Cloud</H5>
-            <P class="left-align light">Galilel Cloud is a service-hosting platform. It provides a complete automated solution to run fully managed and highly available multi-redundant Masternode as a Service (MaaS) and Proof-of-Stake as a Service (PoSaaS). It is a simple solution, manageable by anybody without any crypto currency knowledge. While market competitors require local wallet installation, it is not necessary in Galilel Cloud. You can run masternodes from local wallets, cloud wallets, paper wallets, web wallets or mobile wallets. While this is more challenging task from infrastructure and security point of view, it will improve mainstream adoption and knowledge of masternodes. Adding new crypto currencies to the platform does not require any manual intervention, neither from the currency project team nor from the Galilel team. This process is automated and new crypto currencies work in sandbox mode for some period until verification completed. Linux containers (LXC) manages isolation of different users and their wallets. The verification process and using securely isolated containers eliminates potential security breaches if crypto currency include backdoors to withdraw foreign wallets. Beside Masternode as a Service (MaaS) and Proof-of-Stake as a Service (PoSaaS) we implement Block Explorer as a Service (BEaaS). It will significantly reduce service time to delivery for any new crypto currency as we will deploy, run and maintain the block explorer. The project and development teams can sharpen their focus on more important tasks.</P>
+            <P class="left-align light">Galilel Cloud is a service-hosting platform. It provides a complete automated solution to run fully managed and highly available multi-redundant Masternode as a Service (MaaS) and Proof-of-Stake as a Service (PoSaaS) to customers. It is a simple solution, manageable by anybody without any cryptocurrency knowledge. While market competitors require local wallet installation, it is not necessary in Galilel Cloud. You can run masternodes from local wallets, cloud wallets, paper wallets, web wallets or mobile wallets. While this is more challenging task from infrastructure and security point of view, it will improve mainstream adoption and knowledge of masternodes. Adding new crypto currencies to the platform does not require any manual intervention, neither from the currency project team nor from the Galilel team. This process is automated and new crypto currencies work in sandbox mode for some period until verification completed. Linux containers (LXC) manages isolation of different users and their wallets. The verification process and using securely isolated containers eliminates potential security breaches if crypto currency include backdoors to withdraw foreign wallets. Beside Masternode as a Service (MaaS) and Proof-of-Stake as a Service (PoSaaS), we implement Block Explorer as a Service (BEaaS). It will significantly reduce service time to delivery for any new crypto currency as we will deploy, run and maintain the block explorer. The project and development teams can sharpen their focus on more important tasks.</P>
           </DIV>
         </DIV>
-        <DIV class="col s12 m4">
+      </DIV>
+      <DIV class="row">
+        <DIV class="col m4">
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">storage</I></H2>
             <H5 class="center">Masternode as a Service (MaaS)</H5>
             <P class="light">We implement an automated solution for hosting masternode crypto currencies. It allows users to run hot node in our infrastructure and cold wallet on their premises or - for simplicity - to run both wallets in our platform. <A class="link-text" href="https://linuxcontainers.org/" target="_blank" rel="noopener noreferrer">Linux Containers (LXC)</A> guarantees isolation of the different customer tenants. Developers can upload and verify features of new crypto currencies before launch and run them in testnet mode. Once they launch their crypto currency, a simple click turn it into production mode.</P>
           </DIV>
         </DIV>
-        <DIV class="col s12 m4">
+        <DIV class="col m4">
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">share</I></H2>
             <H5 class="center">Proof-of-Stake as a Service (PoSaaS)</H5>
             <P class="light">We believe in the mission that services should be simple. By implementing Proof-of-Stake hosting, we extend our product portfolio with another minting service. Users are able to spin-up Proof-of-Stake wallets with simple clicks. The backend will deploy the wallets in background and notify users once they are ready. One tenant can run multiple staking wallets of different crypto currencies in the same environment. Individual payout thresholds per crypto currency are configurable.</P>
           </DIV>
         </DIV>
-        <DIV class="col s12 m4">
+        <DIV class="col m4">
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">find_in_page</I></H2>
             <H5 class="center">Block Explorer as a Service (BEaaS)</H5>
             <P class="light">With Block Explorer hosting, we complete our services stack. Each user can have multiple block explorers running in the same environment. The service uses our own backend code which monitors the blockchain for changes and synchronizes it in real-time via wallet notification system. As fallback, it monitors the blockchain and periodically synchronize the backend. Based on this backend we implement a theme-able frontend delivering the best user experience.</P>
           </DIV>
         </DIV>
-        <DIV class="col s12 m4">
+      </DIV>
+      <DIV class="row">
+        <DIV class="col m4">
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">enhanced_encryption</I></H2>
             <H5 class="center">Security Design Principals</H5>
             <P class="light">Security is a crucial part for any kind of web service. Whenever user interacts with a service that require authentication, backend get these data via an encrypted channel between the user and the system. The bcrypt algorithm hashes the data and securely store it in our redundant databases. Google Chrome, Firefox, Opera, Safari, Internet Explorer and Edge include the platform domain <A class="link-text" href="#top">galilel.cloud</A> already in their <A class="link-text" href="https://cs.chromium.org/codesearch/f/chromium/src/net/http/transport_security_state_static.json" target="_blank" rel="noopener noreferrer">HTTP Strict Transport Security (HSTS)</A> preload list built-in the browser. We heavily use Linux Containers (LXC) for infrastructure isolation.</P>
           </DIV>
         </DIV>
-        <DIV class="col s12 m4">
+        <DIV class="col m4">
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">create</I></H2>
             <H5 class="center">Unique Blockchain Features</H5>
             <P class="light">The blockchain is the base for our payment service; however, we have identified already weak points for further improvements. While offering a masternode hosting service it is logical step to implement a shared blockchain to run <A class="link-text" href="https://en.wikipedia.org/wiki/One-to-many_(data_model)" target="_blank" rel="noopener noreferrer">one-to-many</A> wallet daemons in a client server model. For further attraction of investors, we implement <A class="link-text" href="https://en.bitcoin.it/wiki/Proof_of_burn" target="_blank" rel="noopener noreferrer">Proof-of-Burn (PoB)</A> algorithm into our blockchain. This algorithm rewards the destruction of coins send to an un-spendable address. For a wider adoption of the Galilel wallet, we introduce ready-to-use binaries for new architectures.</P>
           </DIV>
         </DIV>
-        <DIV class="col s12 m4">
+        <DIV class="col m4">
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">lightbulb_outline</I></H2>
             <H5 class="center">Transparency and Split Development</H5>
             <P class="light">The trust relationship between investors and the project team is key to success. Therefore, we have created a GitHub organization named <A class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer">Galilel-Project</A>, which tracks all our development activities in public repositories including all our backend code and passed <A class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">Know Your Developer (KYD)</A> public verification. The project uses mostly <A class="link-text" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT</A>, <A class="link-text" href="https://www.gnu.org/licenses/gpl.txt" target="_blank" rel="noopener noreferrer">GPLv3</A> and <A class="link-text" href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt" target="_blank" rel="noopener noreferrer">CC-BY-NC 4.0</A> open source and open content licenses. We use a divided engineering resource and project goal model: 50% service platform development and 50% blockchain research development.</P>
           </DIV>
         </DIV>
-        <DIV class="col s12 m12">
+      </DIV>
+      <DIV class="row">
+        <DIV class="col m12">
           <DIV class="icon-block" id="statistics">
             <H2 class="center brown-text"><I class="material-icons">timeline</I></H2>
             <H5 class="center">Galilel Statistics</H5>
-            <P class="left-align light">Galilel Statistics visualize the current real-time snapshot of the blockchain network. The wallet notification system updates the statistics automatically once a new block is detected in the network.</P>
+            <P class="left-align light">Galilel Statistics visualize the current real-time snapshot of the blockchain network. The wallet notification system updates the statistics automatically once a new block detected in the network.</P>
             <TABLE class="highlight">
               <THEAD>
                 <TR>
-                  <TH width="16%" class="left-align light"><B>Network (GH/s)</B></TH>
+                  <TH width="12%" class="left-align light"><B>Network</B></TH>
+                  <TH width="16%" class="right-align light"><B>Hashrate (GH/s)</B></TH>
                   <TH width="16%" class="right-align light"><B>Difficulty</B></TH>
                   <TH width="16%" class="right-align light"><B>Height</B></TH>
-                  <TH width="25%" class="right-align light"><B>Masternodes</B></TH>
-                  <TH width="27%" class="right-align light"><B>Average Reward Time</B></TH>
+                  <TH width="16%" class="right-align light"><B>Masternodes</B></TH>
+                  <TH width="24%" class="right-align light"><B>Average Reward Time</B></TH>
                 </TR>
               </THEAD>
               <TBODY>
                 <TR>
-                  <TD class="left-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelStatistics['HASHRATE'] ?></B></SPAN></TD>
+                  <TD class="left-align light">Mainnet</TD>
+                  <TD class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelStatistics['HASHRATE'] ?></B></SPAN></TD>
                   <TD class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelStatistics['DIFFICULTY'] ?></B></SPAN></TD>
                   <TD class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelStatistics['HEIGHT'] ?></B></SPAN></TD>
                   <TD class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelStatistics['MASTERNODES'] ?></B></SPAN></TD>
                   <TH class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelStatistics['REWARDS'] ?></B></SPAN></TH>
+                </TR>
+                <TR>
+                  <TD class="left-align light">Testnet</TD>
+                  <TD class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelTestnetStatistics['HASHRATE'] ?></B></SPAN></TD>
+                  <TD class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelTestnetStatistics['DIFFICULTY'] ?></B></SPAN></TD>
+                  <TD class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelTestnetStatistics['HEIGHT'] ?></B></SPAN></TD>
+                  <TD class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelTestnetStatistics['MASTERNODES'] ?></B></SPAN></TD>
+                  <TH class="right-align light"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelTestnetStatistics['REWARDS'] ?></B></SPAN></TH>
                 </TR>
               </TBODY>
             </TABLE>
@@ -318,7 +337,7 @@ $GalilelStatistics = GalilelStatistics(".statistics");
   <!-- About Content -->
   <DIV class="container">
     <DIV class="row">
-      <DIV class="col s12 m12">
+      <DIV class="col m12">
         <DIV class="icon-block" id="specifications">
           <H2 class="center brown-text"><I class="material-icons">assessment</I></H2>
           <H5 class="center">Coin Information</H5>
@@ -559,12 +578,33 @@ $GalilelStatistics = GalilelStatistics(".statistics");
   <!-- Downloads Content -->
   <DIV class="container">
     <DIV class="row">
-      <DIV class="col s12 m12">
+      <DIV class="col m12">
         <DIV class="icon-block" id="papers">
           <H2 class="center brown-text"><I class="material-icons">file_download</I></H2>
           <H5 class="center">Whitepaper and Guides</H5>
           <P class="center light">Official Galilel media files with logos, banners, images, icons, videos and the whitepaper (WP).</P>
         </DIV>
+      </DIV>
+    </DIV>
+
+    <DIV class="row">
+      <DIV class="col m4 offset-m2">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="#" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/papers/whitepaper.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="#" target="_blank" rel="noopener noreferrer">Whitepaper</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/papers/branding.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Branding Guide</A></DIV>
+        </DIV>
+      </DIV>
+    </DIV>
+
+    <DIV class="row">
+      <DIV class="col m12">
+
         <DIV class="icon-block" id="wallets">
           <H2 class="center brown-text"><I class="material-icons">cloud_download</I></H2>
           <H5 class="center">Binaries</H5>
@@ -604,7 +644,7 @@ $GalilelStatistics = GalilelStatistics(".statistics");
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col s12 m12">
+      <DIV class="col m12">
         <DIV class="icon-block">
           <H5 class="center">Source</H5>
           <P class="center light">Galilel wallet is available in source for compilation of unsupported platform.</P>
@@ -628,7 +668,7 @@ $GalilelStatistics = GalilelStatistics(".statistics");
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col s12 m12">
+      <DIV class="col m12">
         <DIV class="icon-block" id="bootstrap">
           <H5 class="center">Blockchain Snapshot</H5>
           <P class="center light">Galilel blockchain snapshot is created every night, used for fast bootstrap of new wallets.</P>
@@ -670,13 +710,13 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col s12 m12">
+      <DIV class="col m12">
         <DIV class="icon-block" id="repositories">
           <H5 class="center">Repositories</H5>
           <P class="center light">Galilel repositories include wallet, backend and daemon source as well as media files.</P>
         </DIV>
       </DIV>
-      <DIV class="col s12 m12">
+      <DIV class="col m12">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/wallet/github.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer">github.com</A></DIV>
@@ -697,7 +737,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
   <!-- Team Content -->
   <DIV class="container">
     <DIV class="row">
-      <DIV class="col s12 m12">
+      <DIV class="col m12">
         <DIV class="icon-block" id="team">
           <H2 class="center brown-text"><I class="material-icons">face</I></H2>
           <H5 class="center">Leadership and Development</H5>
@@ -706,7 +746,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col s12 m6">
+      <DIV class="col m6">
         <DIV class="icon-block">
           <DIV class="center"><IMG width="300" height="300" src="images/team/maik.png"></A></DIV>
           <DIV class="center">
@@ -722,7 +762,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
           <DIV class="center light">Founder &amp; Developer</DIV>
         </DIV>
       </DIV>
-      <DIV class="col s12 m6">
+      <DIV class="col m6">
         <DIV class="icon-block">
           <DIV class="center"><IMG width="300" height="300" src="images/team/miles.png"></A></DIV>
           <DIV class="center">
@@ -751,7 +791,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
   <!-- Roadmap Content -->
   <DIV class="container">
     <DIV class="row">
-      <DIV class="col s12 m12">
+      <DIV class="col m12">
         <DIV class="icon-block" id="roadmap">
           <H2 class="center brown-text"><I class="material-icons">developer_board</I></H2>
           <H5 class="center">Milestones and Estimations</H5>
@@ -820,7 +860,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
                     <TR><TD class="right-align light">3.</TD><TD class="left-align light">Push ghexplorerd (Galilel Hosting explorer daemon) into GitHub</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">4.</TD><TD class="left-align light">Rebase Galilel v2.x codebase with PIVX 3.1.1</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">5.</TD><TD class="left-align light">Build packages for major Linux distributions</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">6.</TD><TD class="left-align light">Create branding guide with brand colors, typography and sizes</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">6.</TD><TD class="left-align light">Create branding guide with brand colors, typography and sizes</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
@@ -992,7 +1032,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
   <!-- Exchanges Content -->
   <DIV class="container">
     <DIV class="row">
-      <DIV class="col s12 m12">
+      <DIV class="col m12">
         <DIV class="icon-block">
           <H2 class="center brown-text"><I class="material-icons">monetization_on</I></H2>
           <H5 class="center">Buying and Trading</H5>
@@ -1001,19 +1041,19 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/graviex.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">graviex.net</A></DIV>
         </DIV>
       </DIV>
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/raisex.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">raisex.io</A></DIV>
         </DIV>
       </DIV>
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/aiodex.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">aiodex.com</A></DIV>
@@ -1034,7 +1074,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
   <!-- Marketing Content -->
   <DIV class="container">
     <DIV class="row">
-      <DIV class="col s12 m12">
+      <DIV class="col m12">
         <DIV class="icon-block">
           <H2 class="center brown-text"><I class="material-icons">beenhere</I></H2>
           <H5 class="center">Marketing and Awareness</H5>
@@ -1043,19 +1083,19 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://masternodes.online/currencies/GALI/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/mno.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://masternodes.online/currencies/GALI/" target="_blank" rel="noopener noreferrer">masternodes.online</A></DIV>
         </DIV>
       </DIV>
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://coinlib.io/coin/GALI/Galilel" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/coinlib.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://coinlib.io/coin/GALI/Galilel" target="_blank" rel="noopener noreferrer">coinlib.io</A></DIV>
         </DIV>
       </DIV>
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://mntop.co.in/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/mntop.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://mntop.co.in/" target="_blank" rel="noopener noreferrer">mntop.co.in</A></DIV>
@@ -1063,19 +1103,19 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://mnode.club/g/info/GALI" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/mnode.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://mnode.club/g/info/GALI" target="_blank" rel="noopener noreferrer">mnode.club</A></DIV>
         </DIV>
       </DIV>
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/kyd.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">kydcoin.io</A></DIV>
         </DIV>
       </DIV>
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://beam.works/user/galilel/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/beam.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://beam.works/user/galilel/" target="_blank" rel="noopener noreferrer">beam.works</A></DIV>
@@ -1083,19 +1123,19 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://satoshisolutions.online/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/satoshi.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://satoshisolutions.online/" target="_blank" rel="noopener noreferrer">satoshisolutions.online</A></DIV>
         </DIV>
       </DIV>
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://gali.chopcoin.io/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/chopcoin.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://gali.chopcoin.io/" target="_blank" rel="noopener noreferrer">chopcoin.io</A></DIV>
         </DIV>
       </DIV>
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://nodecheck.io/currency/GALI" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/nodecheck.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://nodecheck.io/currency/GALI" target="_blank" rel="noopener noreferrer">nodecheck.io</A></DIV>
@@ -1103,7 +1143,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://coincodex.com/crypto/galilel/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/coincodex.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://coincodex.com/crypto/galilel/" target="_blank" rel="noopener noreferrer">coincodex.com</A></DIV>
@@ -1124,28 +1164,28 @@ foreach (FileNamesDirectory($directroy) as $filename)
   <!-- Community Content -->
   <DIV class="container">
     <DIV class="row">
-      <DIV class="col s12 m12">
+      <DIV class="col m12">
         <DIV class="icon-block">
           <H2 class="center brown-text"><I class="material-icons">insert_comment</I></H2>
           <H5 class="center">Contact Us</H5>
-          <P class="center light">Get in touch with the core team of Galilel, join our Discord channel, follow us on Twitter or write a post in BitcoinTalk forum.</P>
+          <P class="center light">Get in touch with the core team of Galilel, join our Discord channel, follow us on Twitter and Facebook or write a post in BitcoinTalk forum.</P>
         </DIV>
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/community/discord.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer">Discord</A></DIV>
         </DIV>
       </DIV>
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://twitter.com/GalilelEN" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/community/twitter.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://twitter.com/GalilelEN" target="_blank" rel="noopener noreferrer">Twitter</A></DIV>
         </DIV>
       </DIV>
-      <DIV class="col s12 m4">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://bitcointalk.org/index.php?topic=4238243.0" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/community/bitcointalk.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://bitcointalk.org/index.php?topic=4238243.0" target="_blank" rel="noopener noreferrer">BitcoinTalk</A></DIV>
@@ -1153,7 +1193,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col s12 m12">
+      <DIV class="col m12">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/community/facebook.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer">Facebook</A></DIV>
