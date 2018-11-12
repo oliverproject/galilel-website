@@ -12,13 +12,13 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
 <HEAD>
   <META http-equiv="Content-Type" content="text/html; charset=utf-8">
   <META name="author" content="Maik Broemme">
-  <META name="description" content="Galilel Cloud - Masternodes, Staking and Block Explorer Services">
+  <META name="description" content="Galilel Coin - Hybrid Offline Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes">
   <META name="revisit-after" content="30 days">
-  <META name="keywords" content="Galilel, GALI, Cloud, Masternode, Hosting, Proof-of-Stake, PoS, Block Explorer, Service, Payment, Blockchain, Crypto">
+  <META name="keywords" content="Galilel, GALI, Cloud, Masternode, Hosting, Proof-of-Stake, PoS, Block Explorer, Service, Payment, Blockchain, Crypto, ghPoS, ghTD, ghMSC, gIOMN">
 
   <!-- Facebook (Start) -->
   <META property="og:url" content="https://galilel.cloud">
-  <META property="og:site_name" content="Galilel Cloud">
+  <META property="og:site_name" content="Galilel Coin">
   <META property="article:author" content="https://www.facebook.com/mbroemme">
   <META property="article:tag" content="Galilel">
   <META property="article:tag" content="GALI">
@@ -33,6 +33,10 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
   <META property="article:tag" content="Payment">
   <META property="article:tag" content="Blockchain">
   <META property="article:tag" content="Crypto">
+  <META property="article:tag" content="ghPoS">
+  <META property="article:tag" content="ghTD">
+  <META property="article:tag" content="ghMSC">
+  <META property="article:tag" content="gIOMN">
   <META property="article:section" content="Crypto">
   <!-- Facebook (End) -->
 
@@ -61,14 +65,14 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
   <LINK rel="shortcut icon" href="images/favicon.ico">
 
   <!-- Website title -->
-  <TITLE>Galilel Cloud - Masternodes, Staking and Block Explorer Services</TITLE>
+  <TITLE>Galilel Coin - Hybrid Offline Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes</TITLE>
 </HEAD>
 <BODY>
 
   <!-- Drop Down Menu (Start) -->
   <UL id="about" class="dropdown-content" style="min-width: 150px">
     <LI><A class="grey-text text-darken-4" href="#coin">Coin</A></LI>
-    <LI><A class="grey-text text-darken-4" href="#platform">Platform</A></LI>
+    <LI><A class="grey-text text-darken-4" href="#features">Features</A></LI>
     <LI><A class="grey-text text-darken-4" href="#statistics">Statistics</A></LI>
     <LI><A class="grey-text text-darken-4" href="#specifications">Specifications</A></LI>
     <LI><A class="grey-text text-darken-4" href="#team">Team</A></LI>
@@ -85,10 +89,13 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
     <LI><A class="grey-text text-darken-4" href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">Graviex</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">Aiodex</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://altmarkets.cc/market/BTC-GALI" target="_blank" rel="noopener noreferrer">AltMarkets</A></LI>
   </UL>
   <UL id="partner" class="dropdown-content" style="min-width: 200px">
     <LI><A class="grey-text text-darken-4" href="https://beam.works/user/galilel/" target="_blank" rel="noopener noreferrer">beam.works</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://coincodex.com/crypto/galilel/" target="_blank" rel="noopener noreferrer">coincodex.com</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://coingecko.com/en/coins/galilel" target="_blank" rel="noopener noreferrer">coingecko.com</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://coinpaprika.com/coin/gali-galilel/" target="_blank" rel="noopener noreferrer">coinpaprika.com</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://gali.chopcoin.io/" target="_blank" rel="noopener noreferrer">chopcoin.io</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://coinlib.io/coin/GALI/Galilel" target="_blank" rel="noopener noreferrer">coinlib.io</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">kydcoin.io</A></LI>
@@ -97,6 +104,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
     <LI><A class="grey-text text-darken-4" href="https://mntop.co.in/" target="_blank" rel="noopener noreferrer">mntop.co.in</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://nodecheck.io/currency/GALI" target="_blank" rel="noopener noreferrer">nodecheck.io</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://satoshisolutions.online/" target="_blank" rel="noopener noreferrer">satoshisolutions.online</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://worldcoinindex.com/coin/galilel" target="_blank" rel="noopener noreferrer">worldcoinindex.com</A></LI>
   </UL>
   <UL id="community" class="dropdown-content" style="min-width: 100px">
     <LI><A class="grey-text text-darken-4" href="https://discord.galilel.cloud/" target="_blank" rel="noopener noreferrer">Discord</A></LI>
@@ -127,7 +135,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
           <DIV class="collapsible-body">
             <UL>
               <LI><A class="grey-text text-darken-4" href="#coin">Coin</A></LI>
-              <LI><A class="grey-text text-darken-4" href="#platform">Platform</A></LI>
+              <LI><A class="grey-text text-darken-4" href="#features">Features</A></LI>
               <LI><A class="grey-text text-darken-4" href="#statistics">Statistics</A></LI>
               <LI><A class="grey-text text-darken-4" href="#specifications">Specifications</A></LI>
               <LI><A class="grey-text text-darken-4" href="#team">Team</A></LI>
@@ -152,6 +160,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
               <LI><A class="grey-text text-darken-4" href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">Graviex</A></LI>
               <LI><A class="grey-text text-darken-4" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</A></LI>
               <LI><A class="grey-text text-darken-4" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">Aiodex</A></LI>
+              <LI><A class="grey-text text-darken-4" href="https://altmarkets.cc/market/BTC-GALI" target="_blank" rel="noopener noreferrer">AltMarkets</A></LI>
             </UL>
           </DIV>
         </LI>
@@ -202,18 +211,20 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
       <DIV class="container">
         <BR>
         <BR>
-        <H1 class="header center teal-text text-lighten-2">Galilel Cloud</H1>
+        <H1 class="header center teal-text text-lighten-2">Galilel Coin</H1>
         <DIV class="row center">
-          <H5 class="header col light">Welcome to the fully automated masternode and staking hosting platform</H5>
+          <H6 class="header col m12 light">The first crypto currency with Hybrid Consensus Algorithm and Masternode voting for period based reward burning</H6>
         </DIV>
         <DIV class="row center">
-          <A href="#wallets" id="wallets-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</A>
+          <DIV class="col m12 center">
+            <A href="#wallets" class="btn-large waves-effect waves-light teal lighten-1">Get Started</A>
+          </DIV>
         </DIV>
         <BR>
         <BR>
       </DIV>
     </DIV>
-    <DIV class="parallax"><IMG src="images/background.jpg"></DIV>
+    <DIV class="parallax"><IMG src="images/background.png"></DIV>
   </DIV>
 
   <!-- Information Content -->
@@ -222,7 +233,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
       <DIV class="row">
         <DIV class="col m12">
           <DIV class="icon-block" id="coin">
-            <DIV class="center"><IMG width="56" height="56" src="images/logo.svg"></DIV>
+            <DIV class="center"><BR><BR><IMG width="56" height="56" src="images/logo.svg"></DIV>
             <H5 class="center">Galilel Coin</H5>
             <P class="left-align light">Galilel Coin (GALI and zGALI) is an open-source public and private Proof-of-Stake digital crypto currency for fast (using SwiftX), private (Zerocoin protocol) and secure micro transactions. Our main goal is to create a decentralized fully secure and anonymous network to run applications, which do not rely on any central body control. By having a distributed system, thousands of users will be responsible for maintaining the application and data so that there is no single point of failure.</P>
           </DIV>
@@ -230,56 +241,46 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
       </DIV>
       <DIV class="row">
         <DIV class="col m12">
-          <DIV class="icon-block" id="platform">
+          <DIV class="icon-block" id="features">
+            <H2 class="center brown-text"><I class="material-icons">linear_scale</I></H2>
+            <H5 class="center">Hybrid Proof-of-Stake (ghPoS)</H5>
+            <P class="light">While Proof-of-Stake (PoS) is an environmentally friendly consensus algorithm, it creates rewards only as long as the wallet is running. One solution to this problem is to sign-up to any shared Proof-of-Stake pool and stake in the cloud. However, the disadvantage is that user need to trust the staking pool and transfer specific amount of coins to it. It can lead to situation that huge amount of coins are stored in a few wallets. This is a weak situation for a decentralized network approach and is a fundamental part to reach consensus. Private staking, so called Zerocoin Proof-of-Stake (zPoS), has the same problems and limitations. In Galilel, the solution to this problem will be a complete hybrid consensus algorithm named Galilel Hybrid Proof-of-Stake (ghPoS). We will extend online Proof-of-Stake with offline capability for both public and private staking. Offline staking is always on with <B>5%</B> of the block reward paid out if offline wallet finds a block.</P>
+          </DIV>
+        </DIV>
+      </DIV>
+      <DIV class="row">
+        <DIV class="col m12">
+          <DIV class="icon-block">
+            <H2 class="center brown-text"><I class="material-icons">attach_money</I></H2>
+            <H5 class="center">Term Deposits (gTD)</H5>
+            <P class="light">While offline staking is dependent from network difficulty and amount of staked coins, the Term Deposit9 function allow to lock coins for a certain period and generate predictable rewards. The minimum required amount of coins to use Galilel Term Deposit (gTD) is one thousand <B>1.000 GALI</B>. The user decides the period to lock coins. Valid options are <B>1 month</B>, <B>6 month</B>, <B>1 year</B>, <B>2 years</B>, <B>3 years</B>, <B>4 years</B> or <B>5 years</B>. Once locked, moving or spending coins for purchases is impossible, cancellation of term deposit before expiration time is impossible. This will effectively reduce the coin supply during the lock period.</P>
+          </DIV>
+        </DIV>
+      </DIV>
+      <DIV class="row">
+        <DIV class="col m12">
+          <DIV class="icon-block">
+            <H2 class="center brown-text"><I class="material-icons">money_off</I></H2>
+            <H5 class="center">Money Supply Control (gMSC)</H5>
+            <P class="light">Inflation control is the most challenging part for digital money to be recognized and accepted as alternative to fiat money. Without any controlling mechanism, the value of any digital money is unpredictable. This leads to situation when investors' starts betting on the value and this can seriously damage the market within hours and immediately eliminates the possibility to push digital money into market as accepted payment option. With inflation control, we believe that people outside the digital money sphere are attracted to use it, as there is no need to look every day at their portfolio. Unlike central banks in case of fiat money, there will be no central place for watching and maintaining money supply. In Galilel, we implement a decentralized approach to burn coins, so called Proof-of-Burn10 mechanism for private and public staked coins. While this is one necessary step to control money circulation, masternode owners get the possibility to vote for reward reduction or complete burning for a specific period to reduce coin generation. We name it Galilel Money Supply Control (gMSC), effectively Proof-of-Burn v2. This mechanism burns only rewards, never term deposits and development budget. The period for coin burning will be <B>1 month</B>. Every month is applicable for voting.</P>
+          </DIV>
+        </DIV>
+      </DIV>
+      <DIV class="row">
+        <DIV class="col m12">
+          <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">cloud_done</I></H2>
-            <H5 class="center">Galilel Cloud</H5>
-            <P class="left-align light">Galilel Cloud is a service-hosting platform. It provides a complete automated solution to run fully managed and highly available multi-redundant Masternode as a Service (MaaS) and Proof-of-Stake as a Service (PoSaaS) to customers. It is a simple solution, manageable by anybody without any cryptocurrency knowledge. While market competitors require local wallet installation, it is not necessary in Galilel Cloud. You can run masternodes from local wallets, cloud wallets, paper wallets, web wallets or mobile wallets. While this is more challenging task from infrastructure and security point of view, it will improve mainstream adoption and knowledge of masternodes. Adding new crypto currencies to the platform does not require any manual intervention, neither from the currency project team nor from the Galilel team. This process is automated and new crypto currencies work in sandbox mode for some period until verification completed. Linux containers (LXC) manages isolation of different users and their wallets. The verification process and using securely isolated containers eliminates potential security breaches if crypto currency include backdoors to withdraw foreign wallets. Beside Masternode as a Service (MaaS) and Proof-of-Stake as a Service (PoSaaS), we implement Block Explorer as a Service (BEaaS). It will significantly reduce service time to delivery for any new crypto currency as we will deploy, run and maintain the block explorer. The project and development teams can sharpen their focus on more important tasks.</P>
+            <H5 class="center">Instant On Masternodes (gIOMN)</H5>
+            <P class="light">Masternodes gained already a lot of attraction in digital money sphere. While many new digital crypto currencies try to create ridiculous high return of investment (ROI) coins and fail after coin inflation kicks in as well as having unbalanced reward distribution between masternodes and staking wallets, this is not the main purpose for running a masternode. In Galilel, the main use-case for masternodes is securing the network while having the opportunity to vote of future development aspects as well as maintaining coin circulation. However, the main weak point for available masternode implementations is the requirement to have the blockchain synced and indexed on each machine acting as a masternode. Galilel Instant On Masternode (gIOMN) solves this problem by implementing a shared blockchain to run <A class="link-text" href="https://en.wikipedia.org/wiki/One-to-many_(data_model)" target="_blank" rel="noopener noreferrer">one-to-many</A> wallet daemons in a client server model. It is comparable to "Instant On" model available in Electrum client.</P>
           </DIV>
         </DIV>
       </DIV>
       <DIV class="row">
-        <DIV class="col m4">
-          <DIV class="icon-block">
-            <H2 class="center brown-text"><I class="material-icons">storage</I></H2>
-            <H5 class="center">Masternode as a Service (MaaS)</H5>
-            <P class="light">We implement an automated solution for hosting masternode crypto currencies. It allows users to run hot node in our infrastructure and cold wallet on their premises or - for simplicity - to run both wallets in our platform. <A class="link-text" href="https://linuxcontainers.org/" target="_blank" rel="noopener noreferrer">Linux Containers (LXC)</A> guarantees isolation of the different customer tenants. Developers can upload and verify features of new crypto currencies before launch and run them in testnet mode. Once they launch their crypto currency, a simple click turn it into production mode.</P>
-          </DIV>
-        </DIV>
-        <DIV class="col m4">
-          <DIV class="icon-block">
-            <H2 class="center brown-text"><I class="material-icons">share</I></H2>
-            <H5 class="center">Proof-of-Stake as a Service (PoSaaS)</H5>
-            <P class="light">We believe in the mission that services should be simple. By implementing Proof-of-Stake hosting, we extend our product portfolio with another minting service. Users are able to spin-up Proof-of-Stake wallets with simple clicks. The backend will deploy the wallets in background and notify users once they are ready. One tenant can run multiple staking wallets of different crypto currencies in the same environment. Individual payout thresholds per crypto currency are configurable.</P>
-          </DIV>
-        </DIV>
-        <DIV class="col m4">
-          <DIV class="icon-block">
-            <H2 class="center brown-text"><I class="material-icons">find_in_page</I></H2>
-            <H5 class="center">Block Explorer as a Service (BEaaS)</H5>
-            <P class="light">With Block Explorer hosting, we complete our services stack. Each user can have multiple block explorers running in the same environment. The service uses our own backend code which monitors the blockchain for changes and synchronizes it in real-time via wallet notification system. As fallback, it monitors the blockchain and periodically synchronize the backend. Based on this backend we implement a theme-able frontend delivering the best user experience.</P>
-          </DIV>
-        </DIV>
-      </DIV>
-      <DIV class="row">
-        <DIV class="col m4">
-          <DIV class="icon-block">
-            <H2 class="center brown-text"><I class="material-icons">enhanced_encryption</I></H2>
-            <H5 class="center">Security Design Principals</H5>
-            <P class="light">Security is a crucial part for any kind of web service. Whenever user interacts with a service that require authentication, backend get these data via an encrypted channel between the user and the system. The bcrypt algorithm hashes the data and securely store it in our redundant databases. Google Chrome, Firefox, Opera, Safari, Internet Explorer and Edge include the platform domain <A class="link-text" href="#top">galilel.cloud</A> already in their <A class="link-text" href="https://cs.chromium.org/codesearch/f/chromium/src/net/http/transport_security_state_static.json" target="_blank" rel="noopener noreferrer">HTTP Strict Transport Security (HSTS)</A> preload list built-in the browser. We heavily use Linux Containers (LXC) for infrastructure isolation.</P>
-          </DIV>
-        </DIV>
-        <DIV class="col m4">
-          <DIV class="icon-block">
-            <H2 class="center brown-text"><I class="material-icons">create</I></H2>
-            <H5 class="center">Unique Blockchain Features</H5>
-            <P class="light">The blockchain is the base for our payment service; however, we have identified already weak points for further improvements. While offering a masternode hosting service it is logical step to implement a shared blockchain to run <A class="link-text" href="https://en.wikipedia.org/wiki/One-to-many_(data_model)" target="_blank" rel="noopener noreferrer">one-to-many</A> wallet daemons in a client server model. For further attraction of investors, we implement <A class="link-text" href="https://en.bitcoin.it/wiki/Proof_of_burn" target="_blank" rel="noopener noreferrer">Proof-of-Burn (PoB)</A> algorithm into our blockchain. This algorithm rewards the destruction of coins send to an un-spendable address. For a wider adoption of the Galilel wallet, we introduce ready-to-use binaries for new architectures.</P>
-          </DIV>
-        </DIV>
-        <DIV class="col m4">
+        <DIV class="col m12">
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">lightbulb_outline</I></H2>
-            <H5 class="center">Transparency and Split Development</H5>
-            <P class="light">The trust relationship between investors and the project team is key to success. Therefore, we have created a GitHub organization named <A class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer">Galilel-Project</A>, which tracks all our development activities in public repositories including all our backend code and passed <A class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">Know Your Developer (KYD)</A> public verification. The project uses mostly <A class="link-text" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT</A>, <A class="link-text" href="https://www.gnu.org/licenses/gpl.txt" target="_blank" rel="noopener noreferrer">GPLv3</A> and <A class="link-text" href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt" target="_blank" rel="noopener noreferrer">CC-BY-NC 4.0</A> open source and open content licenses. We use a divided engineering resource and project goal model: 50% service platform development and 50% blockchain research development.</P>
+            <H5 class="center">Transparency and Trust</H5>
+            <P class="light">The trust relationship between investors and the project team is key to success. Therefore, we have created a GitHub organization named <A class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer">Galilel-Project</A>, which tracks all our development activities in public repositories including all our backend code and passed <A class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">Know Your Developer (KYD)</A> public verification. The project uses mostly <A class="link-text" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT</A>, <A class="link-text" href="https://www.gnu.org/licenses/gpl.txt" target="_blank" rel="noopener noreferrer">GPLv3</A> and <A class="link-text" href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt" target="_blank" rel="noopener noreferrer">CC-BY-NC 4.0</A> open source and open content licenses. The translation and localization is done with <A class="link-text" href="https://www.transifex.com/galilel-project/galilel-project-translations/dashboard/" target="_blank" rel="noopener noreferrer">Transifex</A>.</P>
           </DIV>
         </DIV>
       </DIV>
@@ -359,8 +360,20 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
                 <TD class="left-align light">GALI</TD>
               </TR>
               <TR>
-                <TD class="left-align light">Hash Algo</TD>
+                <TD class="left-align light">Hash Algorithm</TD>
                 <TD class="left-align light">Quark</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Consensus Algorithm</TD>
+                <TD class="left-align light">PoS + zPoS Hybrid</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Block Size</TD>
+                <TD class="left-align light">2 MB</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Block Time</TD>
+                <TD class="left-align light">60 Seconds (Re-targeting every block)</TD>
               </TR>
               <TR>
                 <TD class="left-align light">RPC Port</TD>
@@ -372,11 +385,19 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
               </TR>
               <TR>
                 <TD class="left-align light">Type</TD>
-                <TD class="left-align light">PoW / PoS / MN</TD>
+                <TD class="left-align light">PoW / PoS / zPoS / MN</TD>
               </TR>
               <TR>
                 <TD class="left-align light">Minimum Staking Age</TD>
                 <TD class="left-align light">2 Hours</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Maturity</TD>
+                <TD class="left-align light">120 confirmations</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Send Eligibility</TD>
+                <TD class="left-align light">6 confirmations</TD>
               </TR>
               <TR>
                 <TD class="left-align light">Rewards (till block 1500)</TD>
@@ -395,16 +416,88 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
                 <TD class="left-align light">1.500</TD>
               </TR>
               <TR>
-                <TD class="left-align light">Max Coin Supply</TD>
-                <TD class="left-align light">25.000.000</TD>
-              </TR>
-              <TR>
                 <TD class="left-align light">Masternode Collateral</TD>
                 <TD class="left-align light">15.000</TD>
               </TR>
               <TR>
+                <TD class="left-align light">Max Coin Supply (January 2020)</TD>
+                <TD class="left-align light">19.035.999</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Max Coin Supply (January 2030)</TD>
+                <TD class="left-align light">45.315.999</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Max Coin Supply (January 2040)</TD>
+                <TD class="left-align light">71.595.999</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Max Coin Supply (January 2050)</TD>
+                <TD class="left-align light">97.875.999</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Dynamic Coin Supply</TD>
+                <TD class="left-align light">All transaction fees and zGALI minting fees are burnt</TD>
+              </TR>
+              <TR>
                 <TD class="left-align light">Community Donation Address</TD>
                 <TD class="left-align light"><A class="link-text" href="https://explorer.galilel.cloud/address/UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX" target="_blank" rel="noopener noreferrer">UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX</A></TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Dev Budget (from block 250001)</TD>
+                <TD class="left-align light">10% in monthly superblock</TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+          <H5 class="center">Zerocoin Information</H5>
+          <P class="center light">Zerocoin minting specifications.</P>
+          <TABLE class="highlight">
+            <THEAD>
+              <TR>
+                <TH class="left-align light"><B>Description</B></TH>
+                <TH class="left-align light"><B>Parameter</B></TH>
+              </TR>
+            </THEAD>
+            <TBODY>
+              <TR>
+                <TD class="left-align light">Zerocoin v1 activation</TD>
+                <TD class="left-align light">Block 250000</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Zerocoin v2 activation</TD>
+                <TD class="left-align light">Block 340000 (planned)</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">zGALI Automint</TD>
+                <TD class="left-align light">10%</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">zGALI Rewards (from block 340001)</TD>
+                <TD class="left-align light">MN 50%, zPoS 50%</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">zGALI Denominators</TD>
+                <TD class="left-align light">1, 5, 10, 50, 100, 500, 1000, 5000</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Accumulator Modulus</TD>
+                <TD class="left-align light">RSA-2048</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Maturity</TD>
+                <TD class="left-align light">240 confirmations</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Send Eligibility</TD>
+                <TD class="left-align light">20 confirmations</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Fees (mint)</TD>
+                <TD class="left-align light">0.01 GALI per minted zGALI denomination</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Fees (spend)</TD>
+                <TD class="left-align light">No fee</TD>
               </TR>
             </TBODY>
           </TABLE>
@@ -799,217 +892,124 @@ foreach (FileNamesDirectory($directroy) as $filename)
           <UL class="collapsible">
             <LI>
               <DIV class="collapsible-header">
-                September 2018
-                <SPAN class="badge light">17</SPAN>
+                Q2/2018
+                <SPAN class="badge light">1</SPAN>
               </DIV>
               <DIV class="collapsible-body">
                 <TABLE class="highlight">
                   <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Register new domain name (SSL secured)</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Create new block explorer (SSL secured)</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">3.</TD><TD class="left-align light">Create block height announcement bot</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">4.</TD><TD class="left-align light">Create donation announcement bot</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">5.</TD><TD class="left-align light">Create GitHub announcement bot</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">6.</TD><TD class="left-align light">Create GitHub repositories</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">7.</TD><TD class="left-align light">Community poll: Max Coin Supply</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">8.</TD><TD class="left-align light">Community poll: MN/PoS reward distribution</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">9.</TD><TD class="left-align light">Community poll: MN collateral amount</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">10.</TD><TD class="left-align light">Community poll: Reward structure modification</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">11.</TD><TD class="left-align light">Create new branding (logos, banners and icons)</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">12.</TD><TD class="left-align light">Merge PIVX 3.1.1 toolchain and autoconf macros for cross compilation</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">13.</TD><TD class="left-align light">Update wallets to v2.x with version enforcement</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">14.</TD><TD class="left-align light">Know Your Developer (KYD) public verification</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">15.</TD><TD class="left-align light">Inform graviex.net about mandatory update (wallet, link and logo updates)</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">16.</TD><TD class="left-align light">Inform masternodes.online about mandatory update (wallet, link and logo updates)</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">17.</TD><TD class="left-align light">Inform coinlib.io about mandatory update (wallet, link and logo updates)</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Enable and release MAINNET</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
             </LI>
             <LI>
               <DIV class="collapsible-header">
-                October 2018
-                <SPAN class="badge light">9</SPAN>
+                Q3/2018
+                <SPAN class="badge light">11</SPAN>
               </DIV>
               <DIV class="collapsible-body">
                 <TABLE class="highlight">
                   <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Push galilel-scripts (legacy scripts to deploy masternodes) into GitHub</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Create discord invite link via galilel.cloud domain</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">3.</TD><TD class="left-align light">Create new landing page with coin and team information</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">4.</TD><TD class="left-align light">Create and release whitepaper (WP)</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">5.</TD><TD class="left-align light">Push galilel-media (logos, banners, videos and whitepaper into GitHub</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">6.</TD><TD class="left-align light">Release v2.1.0 wallet with new checkpoint block</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">7.</TD><TD class="left-align light">Create new Bitcointalk announcement, new bounties, reviewed use case and whitepaper</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">8.</TD><TD class="left-align light">Push galilel-website (new Galilel landing page) into GitHub</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">9.</TD><TD class="left-align light">Push ghlib (Galilel Hosting backend library) into GitHub</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Create block explorer (SSL secured)</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Create discord bot for block height</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">3.</TD><TD class="left-align light">Create discord bot for donation monitoring</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">4.</TD><TD class="left-align light">Create discord bot for GitHub monitoring</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">5.</TD><TD class="left-align light">Community poll: Max Coin Supply</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">6.</TD><TD class="left-align light">Community poll: MN/PoS reward distribution</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">7.</TD><TD class="left-align light">Community poll: MN collateral amount</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">8.</TD><TD class="left-align light">Community poll: Reward structure modification</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">9.</TD><TD class="left-align light">Create branding (logos, banners and icons)</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">10.</TD><TD class="left-align light">Release Galilel v2.0.0 with community vote results</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">11.</TD><TD class="left-align light">Know Your Developer (KYD) public verification</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
             </LI>
             <LI>
               <DIV class="collapsible-header">
-                November 2018
-                <SPAN class="badge light">6</SPAN>
+                Q4/2018
+                <SPAN class="badge light">7</SPAN>
               </DIV>
               <DIV class="collapsible-body">
                 <TABLE class="highlight">
                   <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Add galilel.cloud to HTTP Strict Transport Security (HSTS) list for major browsers</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Push galilel-bot (Galilel notification bridge to Discord channels) into GitHub</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">3.</TD><TD class="left-align light">Push ghexplorerd (Galilel Hosting explorer daemon) into GitHub</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">4.</TD><TD class="left-align light">Rebase Galilel v2.x codebase with PIVX 3.1.1</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">5.</TD><TD class="left-align light">Build packages for major Linux distributions</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">6.</TD><TD class="left-align light">Create branding guide with brand colors, typography and sizes</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Enable and release TESTNET</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Refactor Galilel codebase to latest PIVX 3.1.1</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">3.</TD><TD class="left-align light">Enable Decentralized Autonomous Organization (DAO) for blockchain voting</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">4.</TD><TD class="left-align light">Release Galilel Coin whitepaper</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">5.</TD><TD class="left-align light">Release Branding Guide</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">6.</TD><TD class="left-align light">Release Galilel v3.0.0 with Zerocoin v1 activation at block 250000</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">7.</TD><TD class="left-align light">Create BitcoinTalk Announcement</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
             </LI>
             <LI>
               <DIV class="collapsible-header">
-                December 2018
-                <SPAN class="badge light">2</SPAN>
-              </DIV>
-              <DIV class="collapsible-body">
-                <TABLE class="highlight">
-                  <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Push ghcontrol (Galilel Hosting client application for LXC management) into GitHub</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Code security review and hardening</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                  </TBODY>
-                </TABLE>
-              </DIV>
-            </LI>
-            <LI>
-              <DIV class="collapsible-header">
-                January 2019
-                <SPAN class="badge light">4</SPAN>
-              </DIV>
-              <DIV class="collapsible-body">
-                <TABLE class="highlight">
-                  <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Push ghcontrold (Galilel Hosting daemon for asynchronous job processing) into GitHub</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Create service ordering system running on-top of gh* backend code</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">3.</TD><TD class="left-align light">Create service automation system running on-top of gh* backend code</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">4.</TD><TD class="left-align light">Partnering with one service provider for infrastructure hosting of alpha platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                  </TBODY>
-                </TABLE>
-              </DIV>
-            </LI>
-            <LI>
-              <DIV class="collapsible-header">
-                February 2019
+                Q1/2019
                 <SPAN class="badge light">3</SPAN>
               </DIV>
               <DIV class="collapsible-body">
                 <TABLE class="highlight">
                   <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">oPoS (offline Proof-of-Stake for GALI and zGALI)</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">TD (Term Deposits for GALI and zGALI)</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">3.</TD><TD class="left-align light">Private beta of BEaaS (Block Explorer as a Servce) platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">4.</TD><TD class="left-align light">Public beta of BEaaS (Block Explorer as a Servce) platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">5.</TD><TD class="left-align light">Bug fixing</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Release Galilel v3.1.0 with Zerocoin v2 with private Proof-of-Stake (zPoS) at block 340000</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Release Galilel v4.0.0 with Instant On Masternode (gIOMN) at block 380000</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">3.</TD><TD class="left-align light">Start Android wallet development</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
             </LI>
             <LI>
               <DIV class="collapsible-header">
-                March 2019
-                <SPAN class="badge light">5</SPAN>
-              </DIV>
-              <DIV class="collapsible-body">
-                <TABLE class="highlight">
-                  <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Private beta of BEaaS-HA (Block Explorer as a Servce High Availability) platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Public beta of BEaaS-HA (Block Explorer as a Servce High Availability) platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">3.</TD><TD class="left-align light">Private beta of MaaS (Masternode as a Service) platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">4.</TD><TD class="left-align light">Public beta of MaaS (Masternode as a Service) platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">5.</TD><TD class="left-align light">Bug fixing</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                  </TBODY>
-                </TABLE>
-              </DIV>
-            </LI>
-            <LI>
-              <DIV class="collapsible-header">
-                April 2019
-                <SPAN class="badge light">5</SPAN>
-              </DIV>
-              <DIV class="collapsible-body">
-                <TABLE class="highlight">
-                  <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Private beta of MaaS-HA (Masternode as a Service High Availability) platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Public beta of MaaS-HA (Masternode as a Service High Availability) platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">3.</TD><TD class="left-align light">Private beta of PoSaaS (Proof-of-Stake as a Service) platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">4.</TD><TD class="left-align light">Public beta of PoSaaS (Proof-of-Stake as a Service) platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">5.</TD><TD class="left-align light">Bug fixing</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                  </TBODY>
-                </TABLE>
-              </DIV>
-            </LI>
-            <LI>
-              <DIV class="collapsible-header">
-                May 2019
-                <SPAN class="badge light">3</SPAN>
-              </DIV>
-              <DIV class="collapsible-body">
-                <TABLE class="highlight">
-                  <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Private beta of PoSaaS-HA (Proof-of-Stake as a Service High Availability) platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Public beta of PoSaaS-HA (Proof-of-Stake as a Service High Availability) platform</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">3.</TD><TD class="left-align light">Bug fixing</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                  </TBODY>
-                </TABLE>
-              </DIV>
-            </LI>
-            <LI>
-              <DIV class="collapsible-header">
-                June 2019
+                Q2/2019
                 <SPAN class="badge light">2</SPAN>
               </DIV>
               <DIV class="collapsible-body">
                 <TABLE class="highlight">
                   <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">RTM (Release to Manufacturing) of service (BEaaS[-HA], MaaS[-HA], PoSaaS[-HA])</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Partnering with additional service providers for platform hosting</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Release Galilel v5.0.0 with Hybrid Proof-of-Stake (ghPoS) at block TBD</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Release Galilel Android wallet v1.0 with Instant On Masternode (gIOMN)</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
             </LI>
             <LI>
               <DIV class="collapsible-header">
-                July 2019
+                Q3/2019
                 <SPAN class="badge light">1</SPAN>
               </DIV>
               <DIV class="collapsible-body">
                 <TABLE class="highlight">
                   <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Implement PoB (Proof-of-Burn) in Galilel v3.x</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Release Galilel v5.1.0 with Term Deposit (gTD) at block TBD</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
             </LI>
             <LI>
               <DIV class="collapsible-header">
-                August 2019
-                <SPAN class="badge light">1</SPAN>
+                Q4/2019
+                <SPAN class="badge light">2</SPAN>
               </DIV>
               <DIV class="collapsible-body">
                 <TABLE class="highlight">
                   <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">GA (General Availability) of service (BEaaS[-HA], MaaS[-HA], PoSaaS[-HA])</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Release Galilel v6.0.0 with Money Supply Control (gMSC)</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Release Galilel Android wallet v2.0 with Term Deposit (gTD)</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
             </LI>
             <LI>
               <DIV class="collapsible-header">
-                September 2019
+                Q1/2020
                 <SPAN class="badge light">1</SPAN>
               </DIV>
               <DIV class="collapsible-body">
                 <TABLE class="highlight">
                   <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Implement one-to-many masternode with client-server model</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Release Galilel Android wallet v3.0 with Money Supply Control (gMSC)</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
@@ -1057,6 +1057,14 @@ foreach (FileNamesDirectory($directroy) as $filename)
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/aiodex.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">aiodex.com</A></DIV>
+        </DIV>
+      </DIV>
+    </DIV>
+    <DIV class="row">
+      <DIV class="col m12">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://altmarkets.cc/market/BTC-GALI" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/altmarkets.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://altmarkets.cc/market/BTC-GALI" target="_blank" rel="noopener noreferrer">altmarkets.cc</A></DIV>
         </DIV>
       </DIV>
     </DIV>
@@ -1147,6 +1155,26 @@ foreach (FileNamesDirectory($directroy) as $filename)
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://coincodex.com/crypto/galilel/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/coincodex.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://coincodex.com/crypto/galilel/" target="_blank" rel="noopener noreferrer">coincodex.com</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://coingecko.com/en/coins/galilel" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/coingecko.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://coingecko.com/en/coins/galilel" target="_blank" rel="noopener noreferrer">coingecko.com</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://worldcoinindex.com/coin/galilel" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/worldcoinindex.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://worldcoinindex.com/coin/galilel" target="_blank" rel="noopener noreferrer">worldcoinindex.com</A></DIV>
+        </DIV>
+      </DIV>
+    </DIV>
+    <DIV class="row">
+      <DIV class="col m12">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://coinpaprika.com/coin/gali-galilel/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/coinpaprika.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://coinpaprika.com/coin/gali-galilel/" target="_blank" rel="noopener noreferrer">coinpaprika.com</A></DIV>
         </DIV>
       </DIV>
     </DIV>
