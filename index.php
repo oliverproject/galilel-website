@@ -644,13 +644,13 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
               </TR>
               <TR>
                 <TD class="left-align light">Stage 10</TD>
-                <TD class="right-align light">430001-infinite</TD>
+                <TD class="right-align light">430001-ongoing</TD>
                 <TD class="right-align light">5 GALI</TD>
                 <TD class="right-align light">70%</TD>
                 <TD class="right-align light">30%</TD>
-                <TD class="right-align light">infinite</TD>
-                <TD class="right-align light">infinite</TD>
-                <TD class="right-align light">infinite</TD>
+                <TD class="right-align light">ongoing</TD>
+                <TD class="right-align light">ongoing</TD>
+                <TD class="right-align light">ongoing</TD>
               </TR>
             </TBODY>
           </TABLE>
