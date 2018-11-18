@@ -89,7 +89,6 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
     <LI><A class="grey-text text-darken-4" href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">Graviex</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">Aiodex</A></LI>
-    <LI><A class="grey-text text-darken-4" href="https://altmarkets.cc/market/BTC-GALI" target="_blank" rel="noopener noreferrer">AltMarkets</A></LI>
   </UL>
   <UL id="partner" class="dropdown-content" style="min-width: 200px">
     <LI><A class="grey-text text-darken-4" href="https://beam.works/user/galilel/" target="_blank" rel="noopener noreferrer">beam.works</A></LI>
@@ -160,7 +159,6 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
               <LI><A class="grey-text text-darken-4" href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">Graviex</A></LI>
               <LI><A class="grey-text text-darken-4" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</A></LI>
               <LI><A class="grey-text text-darken-4" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">Aiodex</A></LI>
-              <LI><A class="grey-text text-darken-4" href="https://altmarkets.cc/market/BTC-GALI" target="_blank" rel="noopener noreferrer">AltMarkets</A></LI>
             </UL>
           </DIV>
         </LI>
@@ -1057,14 +1055,6 @@ foreach (FileNamesDirectory($directroy) as $filename)
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/aiodex.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">aiodex.com</A></DIV>
-        </DIV>
-      </DIV>
-    </DIV>
-    <DIV class="row">
-      <DIV class="col m12">
-        <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://altmarkets.cc/market/BTC-GALI" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/altmarkets.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://altmarkets.cc/market/BTC-GALI" target="_blank" rel="noopener noreferrer">altmarkets.cc</A></DIV>
         </DIV>
       </DIV>
     </DIV>
