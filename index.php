@@ -114,7 +114,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
   <UL id="explorer" class="dropdown-content" style="min-width: 170px">
     <LI><A class="grey-text text-darken-4" href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Mainnet</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://explorer.aiodex.com/GALI" target="_blank" rel="noopener noreferrer">Mainnet (Aiodex)</A></LI>
-    <LI><A class="grey-text text-darken-4" href="https://explorer.testnet.galilel.cloud">Testnet</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://explorer.testnet.galilel.cloud" target="_blank" rel="noopener noreferrer">Testnet</A></LI>
   </UL>
   <!-- Drop Down Menu (End) -->
 
