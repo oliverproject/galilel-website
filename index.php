@@ -105,10 +105,10 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
     <LI><A class="grey-text text-darken-4" href="https://worldcoinindex.com/coin/galilel" target="_blank" rel="noopener noreferrer">worldcoinindex.com</A></LI>
   </UL>
   <UL id="community" class="dropdown-content" style="min-width: 100px">
-    <LI><A class="grey-text text-darken-4" href="https://discord.galilel.cloud/" target="_blank" rel="noopener noreferrer">Discord</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer">Discord</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://twitter.com/GalilelEN" target="_blank" rel="noopener noreferrer">Twitter</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer">Facebook</A></LI>
-    <LI><A class="grey-text text-darken-4" href="https://bitcointalk.org/index.php?topic=4238243.0" target="_blank" rel="noopener noreferrer">BitcoinTalk</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://bitcointalk.galilel.cloud" target="_blank" rel="noopener noreferrer">BitcoinTalk</A></LI>
   </UL>
   <UL id="explorer" class="dropdown-content" style="min-width: 170px">
     <LI><A class="grey-text text-darken-4" href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Mainnet</A></LI>
@@ -179,10 +179,10 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
         <LI><A class="collapsible-header waves-effect waves-grey grey-text text-darken-4">Community</A>
           <DIV class="collapsible-body">
             <UL>
-              <LI><A class="grey-text text-darken-4" href="https://discord.galilel.cloud/" target="_blank" rel="noopener noreferrer">Discord</A></LI>
+              <LI><A class="grey-text text-darken-4" href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer">Discord</A></LI>
               <LI><A class="grey-text text-darken-4" href="https://twitter.com/GalilelEN" target="_blank" rel="noopener noreferrer">Twitter</A></LI>
               <LI><A class="grey-text text-darken-4" href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer">Facebook</A></LI>
-              <LI><A class="grey-text text-darken-4" href="https://bitcointalk.org/index.php?topic=4238243.0" target="_blank" rel="noopener noreferrer">BitcoinTalk</A></LI>
+              <LI><A class="grey-text text-darken-4" href="https://bitcointalk.galilel.cloud" target="_blank" rel="noopener noreferrer">BitcoinTalk</A></LI>
             </UL>
           </DIV>
         </LI>
@@ -1209,8 +1209,8 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
       <DIV class="col m4">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://bitcointalk.org/index.php?topic=4238243.0" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/community/bitcointalk.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://bitcointalk.org/index.php?topic=4238243.0" target="_blank" rel="noopener noreferrer">BitcoinTalk</A></DIV>
+          <DIV class="center"><A class="link-text" href="https://bitcointalk.galilel.cloud" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/community/bitcointalk.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://bitcointalk.galilel.cloud" target="_blank" rel="noopener noreferrer">BitcoinTalk</A></DIV>
         </DIV>
       </DIV>
     </DIV>
