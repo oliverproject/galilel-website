@@ -79,8 +79,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
     <LI><A class="grey-text text-darken-4" href="#roadmap">Roadmap</A></LI>
   </UL>
   <UL id="download" class="dropdown-content" style="min-width: 150px">
-    <LI><A class="grey-text text-darken-4" href="#papers">Whitepaper</A></LI>
-    <LI><A class="grey-text text-darken-4" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Branding Guide</A></LI>
+    <LI><A class="grey-text text-darken-4" href="#papers">Papers</A></LI>
     <LI><A class="grey-text text-darken-4" href="#wallets">Wallets</A></LI>
     <LI><A class="grey-text text-darken-4" href="#bootstrap">Bootstrap</A></LI>
     <LI><A class="grey-text text-darken-4" href="#repositories">Repositories</A></LI>
@@ -145,8 +144,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
         <LI><A class="collapsible-header waves-effect waves-grey grey-text text-darken-4">Downloads</A>
           <DIV class="collapsible-body">
             <UL>
-              <LI><A class="grey-text text-darken-4" href="#papers">Whitepaper</A></LI>
-              <LI><A class="grey-text text-darken-4" href="#papers">Branding Guide</A></LI>
+              <LI><A class="grey-text text-darken-4" href="#papers">Papers</A></LI>
               <LI><A class="grey-text text-darken-4" href="#wallets">Wallets</A></LI>
               <LI><A class="grey-text text-darken-4" href="#bootstrap">Bootstrap</A></LI>
               <LI><A class="grey-text text-darken-4" href="#repositories">Repositories</A></LI>
@@ -679,7 +677,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
     </DIV>
 
     <DIV class="row">
-      <DIV class="col m4 offset-m2">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="#" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/papers/whitepaper.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="#" target="_blank" rel="noopener noreferrer">Whitepaper</A></DIV>
@@ -689,6 +687,12 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/papers/branding.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Branding Guide</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/papers/tor.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</A></DIV>
         </DIV>
       </DIV>
     </DIV>
