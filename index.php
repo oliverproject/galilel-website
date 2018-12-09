@@ -240,7 +240,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
           <DIV class="icon-block" id="features">
             <H2 class="center brown-text"><I class="material-icons">linear_scale</I></H2>
             <H5 class="center">Hybrid Proof-of-Stake (ghPoS)</H5>
-            <P class="light">While Proof-of-Stake (PoS) is an environmentally friendly consensus algorithm, it creates rewards only as long as the wallet is running. One solution to this problem is to sign-up to any shared Proof-of-Stake pool and stake in the cloud. However, the disadvantage is that user need to trust the staking pool and transfer specific amount of coins to it. It can lead to situation that huge amount of coins are stored in a few wallets. This is a weak situation for a decentralized network approach and is a fundamental part to reach consensus. Private staking, so called Zerocoin Proof-of-Stake (zPoS), has the same problems and limitations. In Galilel, the solution to this problem will be a complete hybrid consensus algorithm named Galilel Hybrid Proof-of-Stake (ghPoS). We will extend online Proof-of-Stake with offline capability for both public and private staking. Offline staking is always on with <B>5%</B> of the block reward paid out if offline wallet finds a block.</P>
+            <P class="light">While Proof-of-Stake (PoS) is an environmentally friendly consensus algorithm, it creates rewards only as long as the wallet is running. One solution to this problem is to sign-up to any shared Proof-of-Stake pool and stake in the cloud. However, the disadvantage is that user need to trust the staking pool and transfer specific amount of coins to it. It can lead to situation that huge amount of coins are stored in a few wallets. This is a weak situation for a decentralized network approach and is a fundamental part to reach consensus. Private staking, so called Zerocoin Proof-of-Stake (zPoS), has the same problems and limitations. In Galilel, the solution to this problem will be a complete hybrid consensus algorithm named Galilel Hybrid Proof-of-Stake (ghPoS). We will extend online Proof-of-Stake with offline capability for both public and private staking.</P>
           </DIV>
         </DIV>
       </DIV>
@@ -249,7 +249,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">attach_money</I></H2>
             <H5 class="center">Term Deposits (gTD)</H5>
-            <P class="light">While offline staking is dependent from network difficulty and amount of staked coins, the Term Deposit9 function allow to lock coins for a certain period and generate predictable rewards. The minimum required amount of coins to use Galilel Term Deposit (gTD) is one thousand <B>1.000 GALI</B>. The user decides the period to lock coins. Valid options are <B>1 month</B>, <B>6 month</B>, <B>1 year</B>, <B>2 years</B>, <B>3 years</B>, <B>4 years</B> or <B>5 years</B>. Once locked, moving or spending coins for purchases is impossible, cancellation of term deposit before expiration time is impossible. This will effectively reduce the coin supply during the lock period.</P>
+            <P class="light">While offline staking is dependent from network difficulty and amount of staked coins, the <A class="link-text" href="https://en.wikipedia.org/wiki/Time_deposit" target="_blank" rel="noopener noreferrer">Term Deposit</A> function allow to lock coins for a certain period and generate predictable rewards. The user decides the period to lock coins. Once locked, moving or spending coins for purchases is impossible, cancellation of term deposit before expiration time is impossible. This will effectively reduce the coin supply during the lock period.</P>
           </DIV>
         </DIV>
       </DIV>
@@ -258,7 +258,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">money_off</I></H2>
             <H5 class="center">Money Supply Control (gMSC)</H5>
-            <P class="light">Inflation control is the most challenging part for digital money to be recognized and accepted as alternative to fiat money. Without any controlling mechanism, the value of any digital money is unpredictable. This leads to situation when investors' starts betting on the value and this can seriously damage the market within hours and immediately eliminates the possibility to push digital money into market as accepted payment option. With inflation control, we believe that people outside the digital money sphere are attracted to use it, as there is no need to look every day at their portfolio. Unlike central banks in case of fiat money, there will be no central place for watching and maintaining money supply. In Galilel, we implement a decentralized approach to burn coins, so called <A class="link-text" href="https://en.bitcoin.it/wiki/Proof_of_burn" target="_blank" rel="noopener noreferrer">Proof-of-Burn</A> mechanism for private and public staked coins. While this is one necessary step to control money circulation, masternode owners get the possibility to vote for reward reduction or complete burning for a specific period to reduce coin generation. We name it Galilel Money Supply Control (gMSC), effectively Proof-of-Burn v2. This mechanism burns only rewards, never term deposits and development budget. The period for coin burning will be <B>1 month</B>. Every month is applicable for voting.</P>
+            <P class="light">Inflation control is the most challenging part for digital money to be recognized and accepted as alternative to fiat money. Without any controlling mechanism, the value of any digital money is unpredictable. This leads to situation when investors' starts betting on the value and this can seriously damage the market within hours and immediately eliminates the possibility to push digital money into market as accepted payment option. With inflation control, we believe that people outside the digital money sphere are attracted to use it, as there is no need to look every day at their portfolio. Unlike central banks in case of fiat money, there will be no central place for watching and maintaining money supply. In Galilel, we implement a decentralized approach to burn coins, so called <A class="link-text" href="https://en.bitcoin.it/wiki/Proof_of_burn" target="_blank" rel="noopener noreferrer">Proof-of-Burn</A> mechanism for private and public staked coins. While this is one necessary step to control money circulation, masternode owners get the possibility to vote for reward reduction or complete burning for a specific period to reduce coin generation. We name it Galilel Money Supply Control (gMSC), effectively Proof-of-Burn v2. This mechanism burns only rewards, never term deposits and development budget.</P>
           </DIV>
         </DIV>
       </DIV>
@@ -276,7 +276,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">lightbulb_outline</I></H2>
             <H5 class="center">Transparency and Trust</H5>
-            <P class="light">The trust relationship between investors and the project team is key to success. Therefore, we have created a GitHub organization named <A class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer">Galilel-Project</A>, which tracks all our development activities in public repositories including all our backend code and passed <A class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">Know Your Developer (KYD)</A> public verification. The project uses mostly <A class="link-text" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT</A>, <A class="link-text" href="https://www.gnu.org/licenses/gpl.txt" target="_blank" rel="noopener noreferrer">GPLv3</A> and <A class="link-text" href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt" target="_blank" rel="noopener noreferrer">CC-BY-NC 4.0</A> open source and open content licenses. The translation and localization is done with <A class="link-text" href="https://www.transifex.com/galilel-project/galilel-project-translations/dashboard/" target="_blank" rel="noopener noreferrer">Transifex</A>.</P>
+            <P class="light">The trust relationship between investors and the project team is key to success. Therefore, we have created a GitHub organization named <A class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer">Galilel-Project</A>, which tracks all our development activities in public repositories including all our backend code and passed <A class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">Know Your Developer (KYD)</A> public verification. The project uses mostly <A class="link-text" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT</A>, <A class="link-text" href="https://www.gnu.org/licenses/gpl.txt" target="_blank" rel="noopener noreferrer">GPLv3</A> and <A class="link-text" href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt" target="_blank" rel="noopener noreferrer">CC-BY-NC 4.0</A> open source and open content licenses. The translation and localization process uses <A class="link-text" href="https://www.transifex.com/galilel-project/galilel-project-translations/dashboard/" target="_blank" rel="noopener noreferrer">Transifex</A> platform.</P>
           </DIV>
         </DIV>
       </DIV>
@@ -461,14 +461,14 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
               </TR>
               <TR>
                 <TD class="left-align light">Zerocoin v2 activation</TD>
-                <TD class="left-align light">Block 340000 (planned)</TD>
+                <TD class="left-align light">Block 245000</TD>
               </TR>
               <TR>
                 <TD class="left-align light">zGALI Automint</TD>
                 <TD class="left-align light">10%</TD>
               </TR>
               <TR>
-                <TD class="left-align light">zGALI Rewards (from block 340001)</TD>
+                <TD class="left-align light">zGALI Rewards (from block 245001)</TD>
                 <TD class="left-align light">MN 50%, zPoS 50%</TD>
               </TR>
               <TR>
@@ -679,14 +679,14 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
     <DIV class="row">
       <DIV class="col m4">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="#" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/papers/whitepaper.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="#" target="_blank" rel="noopener noreferrer">Whitepaper</A></DIV>
+          <DIV class="center"><A class="link-text" href="downloads/whitepaper/Galilel_Core_v1.5.pdf" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/papers/whitepaper.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="downloads/whitepaper/Galilel_Core_v1.5.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</A></DIV>
         </DIV>
       </DIV>
       <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/papers/branding.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Branding Guide</A></DIV>
+          <DIV class="center light"><A class="link-text" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</A></DIV>
         </DIV>
       </DIV>
       <DIV class="col m4">
@@ -940,9 +940,10 @@ foreach (FileNamesDirectory($directroy) as $filename)
                     <TR><TD class="right-align light">2.</TD><TD class="left-align light">Refactor Galilel codebase to latest PIVX 3.1.1</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">3.</TD><TD class="left-align light">Enable Decentralized Autonomous Organization (DAO) for blockchain voting</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">4.</TD><TD class="left-align light">Release Galilel Coin whitepaper</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">5.</TD><TD class="left-align light">Release Branding Guide</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">5.</TD><TD class="left-align light">Release Brand Guide</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">6.</TD><TD class="left-align light">Release Galilel v3.0.0 with Zerocoin v1 activation at block 250000</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">7.</TD><TD class="left-align light">Create BitcoinTalk Announcement</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">8.</TD><TD class="left-align light">Release Galilel v3.1.0 with Zerocoin v2 with private Proof-of-Stake (zPoS) at block 245000</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
@@ -955,9 +956,8 @@ foreach (FileNamesDirectory($directroy) as $filename)
               <DIV class="collapsible-body">
                 <TABLE class="highlight">
                   <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Release Galilel v3.1.0 with Zerocoin v2 with private Proof-of-Stake (zPoS) at block 340000</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Release Galilel v4.0.0 with Instant On Masternode (gIOMN) at block 380000</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">3.</TD><TD class="left-align light">Start Android wallet development</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Release Galilel v4.0.0 with Instant On Masternode (gIOMN) at block 380000</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">2.</TD><TD class="left-align light">Start Android wallet development</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
