@@ -409,27 +409,27 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
               </TR>
               <TR>
                 <TD class="left-align light">Last PoW Block</TD>
-                <TD class="left-align light">1.500</TD>
+                <TD class="left-align light">1,500</TD>
               </TR>
               <TR>
                 <TD class="left-align light">Masternode Collateral</TD>
-                <TD class="left-align light">15.000</TD>
+                <TD class="left-align light">15,000</TD>
               </TR>
               <TR>
                 <TD class="left-align light">Max Coin Supply (January 2020)</TD>
-                <TD class="left-align light">19.035.999</TD>
+                <TD class="left-align light">19,035,999</TD>
               </TR>
               <TR>
                 <TD class="left-align light">Max Coin Supply (January 2030)</TD>
-                <TD class="left-align light">45.315.999</TD>
+                <TD class="left-align light">45,315,999</TD>
               </TR>
               <TR>
                 <TD class="left-align light">Max Coin Supply (January 2040)</TD>
-                <TD class="left-align light">71.595.999</TD>
+                <TD class="left-align light">71,595,999</TD>
               </TR>
               <TR>
                 <TD class="left-align light">Max Coin Supply (January 2050)</TD>
-                <TD class="left-align light">97.875.999</TD>
+                <TD class="left-align light">97,875,999</TD>
               </TR>
               <TR>
                 <TD class="left-align light">Dynamic Coin Supply</TD>
@@ -440,7 +440,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
                 <TD class="left-align light"><A class="link-text" href="https://explorer.galilel.cloud/address/UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX" target="_blank" rel="noopener noreferrer">UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX</A></TD>
               </TR>
               <TR>
-                <TD class="left-align light">Dev Budget (from block 250001)</TD>
+                <TD class="left-align light">Dev Budget (from block 250,001)</TD>
                 <TD class="left-align light">10% in monthly superblock</TD>
               </TR>
             </TBODY>
@@ -457,19 +457,27 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
             <TBODY>
               <TR>
                 <TD class="left-align light">Zerocoin v1 activation</TD>
-                <TD class="left-align light">Block 250000</TD>
+                <TD class="left-align light">Block 245,000</TD>
               </TR>
               <TR>
                 <TD class="left-align light">Zerocoin v2 activation</TD>
-                <TD class="left-align light">Block 245000</TD>
+                <TD class="left-align light">Block 245,000</TD>
               </TR>
               <TR>
                 <TD class="left-align light">zGALI Automint</TD>
                 <TD class="left-align light">10%</TD>
               </TR>
               <TR>
-                <TD class="left-align light">zGALI Rewards (from block 245001)</TD>
-                <TD class="left-align light">MN 50%, zPoS 50%</TD>
+                <TD class="left-align light">zGALI Rewards (from block 245,001)</TD>
+                <TD class="left-align light">1 zGALI</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">zGALI Rewards (from block 340,001)</TD>
+                <TD class="left-align light">MN 40%, zPoS 60%</TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">zGALI Rewards (from block 430,001)</TD>
+                <TD class="left-align light">MN 40%, zPoS 60%</TD>
               </TR>
               <TR>
                 <TD class="left-align light">zGALI Denominators</TD>
@@ -514,10 +522,10 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
             <TBODY>
               <TR>
                 <TD class="left-align light">Block 1</TD>
-                <TD class="left-align light">220.000 GALI (premine)</TD>
+                <TD class="left-align light">220,000 GALI (premine)</TD>
                 <TD class="right-align light">60%</TD>
                 <TD class="right-align light">40%</TD>
-                <TD class="right-align light">220.000</TD>
+                <TD class="right-align light">220,000</TD>
                 <TD class="right-align light">0 days</TD>
                 <TD class="right-align light">2018-05-25</TD>
               </TR>
@@ -526,7 +534,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
                 <TD class="left-align light">1 GALI</TD>
                 <TD class="right-align light">60%</TD>
                 <TD class="right-align light">40%</TD>
-                <TD class="right-align light">221.499</TD>
+                <TD class="right-align light">221,499</TD>
                 <TD class="right-align light">1 day</TD>
                 <TD class="right-align light">2018-05-26</TD>
               </TR>
@@ -554,7 +562,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
                 <TD class="right-align light">100 GALI</TD>
                 <TD class="right-align light">60%</TD>
                 <TD class="right-align light">40%</TD>
-                <TD class="right-align light">1.271.399</TD>
+                <TD class="right-align light">1,271,399</TD>
                 <TD class="right-align light">7 days</TD>
                 <TD class="right-align light">2018-06-02</TD>
               </TR>
@@ -564,7 +572,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
                 <TD class="right-align light">90 GALI</TD>
                 <TD class="right-align light">60%</TD>
                 <TD class="right-align light">40%</TD>
-                <TD class="right-align light">2.171.309</TD>
+                <TD class="right-align light">2,171,309</TD>
                 <TD class="right-align light">7 days</TD>
                 <TD class="right-align light">2018-06-09</TD>
               </TR>
@@ -574,7 +582,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
                 <TD class="right-align light">80 GALI</TD>
                 <TD class="right-align light">60%</TD>
                 <TD class="right-align light">40%</TD>
-                <TD class="right-align light">3.771.229</TD>
+                <TD class="right-align light">3,771,229</TD>
                 <TD class="right-align light">14 days</TD>
                 <TD class="right-align light">2018-06-23</TD>
               </TR>
@@ -584,7 +592,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
                 <TD class="right-align light">70 GALI</TD>
                 <TD class="right-align light">60%</TD>
                 <TD class="right-align light">40%</TD>
-                <TD class="right-align light">7.831.159</TD>
+                <TD class="right-align light">7,831,159</TD>
                 <TD class="right-align light">40 days</TD>
                 <TD class="right-align light">2018-08-02</TD>
               </TR>
@@ -594,7 +602,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
                 <TD class="right-align light">60 GALI</TD>
                 <TD class="right-align light">60%</TD>
                 <TD class="right-align light">40%</TD>
-                <TD class="right-align light">11.431.099</TD>
+                <TD class="right-align light">11,431,099</TD>
                 <TD class="right-align light">42 days</TD>
                 <TD class="right-align light">2018-09-13</TD>
               </TR>
@@ -604,7 +612,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
                 <TD class="right-align light">50 GALI</TD>
                 <TD class="right-align light">60%</TD>
                 <TD class="right-align light">40%</TD>
-                <TD class="right-align light">13.681.049</TD>
+                <TD class="right-align light">13,681,049</TD>
                 <TD class="right-align light">31 days</TD>
                 <TD class="right-align light">2018-10-14</TD>
               </TR>
@@ -614,17 +622,17 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
                 <TD class="right-align light">25 GALI</TD>
                 <TD class="right-align light">70%</TD>
                 <TD class="right-align light">30%</TD>
-                <TD class="right-align light">14.806.024</TD>
+                <TD class="right-align light">14,806,024</TD>
                 <TD class="right-align light">31 days</TD>
                 <TD class="right-align light">2018-11-14</TD>
               </TR>
               <TR>
                 <TD class="left-align light">Stage 8</TD>
                 <TD class="right-align light">250001-340000</TD>
-                <TD class="right-align light">15 GALI</TD>
+                <TD class="right-align light">13.5 GALI</TD>
                 <TD class="right-align light">70%</TD>
                 <TD class="right-align light">30%</TD>
-                <TD class="right-align light">16.156.009</TD>
+                <TD class="right-align light">16,156,009</TD>
                 <TD class="right-align light">62 days</TD>
                 <TD class="right-align light">2019-01-15</TD>
               </TR>
@@ -634,7 +642,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
                 <TD class="right-align light">10 GALI</TD>
                 <TD class="right-align light">70%</TD>
                 <TD class="right-align light">30%</TD>
-                <TD class="right-align light">17.055.999</TD>
+                <TD class="right-align light">17,055,999</TD>
                 <TD class="right-align light">62 days</TD>
                 <TD class="right-align light">2019-03-18</TD>
               </TR>
@@ -714,23 +722,23 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
             </THEAD>
             <TBODY>
               <TR>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/galilel-v3.0.0-win32.zip">galilel-v3.0.0-win32.zip</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/galilel-v3.0.0-lin32.tar.gz">galilel-v3.0.0-lin32.tar.gz</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/galilel-v3.0.0-osx64.tar.gz">galilel-v3.0.0-osx64.tar.gz</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-win32.zip">galilel-v3.1.0-win32.zip</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-lin32.tar.gz">galilel-v3.1.0-lin32.tar.gz</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-osx64.tar.gz">galilel-v3.1.0-osx64.tar.gz</A></TD>
               </TR>
               <TR>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/galilel-v3.0.0-win64.zip">galilel-v3.0.0-win64.zip</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/galilel-v3.0.0-lin64.tar.gz">galilel-v3.0.0-lin64.tar.gz</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/galilel-v3.0.0-osx64-unsigned.dmg">galilel-v3.0.0-osx64-unsigned.dmg</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-win64.zip">galilel-v3.1.0-win64.zip</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-lin64.tar.gz">galilel-v3.1.0-lin64.tar.gz</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-osx64-unsigned.dmg">galilel-v3.1.0-osx64-unsigned.dmg</A></TD>
               </TR>
               <TR>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/galilel-v3.0.0-win32-setup-unsigned.exe">galilel-v3.0.0-win32-setup-unsigned.exe</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/galilel-v3.0.0-armhf.tar.gz">galilel-v3.0.0-armhf.tar.gz</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-win32-setup-unsigned.exe">galilel-v3.1.0-win32-setup-unsigned.exe</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-armhf.tar.gz">galilel-v3.1.0-armhf.tar.gz</A></TD>
                 <TD></TD>
               </TR>
               <TR>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/galilel-v3.0.0-win64-setup-unsigned.exe">galilel-v3.0.0-win64-setup-unsigned.exe</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/galilel-v3.0.0-aarch64.tar.gz">galilel-v3.0.0-aarch64.tar.gz</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-win64-setup-unsigned.exe">galilel-v3.1.0-win64-setup-unsigned.exe</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0-aarch64.tar.gz">galilel-v3.1.0-aarch64.tar.gz</A></TD>
                 <TD></TD>
               </TR>
             </TBODY>
@@ -753,9 +761,9 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
             </THEAD>
             <TBODY>
               <TR>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/galilel-v3.0.0.tar.gz">galilel-v3.0.0.tar.gz</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/SHA256SUMS">SHA256SUMS</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.0.0/SHA256SUMS.asc">SHA256SUMS.asc</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/galilel-v3.1.0.tar.gz">galilel-v3.1.0.tar.gz</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/SHA256SUMS">SHA256SUMS</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.0/SHA256SUMS.asc">SHA256SUMS.asc</A></TD>
               </TR>
             </TBODY>
           </TABLE>
@@ -941,9 +949,9 @@ foreach (FileNamesDirectory($directroy) as $filename)
                     <TR><TD class="right-align light">3.</TD><TD class="left-align light">Enable Decentralized Autonomous Organization (DAO) for blockchain voting</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">4.</TD><TD class="left-align light">Release Galilel Coin whitepaper</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">5.</TD><TD class="left-align light">Release Brand Guide</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">6.</TD><TD class="left-align light">Release Galilel v3.0.0 with Zerocoin v1 activation at block 250000</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">7.</TD><TD class="left-align light">Create BitcoinTalk Announcement</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">8.</TD><TD class="left-align light">Release Galilel v3.1.0 with Zerocoin v2 with private Proof-of-Stake (zPoS) at block 245000</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">6.</TD><TD class="left-align light">Release Galilel v3.0.0 with Zerocoin v1 activation at block 245,000</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">7.</TD><TD class="left-align light">Release Galilel v3.1.0 with Zerocoin v2 with private Proof-of-Stake (zPoS) at block 245,000</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">8.</TD><TD class="left-align light">Create BitcoinTalk Announcement</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
@@ -956,7 +964,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
               <DIV class="collapsible-body">
                 <TABLE class="highlight">
                   <TBODY>
-                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Release Galilel v4.0.0 with Instant On Masternode (gIOMN) at block 380000</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">1.</TD><TD class="left-align light">Release Galilel v4.0.0 with Instant On Masternode (gIOMN) at block 380,000</TD><TD class="right-align light"><SPAN class="new badge orange lighten-2" data-badge-caption=""><B>IN PROGRESS</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">2.</TD><TD class="left-align light">Start Android wallet development</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
