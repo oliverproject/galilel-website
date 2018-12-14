@@ -96,6 +96,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
     <LI><A class="grey-text text-darken-4" href="https://coinpaprika.com/coin/gali-galilel/" target="_blank" rel="noopener noreferrer">coinpaprika.com</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://gali.chopcoin.io/" target="_blank" rel="noopener noreferrer">chopcoin.io</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://coinlib.io/coin/GALI/Galilel" target="_blank" rel="noopener noreferrer">coinlib.io</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://dextro.io/" target="_blank" rel="noopener noreferrer">dextro.io</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">kydcoin.io</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://masternodes.online/currencies/GALI/" target="_blank" rel="noopener noreferrer">masternodes.online</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://mnode.club/g/info/GALI" target="_blank" rel="noopener noreferrer">mnode.club</A></LI>
@@ -1173,10 +1174,16 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col m12">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://coinpaprika.com/coin/gali-galilel/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/coinpaprika.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://coinpaprika.com/coin/gali-galilel/" target="_blank" rel="noopener noreferrer">coinpaprika.com</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://dextro.io/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/dextro.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://dextro.io/" target="_blank" rel="noopener noreferrer">dextro.io</A></DIV>
         </DIV>
       </DIV>
     </DIV>
