@@ -952,7 +952,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
                     <TR><TD class="right-align light">5.</TD><TD class="left-align light">Release Brand Guide</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">6.</TD><TD class="left-align light">Release Galilel v3.0.0 with Zerocoin v1 activation at block 245,000</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                     <TR><TD class="right-align light">7.</TD><TD class="left-align light">Release Galilel v3.1.0 with Zerocoin v2 with private Proof-of-Stake (zPoS) at block 245,000</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
-                    <TR><TD class="right-align light">8.</TD><TD class="left-align light">Create BitcoinTalk Announcement</TD><TD class="right-align light"><SPAN class="new badge red lighten-2" data-badge-caption=""><B>OPEN</B></SPAN></TD></TR>
+                    <TR><TD class="right-align light">8.</TD><TD class="left-align light">Create BitcoinTalk Announcement</TD><TD class="right-align light"><SPAN class="new badge green lighten-2" data-badge-caption=""><B>RESOLVED</B></SPAN></TD></TR>
                   </TBODY>
                 </TABLE>
               </DIV>
