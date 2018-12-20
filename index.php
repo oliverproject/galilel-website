@@ -88,14 +88,17 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
     <LI><A class="grey-text text-darken-4" href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">Graviex</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">Aiodex</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://cratex.io/index.php?pair=GALI/BTC" target="_blank" rel="noopener noreferrer">Cratex</A></LI>
   </UL>
   <UL id="partner" class="dropdown-content" style="min-width: 200px">
     <LI><A class="grey-text text-darken-4" href="https://beam.works/user/galilel/" target="_blank" rel="noopener noreferrer">beam.works</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://gali.chopcoin.io/" target="_blank" rel="noopener noreferrer">chopcoin.io</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://coincodex.com/crypto/galilel/" target="_blank" rel="noopener noreferrer">coincodex.com</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://coingecko.com/en/coins/galilel" target="_blank" rel="noopener noreferrer">coingecko.com</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://coinpaprika.com/coin/gali-galilel/" target="_blank" rel="noopener noreferrer">coinpaprika.com</A></LI>
-    <LI><A class="grey-text text-darken-4" href="https://gali.chopcoin.io/" target="_blank" rel="noopener noreferrer">chopcoin.io</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://coinlib.io/coin/GALI/Galilel" target="_blank" rel="noopener noreferrer">coinlib.io</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://coinlore.com/coin/galilel" target="_blank" rel="noopener noreferrer">coinlore.com</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://coinranking.com/coin/galilel-gali" target="_blank" rel="noopener noreferrer">coinranking.com</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://dextro.io/" target="_blank" rel="noopener noreferrer">dextro.io</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">kydcoin.io</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://masternodes.online/currencies/GALI/" target="_blank" rel="noopener noreferrer">masternodes.online</A></LI>
@@ -158,6 +161,7 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
               <LI><A class="grey-text text-darken-4" href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">Graviex</A></LI>
               <LI><A class="grey-text text-darken-4" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</A></LI>
               <LI><A class="grey-text text-darken-4" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">Aiodex</A></LI>
+              <LI><A class="grey-text text-darken-4" href="https://cratex.io/index.php?pair=GALI/BTC" target="_blank" rel="noopener noreferrer">Cratex</A></LI>
             </UL>
           </DIV>
         </LI>
@@ -1071,6 +1075,14 @@ foreach (FileNamesDirectory($directroy) as $filename)
         </DIV>
       </DIV>
     </DIV>
+    <DIV class="row">
+      <DIV class="col m12">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://cratex.io/index.php?pair=GALI/BTC" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/cratex.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://cratex.io/index.php?pair=GALI/BTC" target="_blank" rel="noopener noreferrer">cratex.io</A></DIV>
+        </DIV>
+      </DIV>
+    </DIV>
   </DIV>
 
   <!-- Marketing Header -->
@@ -1184,6 +1196,20 @@ foreach (FileNamesDirectory($directroy) as $filename)
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://dextro.io/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/dextro.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://dextro.io/" target="_blank" rel="noopener noreferrer">dextro.io</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://coinranking.com/coin/galilel-gali" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/coinranking.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://coinranking.com/coin/galilel-gali" target="_blank" rel="noopener noreferrer">coinranking.com</A></DIV>
+        </DIV>
+      </DIV>
+    </DIV>
+    <DIV class="row">
+      <DIV class="col m12">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://coinlore.com/coin/galilel" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/coinlore.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://coinlore.com/coin/galilel" target="_blank" rel="noopener noreferrer">coinlore.com</A></DIV>
         </DIV>
       </DIV>
     </DIV>
