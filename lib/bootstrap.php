@@ -69,7 +69,7 @@ function FileNamesDirectory($directory)
  * @param string $filename
  * @return array with key -> value
  */
-function GalilelStatistics($filename)
+function GalilelData($filename)
 {
     $result = array();
 

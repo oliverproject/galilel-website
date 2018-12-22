@@ -3,9 +3,12 @@
 /* include required files. */
 require('lib/bootstrap.php');
 
-/* get dynamic values. */
-$GalilelStatistics = GalilelStatistics(".statistics");
-$GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
+/* get dynamic values (mainnet). */
+$GalilelStatistics = GalilelData(".statistics");
+$GalilelDonations = GalilelData(".donations");
+
+/* get dynamic values (testnet). */
+$GalilelTestnetStatistics = GalilelData(".statistics-testnet");
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <HTML lang="en">
@@ -443,6 +446,10 @@ $GalilelTestnetStatistics = GalilelStatistics(".statistics-testnet");
               <TR>
                 <TD class="left-align light">Community Donation Address</TD>
                 <TD class="left-align light"><A class="link-text" href="https://explorer.galilel.cloud/address/UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX" target="_blank" rel="noopener noreferrer">UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX</A></TD>
+              </TR>
+              <TR>
+                <TD class="left-align light">Community Donation Balance</TD>
+                <TD class="left-align light"><A class="link-text" href="https://explorer.galilel.cloud/address/UUr5nDmykhun1HWM7mJAqLVeLzoGtx19dX" target="_blank" rel="noopener noreferrer"><SPAN class="new badge brown" data-badge-caption=""><B><?php echo $GalilelDonations['DONATION_BALANCE'] ?></B></SPAN></A></TD>
               </TR>
               <TR>
                 <TD class="left-align light">Dev Budget (from block 250,001)</TD>
