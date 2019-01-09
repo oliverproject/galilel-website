@@ -19,7 +19,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 400px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -54,6 +54,10 @@ p {
   font-size: inherit;
 }
 
+.page-footer {
+  color: #444 !important;
+}
+
 .link-text {
   color: #bba38a !important;
 }
@@ -62,4 +66,8 @@ p {
   font-size: 4rem;
   line-height: 100%;
   margin: 1.0933333333rem 0 0.656rem 0;
+}
+
+.tagline {
+  font-size: 1.3rem;
 }

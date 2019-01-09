@@ -97,14 +97,15 @@ $GalilelTestnetStatistics = GalilelData(".statistics-testnet");
   </UL>
   <UL id="paper" class="dropdown-content" style="min-width: 200px">
     <LI><A class="grey-text text-darken-4" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</A></LI>
-    <LI><A class="grey-text text-darken-4" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</A></LI>
+    <LI><A class="grey-text text-darken-4" href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</A></LI>
     <LI><A class="grey-text text-darken-4" href="downloads/whitepaper/Galilel_Core_v1.5.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</A></LI>
   </UL>
   <UL id="community" class="dropdown-content" style="min-width: 100px">
     <LI><A class="grey-text text-darken-4" href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer">Discord</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://twitter.com/GalilelEN" target="_blank" rel="noopener noreferrer">Twitter</A></LI>
-    <LI><A class="grey-text text-darken-4" href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer">Facebook</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://bitcointalk.galilel.cloud" target="_blank" rel="noopener noreferrer">BitcoinTalk</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer">Facebook</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://youtube.com/channel/UC26rKBciicXp33dK8NkALmg" target="_blank" rel="noopener noreferrer">YouTube</A></LI>
   </UL>
   <UL id="explorer" class="dropdown-content" style="min-width: 170px">
     <LI><A class="grey-text text-darken-4" href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Mainnet</A></LI>
@@ -163,8 +164,8 @@ $GalilelTestnetStatistics = GalilelData(".statistics-testnet");
           <DIV class="collapsible-body">
             <UL>
               <LI><A class="grey-text text-darken-4" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</A></LI>
-              <LI><A class="grey-text text-darken-4" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</A></LI>
-              <LI><A class="grey-text text-darken-4" href="downloads/whitepaper/Galilel_Core_v1.5.pdf" target="_blank" rel="noopener noreferrer">Whitepaper (EN)</A></LI>
+              <LI><A class="grey-text text-darken-4" href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</A></LI>
+              <LI><A class="grey-text text-darken-4" href="downloads/whitepaper/Galilel_Core_v1.5.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</A></LI>
             </UL>
           </DIV>
         </LI>
@@ -173,8 +174,9 @@ $GalilelTestnetStatistics = GalilelData(".statistics-testnet");
             <UL>
               <LI><A class="grey-text text-darken-4" href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer">Discord</A></LI>
               <LI><A class="grey-text text-darken-4" href="https://twitter.com/GalilelEN" target="_blank" rel="noopener noreferrer">Twitter</A></LI>
-              <LI><A class="grey-text text-darken-4" href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer">Facebook</A></LI>
               <LI><A class="grey-text text-darken-4" href="https://bitcointalk.galilel.cloud" target="_blank" rel="noopener noreferrer">BitcoinTalk</A></LI>
+              <LI><A class="grey-text text-darken-4" href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer">Facebook</A></LI>
+              <LI><A class="grey-text text-darken-4" href="https://youtube.com/channel/UC26rKBciicXp33dK8NkALmg" target="_blank" rel="noopener noreferrer">YouTube</A></LI>
             </UL>
           </DIV>
         </LI>
@@ -201,11 +203,11 @@ $GalilelTestnetStatistics = GalilelData(".statistics-testnet");
         <BR>
         <H1 class="header center teal-text text-lighten-2">Galilel Coin</H1>
         <DIV class="row center">
-          <H6 class="header col m12 light">The first crypto currency with Hybrid Consensus Algorithm and Masternode voting for period based reward burning</H6>
+          <P class="header col m12 light tagline">The first general purpose crypto currency with Hybrid Consensus Algorithm, Dynamic Zerocoin Proof-of-Stake, Proof-of-Transaction and Masternode voting for period based reward burning</P>
         </DIV>
         <DIV class="row center">
           <DIV class="col m12 center">
-            <A href="#wallets" class="btn-large waves-effect waves-light teal lighten-1">Get Started</A>
+            <A href="#desktop-wallets" class="btn-large waves-effect waves-light teal lighten-1">Get Started</A>
           </DIV>
         </DIV>
         <BR>
@@ -875,7 +877,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
             <A class="link-text" href="https://www.facebook.com/mbroemme" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/facebook.svg"></A>
             <A class="link-text" href="https://github.com/mbroemme" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/github.svg"></A>
             <A class="link-text" href="https://zuppy.pm/" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/home.svg"></A>
-            <A class="link-text" href="mailto:mbroemme@libmpq.org"><IMG width="32" height="32" src="images/team/email.svg"></A>
+            <A class="link-text" href="mailto:maik.broemme@galilel.cloud"><IMG width="32" height="32" src="images/team/email.svg"></A>
           </DIV>
           <DIV class="center light"><B>Maik Broemme</B></DIV>
           <DIV class="center light"><B>Babyface#7772</B></DIV>
@@ -886,14 +888,72 @@ foreach (FileNamesDirectory($directroy) as $filename)
         <DIV class="icon-block">
           <DIV class="center"><IMG width="300" height="300" src="images/team/miles.png"></A></DIV>
           <DIV class="center">
-            <A class="link-text" href="https://twitter.com/bossteck" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/twitter.svg"></A>
             <A class="link-text" href="https://www.facebook.com/BBR.MILES.CLAY" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/facebook.svg"></A>
+            <A class="link-text" href="https://twitter.com/bossteck" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/twitter.svg"></A>
             <A class="link-text" href="https://github.com/Bossteck" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/github.svg"></A>
-            <A class="link-text" href="mailto:botx@gmx.com"><IMG width="32" height="32" src="images/team/email.svg"></A>
+            <A class="link-text" href="mailto:miles.clay@galilel.cloud"><IMG width="32" height="32" src="images/team/email.svg"></A>
           </DIV>
           <DIV class="center light"><B>Miles Clay</B></DIV>
           <DIV class="center light"><B>Bossteck#6262</B></DIV>
           <DIV class="center light">Co-Founder &amp; Designer</DIV>
+        </DIV>
+      </DIV>
+    </DIV>
+    <DIV class="row">
+      <DIV class="col m6">
+        <DIV class="icon-block">
+          <DIV class="center"><IMG width="300" height="300" src="images/team/manuel.png"></A></DIV>
+          <DIV class="center">
+            <A class="link-text" href="https://www.facebook.com/manuel.gogoll" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/facebook.svg"></A>
+            <A class="link-text" href="https://twitter.com/cryptogerman1" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/twitter.svg"></A>
+            <A class="link-text" href="https://github.com/cryptogerman" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/github.svg"></A>
+            <A class="link-text" href="mailto:manuel.gogoll@galilel.cloud"><IMG width="32" height="32" src="images/team/email.svg"></A>
+          </DIV>
+          <DIV class="center light"><B>Manuel Gogoll</B></DIV>
+          <DIV class="center light"><B>Cryptogerman#8070</B></DIV>
+          <DIV class="center light">Marketing &amp; Campaigns</DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m6">
+        <DIV class="icon-block">
+          <DIV class="center"><IMG width="300" height="300" src="images/team/pascal.png"></A></DIV>
+          <DIV class="center">
+            <A class="link-text" href="https://www.linkedin.com/in/pascal-rebholz-705646173/" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/linkedin.svg"></A>
+            <A class="link-text" href="https://www.xing.com/profile/Pascal_Rebholz/cv" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/xing.svg"></A>
+            <A class="link-text" href="https://www.facebook.com/pascal.rebholz" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/facebook.svg"></A>
+            <A class="link-text" href="mailto:pascal.rebholz@galilel.cloud"><IMG width="32" height="32" src="images/team/email.svg"></A>
+          </DIV>
+          <DIV class="center light"><B>Pascal Rebholz</B></DIV>
+          <DIV class="center light"><B>crypto5.0#6432</B></DIV>
+          <DIV class="center light">Marketing &amp; Campaigns</DIV>
+        </DIV>
+      </DIV>
+    </DIV>
+    <DIV class="row">
+      <DIV class="col m6">
+        <DIV class="icon-block">
+          <DIV class="center"><IMG width="300" height="300" src="images/team/alex.png"></A></DIV>
+          <DIV class="center">
+            <A class="link-text" href="https://twitter.com/alexmesq" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/twitter.svg"></A>
+            <A class="link-text" href="mailto:alex.mesquita@galilel.cloud"><IMG width="32" height="32" src="images/team/email.svg"></A>
+          </DIV>
+          <DIV class="center light"><B>Alex Mesquita</B></DIV>
+          <DIV class="center light"><B>Alex Mesquita#9361</B></DIV>
+          <DIV class="center light">Partnerships &amp; Business Development</DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m6">
+        <DIV class="icon-block">
+          <DIV class="center"><IMG width="300" height="300" src="images/team/sascha.png"></A></DIV>
+          <DIV class="center">
+            <A class="link-text" href="https://www.linkedin.com/in/sv-technik-sascha-4281b0b9/" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/linkedin.svg"></A>
+            <A class="link-text" href="https://www.xing.com/profile/Sascha_Volland/cv" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/xing.svg"></A>
+            <A class="link-text" href="https://twitter.com/CoreyouNow/" target="_blank" rel="noopener noreferrer"><IMG width="32" height="32" src="images/team/twitter.svg"></A>
+            <A class="link-text" href="mailto:sasha.volland@galilel.cloud"><IMG width="32" height="32" src="images/team/email.svg"></A>
+          </DIV>
+          <DIV class="center light"><B>Sascha Volland</B></DIV>
+          <DIV class="center light"><B>coreyou#6882</B></DIV>
+          <DIV class="center light">Partnerships &amp; Business Development</DIV>
         </DIV>
       </DIV>
     </DIV>
@@ -1218,10 +1278,56 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col m12">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://coinlore.com/coin/galilel" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/coinlore.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://coinlore.com/coin/galilel" target="_blank" rel="noopener noreferrer">coinlore.com</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="http://gremlinsmarketing.com/galilel/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/gremlinsmarketing.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="http://gremlinsmarketing.com/galilel/" target="_blank" rel="noopener noreferrer">gremlinsmarketing.com</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://mntrend.com/en/currencies/GALI" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/mntrend.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://mntrend.com/en/currencies/GALI" target="_blank" rel="noopener noreferrer">mntrend.com</A></DIV>
+        </DIV>
+      </DIV>
+    </DIV>
+    <DIV class="row">
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://coinmarketdaddy.com/currencies/galilel/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/coinmarketdaddy.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://coinmarketdaddy.com/currencies/galilel/" target="_blank" rel="noopener noreferrer">coinmarketdaddy.com</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://ihostmn.com/hostmn.php?coin=GALI" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/ihostmn.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://ihostmn.com/hostmn.php?coin=GALI" target="_blank" rel="noopener noreferrer">ihostmn.com</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://www.mnroi.info/coin/GALI" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/mnroi.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://www.mnroi.info/coin/GALI" target="_blank" rel="noopener noreferrer">mnroi.com</A></DIV>
+        </DIV>
+      </DIV>
+    </DIV>
+    <DIV class="row">
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://www.poslist.org/" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/poslist.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://www.poslist.org/" target="_blank" rel="noopener noreferrer">poslist.org</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://nodeasy.com/currencies/Galilel" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/marketing/nodeasy.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://nodeasy.com/currencies/Galilel" target="_blank" rel="noopener noreferrer">nodeasy.com</A></DIV>
         </DIV>
       </DIV>
     </DIV>
@@ -1268,10 +1374,16 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col m12">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/community/facebook.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer">Facebook</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://youtube.com/channel/UC26rKBciicXp33dK8NkALmg" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/community/youtube.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://youtube.com/channel/UC26rKBciicXp33dK8NkALmg" target="_blank" rel="noopener noreferrer">YouTube</A></DIV>
         </DIV>
       </DIV>
     </DIV>
