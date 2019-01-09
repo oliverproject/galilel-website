@@ -190,7 +190,7 @@ $GalilelTestnetStatistics = GalilelData(".statistics-testnet");
           </DIV>
         </LI>
       </UL>
-      <A class="sidenav-trigger" data-target="nav-mobile"><I class="material-icons">menu</I></A>
+      <A class="sidenav-trigger" data-target="nav-mobile" href="#"><I class="material-icons">menu</I></A>
     </DIV>
   </NAV>
   <!-- Main Menu (End) -->
@@ -1393,7 +1393,7 @@ foreach (FileNamesDirectory($directroy) as $filename)
   <FOOTER class="page-footer teal">
     <DIV class="footer-copyright center">
       <DIV class="container brown-text">
-        Copyright &copy; 2018 - <A class="link-text" href="mailto:galilel@galilel.cloud?subject=More%20Information">Galilel Cloud</A>
+        Copyright &copy; 2018 - <A class="link-text" href="mailto:maik.broemme@galilel.cloud?subject=More%20Information">Galilel Cloud</A>
       </DIV>
     </DIV>
   </FOOTER>
