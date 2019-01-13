@@ -91,14 +91,15 @@ $GalilelTestnetStatistics = GalilelData(".statistics-testnet");
   </UL>
   <UL id="exchange" class="dropdown-content" style="min-width: 100px">
     <LI><A class="grey-text text-darken-4" href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">Graviex</A></LI>
-    <LI><A class="grey-text text-darken-4" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://crex24.com/exchange/GALI-BTC" target="_blank" rel="noopener noreferrer">Crex24</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">Aiodex</A></LI>
     <LI><A class="grey-text text-darken-4" href="https://cratex.io/index.php?pair=GALI/BTC" target="_blank" rel="noopener noreferrer">Cratex</A></LI>
+    <LI><A class="grey-text text-darken-4" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</A></LI>
   </UL>
   <UL id="paper" class="dropdown-content" style="min-width: 200px">
     <LI><A class="grey-text text-darken-4" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</A></LI>
     <LI><A class="grey-text text-darken-4" href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</A></LI>
-    <LI><A class="grey-text text-darken-4" href="downloads/whitepaper/Galilel_Core_v1.5.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</A></LI>
+    <LI><A class="grey-text text-darken-4" href="downloads/whitepaper/Galilel_Core_Whitepaper.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</A></LI>
   </UL>
   <UL id="community" class="dropdown-content" style="min-width: 100px">
     <LI><A class="grey-text text-darken-4" href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer">Discord</A></LI>
@@ -154,9 +155,10 @@ $GalilelTestnetStatistics = GalilelData(".statistics-testnet");
           <DIV class="collapsible-body">
             <UL>
               <LI><A class="grey-text text-darken-4" href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">Graviex</A></LI>
-              <LI><A class="grey-text text-darken-4" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</A></LI>
+              <LI><A class="grey-text text-darken-4" href="https://crex24.com/exchange/GALI-BTC" target="_blank" rel="noopener noreferrer">Crex24</A></LI>
               <LI><A class="grey-text text-darken-4" href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">Aiodex</A></LI>
               <LI><A class="grey-text text-darken-4" href="https://cratex.io/index.php?pair=GALI/BTC" target="_blank" rel="noopener noreferrer">Cratex</A></LI>
+              <LI><A class="grey-text text-darken-4" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</A></LI>
             </UL>
           </DIV>
         </LI>
@@ -165,7 +167,7 @@ $GalilelTestnetStatistics = GalilelData(".statistics-testnet");
             <UL>
               <LI><A class="grey-text text-darken-4" href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</A></LI>
               <LI><A class="grey-text text-darken-4" href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</A></LI>
-              <LI><A class="grey-text text-darken-4" href="downloads/whitepaper/Galilel_Core_v1.5.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</A></LI>
+              <LI><A class="grey-text text-darken-4" href="downloads/whitepaper/Galilel_Core_Whitepaper.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</A></LI>
             </UL>
           </DIV>
         </LI>
@@ -232,6 +234,24 @@ $GalilelTestnetStatistics = GalilelData(".statistics-testnet");
       <DIV class="row">
         <DIV class="col m12">
           <DIV class="icon-block" id="features">
+            <H2 class="center brown-text"><I class="material-icons">tune</I></H2>
+            <H5 class="center">Dynamic Zerocoin Proof-of-Stake (dzPoS)</H5>
+            <P class="light">In Galilel, we implement a dynamic version of Zerocoin staking. Zerocoin staking generates rewards in denominations, which represent an integer value. The smallest possible denomination is one. In the first version - warmup phase - we always use the smallest denomination value for testing purposes. The drawback of this approach is that Zerocoin staking is very CPU intensive and probability to generate an orphan block is higher as a public coin stake can solve the block later but distribute it to the chain earlier. In the second version - full phase - we auto determine the best denomination structure based on the block reward amount. This significantly reduces the probability to generate orphan blocks.</P>
+          </DIV>
+        </DIV>
+      </DIV>
+      <DIV class="row">
+        <DIV class="col m12">
+          <DIV class="icon-block" id="features">
+            <H2 class="center brown-text"><I class="material-icons">vpn_key</I></H2>
+            <H5 class="center">Proof-of-Transaction (ghPoT)</H5>
+            <P class="light">In traditional economics with money transfers between bank accounts, it is possible to specify a subject so that the recipient can assign the amount to a specific invoice. It is not possible in current wallet implementations. It allows specifying a comment or comment-to value, which is not part of the transaction and only stored locally. To assign an invoice to a particular payee it is necessary to create a wallet address with a one-to-one mapping between both stakeholders. In Galilel, we include an additional data field and attach it to the transaction, which is stored in the block. It is an encrypted field and decryption is only possible by the wallets, which negotiated the transaction. It solves the transaction assignment problem and allows payment-processing gateways to identify the payee of an invoice as it is with traditional fiat invoices.</P>
+          </DIV>
+        </DIV>
+      </DIV>
+      <DIV class="row">
+        <DIV class="col m12">
+          <DIV class="icon-block" id="features">
             <H2 class="center brown-text"><I class="material-icons">linear_scale</I></H2>
             <H5 class="center">Hybrid Proof-of-Stake (ghPoS)</H5>
             <P class="light">While Proof-of-Stake (PoS) is an environmentally friendly consensus algorithm, it creates rewards only as long as the wallet is running. One solution to this problem is to sign-up to any shared Proof-of-Stake pool and stake in the cloud. However, the disadvantage is that user need to trust the staking pool and transfer specific amount of coins to it. It can lead to situation that huge amount of coins are stored in a few wallets. This is a weak situation for a decentralized network approach and is a fundamental part to reach consensus. Private staking, so called Zerocoin Proof-of-Stake (zPoS), has the same problems and limitations. In Galilel, the solution to this problem will be a complete hybrid consensus algorithm named Galilel Hybrid Proof-of-Stake (ghPoS). We will extend online Proof-of-Stake with offline capability for both public and private staking.</P>
@@ -270,7 +290,7 @@ $GalilelTestnetStatistics = GalilelData(".statistics-testnet");
           <DIV class="icon-block">
             <H2 class="center brown-text"><I class="material-icons">lightbulb_outline</I></H2>
             <H5 class="center">Transparency and Trust</H5>
-            <P class="light">The trust relationship between investors and the project team is key to success. Therefore, we have created a GitHub organization named <A class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer">Galilel-Project</A>, which tracks all our development activities in public repositories including all our backend code and passed <A class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">Know Your Developer (KYD)</A> public verification. The project uses mostly <A class="link-text" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT</A>, <A class="link-text" href="https://www.gnu.org/licenses/gpl.txt" target="_blank" rel="noopener noreferrer">GPLv3</A> and <A class="link-text" href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt" target="_blank" rel="noopener noreferrer">CC-BY-NC 4.0</A> open source and open content licenses. The translation and localization process uses <A class="link-text" href="https://www.transifex.com/galilel-project/galilel-project-translations/dashboard/" target="_blank" rel="noopener noreferrer">Transifex</A> platform.</P>
+            <P class="light">The trust relationship between investors and the project team is the key to success. Therefore, we have created a GitHub organization named <A class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer">Galilel-Project</A>, which tracks all our development activities in public repositories including all our backend code and passed <A class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">Know Your Developer (KYD)</A> public verification. The project uses mostly <A class="link-text" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT</A>, <A class="link-text" href="https://www.gnu.org/licenses/gpl.txt" target="_blank" rel="noopener noreferrer">GPLv3</A> and <A class="link-text" href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt" target="_blank" rel="noopener noreferrer">CC-BY-NC 4.0</A> open source and open content licenses. The translation and localization process uses <A class="link-text" href="https://www.transifex.com/galilel-project/galilel-project-translations/dashboard/" target="_blank" rel="noopener noreferrer">Transifex</A> platform.</P>
           </DIV>
         </DIV>
       </DIV>
@@ -828,8 +848,8 @@ foreach (FileNamesDirectory($directroy) as $filename)
     <DIV class="row">
       <DIV class="col m4">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="downloads/whitepaper/Galilel_Core_v1.5.pdf" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/papers/whitepaper.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="downloads/whitepaper/Galilel_Core_v1.5.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</A></DIV>
+          <DIV class="center"><A class="link-text" href="downloads/whitepaper/Galilel_Core_Whitepaper.pdf" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/papers/whitepaper.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="downloads/whitepaper/Galilel_Core_Whitepaper.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</A></DIV>
         </DIV>
       </DIV>
       <DIV class="col m4">
@@ -1136,8 +1156,8 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
       <DIV class="col m4">
         <DIV class="icon-block">
-          <DIV class="center"><A class="link-text" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/raisex.svg"></A></DIV>
-          <DIV class="center light"><A class="link-text" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">raisex.io</A></DIV>
+          <DIV class="center"><A class="link-text" href="https://crex24.com/exchange/GALI-BTC" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/crex24.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://crex24.com/exchange/GALI-BTC" target="_blank" rel="noopener noreferrer">crex24.com</A></DIV>
         </DIV>
       </DIV>
       <DIV class="col m4">
@@ -1148,10 +1168,16 @@ foreach (FileNamesDirectory($directroy) as $filename)
       </DIV>
     </DIV>
     <DIV class="row">
-      <DIV class="col m12">
+      <DIV class="col m4">
         <DIV class="icon-block">
           <DIV class="center"><A class="link-text" href="https://cratex.io/index.php?pair=GALI/BTC" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/cratex.svg"></A></DIV>
           <DIV class="center light"><A class="link-text" href="https://cratex.io/index.php?pair=GALI/BTC" target="_blank" rel="noopener noreferrer">cratex.io</A></DIV>
+        </DIV>
+      </DIV>
+      <DIV class="col m4">
+        <DIV class="icon-block">
+          <DIV class="center"><A class="link-text" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer"><IMG width="96" height="96" src="images/exchange/raisex.svg"></A></DIV>
+          <DIV class="center light"><A class="link-text" href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">raisex.io</A></DIV>
         </DIV>
       </DIV>
     </DIV>
