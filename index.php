@@ -708,23 +708,23 @@ $GalilelTestnetStatistics = GalilelData(".statistics-testnet");
             </THEAD>
             <TBODY>
               <TR>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.1/galilel-v3.1.1-win32.zip">galilel-v3.1.1-win32.zip</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.1/galilel-v3.1.1-lin32.tar.gz">galilel-v3.1.1-lin32.tar.gz</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.1/galilel-v3.1.1-osx64.tar.gz">galilel-v3.1.1-osx64.tar.gz</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-win32.zip">galilel-v3.1.2-win32.zip</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-lin32.tar.gz">galilel-v3.1.2-lin32.tar.gz</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-osx64.tar.gz">galilel-v3.1.2-osx64.tar.gz</A></TD>
               </TR>
               <TR>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.1/galilel-v3.1.1-win64.zip">galilel-v3.1.1-win64.zip</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.1/galilel-v3.1.1-lin64.tar.gz">galilel-v3.1.1-lin64.tar.gz</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.1/galilel-v3.1.1-osx64-unsigned.dmg">galilel-v3.1.1-osx64-unsigned.dmg</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-win64.zip">galilel-v3.1.2-win64.zip</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-lin64.tar.gz">galilel-v3.1.2-lin64.tar.gz</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-osx64-unsigned.dmg">galilel-v3.1.2-osx64-unsigned.dmg</A></TD>
               </TR>
               <TR>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.1/galilel-v3.1.1-win32-setup-unsigned.exe">galilel-v3.1.1-win32-setup-unsigned.exe</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.1/galilel-v3.1.1-armhf.tar.gz">galilel-v3.1.1-armhf.tar.gz</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-win32-setup-unsigned.exe">galilel-v3.1.2-win32-setup-unsigned.exe</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-armhf.tar.gz">galilel-v3.1.2-armhf.tar.gz</A></TD>
                 <TD></TD>
               </TR>
               <TR>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.1/galilel-v3.1.1-win64-setup-unsigned.exe">galilel-v3.1.1-win64-setup-unsigned.exe</A></TD>
-                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.1/galilel-v3.1.1-aarch64.tar.gz">galilel-v3.1.1-aarch64.tar.gz</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-win64-setup-unsigned.exe">galilel-v3.1.2-win64-setup-unsigned.exe</A></TD>
+                <TD class="left-align light"><A class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-aarch64.tar.gz">galilel-v3.1.2-aarch64.tar.gz</A></TD>
                 <TD></TD>
               </TR>
             </TBODY>
