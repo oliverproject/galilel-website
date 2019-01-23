@@ -82,7 +82,7 @@
     <liNK rel="shortcut icon" href="images/favicon.ico">
 
     <!-- Website title -->
-    <title>Galilel Coin - Hybrid Offline Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes</title>
+    <title>Galilel Project - Hybrid Offline Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes</title>
 </head>
 
 <body>
