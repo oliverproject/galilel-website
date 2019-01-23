@@ -327,7 +327,6 @@ a {
 
 #information tr:hover {
   background-color: rgba(187, 163, 138, 0.2);
-  cursor: pointer;
 }
 
 #information tr th, #information tr td {
@@ -450,7 +449,6 @@ a {
 
 #wallets tr:hover {
   background-color: rgba(187, 163, 138, 0.2);
-  cursor: pointer;
 }
 
 #wallets table thead tr:hover {
