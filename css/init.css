@@ -329,6 +329,10 @@ a {
   background-color: rgba(187, 163, 138, 0.2);
 }
 
+#information tr .highlight{
+  background-color: rgba(187, 163, 138, 0.2);
+}
+
 #information tr th, #information tr td {
   padding: 10px;
   text-align: center!important;

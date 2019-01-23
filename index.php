@@ -635,7 +635,7 @@
                                             <td>62 days</td>
                                             <td>2019-01-15</td>
                                         </tr>
-                                        <tr>
+                                        <tr class="highlight">
                                             <td>Stage 9</td>
                                             <td>340001-430000</td>
                                             <td>10 GALI</td>
