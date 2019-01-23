@@ -221,7 +221,7 @@
                 <div class="row">
                     <div class="col m12">
                         <img id="header-logo" src="images/logo.svg">
-                        <h1 class="header">GALILEL COIN (GALI)</h1>
+                        <h1 class="header">GALILEL PROJECT</h1>
                         <h3>The first general purpose crypto currency with Hybrid Consensus Algorithm, Dynamic Zerocoin Proof-of-Stake, Proof-of-Transaction and Masternode voting for period based reward burning</h3>
                         <a href="#wallets" class="btn-large waves-effect">Get Started</a>
                     </div>
