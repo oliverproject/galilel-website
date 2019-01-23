@@ -635,7 +635,8 @@
                                             <td>62 days</td>
                                             <td>2019-01-15</td>
                                         </tr>
-                                        <tr class="highlight">
+                                        <tr 
+                                            <?php if($GalilelStatistics['HEIGHT'] > 340001 && $GalilelStatistics['HEIGHT'] <= 430000){ echo 'class="highlight"'; }; ?>>
                                             <td>Stage 9</td>
                                             <td>340001-430000</td>
                                             <td>10 GALI</td>
@@ -645,7 +646,7 @@
                                             <td>62 days</td>
                                             <td>2019-03-18</td>
                                         </tr>
-                                        <tr>
+                                        <tr <?php if($GalilelStatistics['HEIGHT'] > 430000){ echo 'class="highlight"'; }; ?>>
                                             <td>Stage 10</td>
                                             <td>430001-ongoing</td>
                                             <td>5 GALI</td>
