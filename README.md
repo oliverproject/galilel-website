@@ -22,3 +22,20 @@ Materialize is compatible with:
 
 Materialize is released under the MIT license. Galilel website is released
 under CC-BY-NC 4.0 license.
+
+# Plugins
+
+A jQuery plugin that adds a bindable 'inview' event for detecting when an element is scrolled into view.
+Name: jquery.inview
+Link: https://github.com/protonet/jquery.inview
+License: Do What The F*ck You Want To Public License
+
+Responsive Tabs is a jQuery plugin that provides responsive tab functionality. The tabs transform to an accordion when it reaches a CSS breakpoint. You can use this plugin as a solution for displaying tabs elegantly on desktop, tablet and mobile.
+Name: Responsive-Tabs
+Link: https://github.com/jellekralt/Responsive-Tabs
+License: MIT License
+
+The last carousel you'll ever need
+Name: slick
+Link: https://github.com/kenwheeler/slick
+License: MIT License
