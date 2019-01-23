@@ -283,7 +283,7 @@
                         <ul>
                             <li><a href="#tab-1" class="btn-small waves-effect btn-active">Galilel Statistics</a></li>
                             <li><a href="#tab-2" class="btn-small waves-effect">Coin Information</a></li>
-                            <li><a href="#tab-3" class="btn-small waves-effect">Zerocoin Information</a></li>
+                            <li><a href="#tab-3" class="btn-small waves-effect">Zerocoin Information</a></li><br>
                             <li><a href="#tab-4" class="btn-small waves-effect">Proof-of-Work Rewards</a></li>
                             <li><a href="#tab-5" class="btn-small waves-effect">Proof-of-Stake Rewards</a></li>
                         </ul>
@@ -1112,7 +1112,7 @@
                             <li class="active">
                                 <div class="collapsible-header">
                                     Q1/2019
-                                    <span class="badge">3</span>
+                                    <span class="badge">2</span>
                                 </div>
                                 <div class="collapsible-body">
                                     <table class="highlight">

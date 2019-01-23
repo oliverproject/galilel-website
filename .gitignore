@@ -1,2 +1,10 @@
 # Mac specific
 .DS_Store
+
+# Server files
+.donations
+.statistics
+.statistics-testnet
+
+# Ignor folder downloads
+downloads/
