@@ -135,7 +135,7 @@
                 </ul>
                 <ul id="social_icons" class="right hide-on-med-and-down">
                     <li><a href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer"><i class="fab fa-discord"></i></a></li>
-                    <li><a href="https://t.me/GalilelEN" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a></li>
+                    <li><a href="https://t.me/GalilelEN" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram-plane"></i></a></li>
                     <li><a href="https://twitter.com/GalilelEN" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="https://bitcointalk.galilel.cloud" target="_blank" rel="noopener noreferrer"><i class="fab fa-bitcoin"></i></a></li>
                     <li><a href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
