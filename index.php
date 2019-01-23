@@ -1599,7 +1599,7 @@
             </div>
           </div>
         <div class="container center copyright">
-            <a class="link-text" href="mailto:maik.broemme@galilel.cloud?subject=More%20Information">Copyright &copy; <?php echo date('Y'); ?> - Galilel Project</a>
+            <a class="link-text" href="mailto:contact@galilel.cloud?subject=More%20Information">Copyright &copy; <?php echo date('Y'); ?> - Galilel Project</a>
         </div>
     </footer>
 </body>
