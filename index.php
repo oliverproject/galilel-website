@@ -16,7 +16,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="author" content="Maik Broemme">
-    <meta name="description" content="Galilel Coin - Hybrid Offline Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes">
+    <meta name="description" content="Galilel Project - Hybrid Offline Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes">
     <meta name="revisit-after" content="30 days">
     <meta name="keywords" content="Galilel, GALI, Cloud, Masternode, Hosting, Proof-of-Stake, PoS, Block Explorer, Service, Payment, Blockchain, Crypto, ghPoS, ghTD, ghMSC, gIOMN">
 
