@@ -594,6 +594,9 @@ a {
 }
 
 @media(max-width:600px) {
+  #team .card .card-content {
+    padding: 15px 15px 15px 15px!important;
+  }
   #partners .card .center a {
     display: none;
   }
