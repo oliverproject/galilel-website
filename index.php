@@ -960,6 +960,28 @@
             <div class="col s12 m4">
                 <div class="card">
                     <div class="card-image">
+                        <img src="images/team/armand.png">
+                    </div>
+                    <div class="card-content">
+                        <p class="center">
+                            <span class="name">Armand Pers</span>
+                            <br> Bio_Logik#7089
+                            <br>
+                            <span class="role">Designer</span>
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <div class="center">
+                            <a class="link-text" href="https://www.linkedin.com/in/armand-pers/" target="_blank" rel="noopener noreferrer"><img src="images/team/linkedin.svg"></a>
+                            <a class="link-text" href="http://gremlinsmarketing.com/" target="_blank" rel="noopener noreferrer"><img src="images/team/home.svg"></a>
+                            <a class="link-text" href="mailto:armand.pers@galilel.cloud"><img src="images/team/email.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
                         <img src="images/team/christian.png">
                     </div>
                     <div class="card-content">
