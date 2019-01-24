@@ -133,6 +133,9 @@
                     <li><a class="dropdown-trigger" data-target="paper">Papers</a></li>
                     <li><a class="dropdown-trigger" data-target="explorer">Explorers</a></li>
                 </ul>
+                <ul class="main-menu right hide-on-med-and-down">
+                    <li class="deploymasternode"><a href="https://ginplatform.io" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ginplatform_white.svg">Deploy Masternode</a>
+                </ul>
                 <a class="sidenav-trigger right" data-target="nav-mobile" href="#"><i class="material-icons right">menu</i>MENU</a>
             </div>
         </nav>
@@ -140,7 +143,7 @@
 
     <!-- Sidenav Menu -->
     <ul id="nav-mobile" class="collapsible collapsible-accordion sidenav">
-        <li><a class="collapsible-header waves-effect waves-grey grey-text">About</a>
+        <li><a class="collapsible-header waves-effect waves-grey">About</a>
             <div class="collapsible-body">
                 <ul>
                     <li><a href="#features">Features</a></li>
@@ -151,7 +154,7 @@
                 </ul>
             </div>
         </li>
-        <li><a class="collapsible-header waves-effect waves-grey grey-text">Wallets</a>
+        <li><a class="collapsible-header waves-effect waves-grey">Wallets</a>
             <div class="collapsible-body">
                 <ul>
                     <li><a href="#wallets">Desktop Wallets</a></li>
@@ -162,7 +165,7 @@
                 </ul>
             </div>
         </li>
-        <li><a class="collapsible-header waves-effect waves-grey grey-text">Exchanges</a>
+        <li><a class="collapsible-header waves-effect waves-grey">Exchanges</a>
             <div class="collapsible-body">
                 <ul>
                     <li><a href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">Graviex</a></li>
@@ -173,7 +176,7 @@
                 </ul>
             </div>
         </li>
-        <li><a class="collapsible-header waves-effect waves-grey grey-text">Papers</a>
+        <li><a class="collapsible-header waves-effect waves-grey">Papers</a>
             <div class="collapsible-body">
                 <ul>
                     <li><a href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
@@ -182,7 +185,7 @@
                 </ul>
             </div>
         </li>
-        <li><a class="collapsible-header waves-effect waves-grey grey-text">Community</a>
+        <li><a class="collapsible-header waves-effect waves-grey">Community</a>
             <div class="collapsible-body">
                 <ul>
                     <li><a href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer">Discord</a></li>
@@ -194,7 +197,7 @@
                 </ul>
             </div>
         </li>
-        <li><a class="collapsible-header waves-effect waves-grey grey-text">Explorers</a>
+        <li><a class="collapsible-header waves-effect waves-grey">Explorers</a>
             <div class="collapsible-body">
                 <ul>
                     <li><a href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Mainnet</a></li>
@@ -203,6 +206,7 @@
                 </ul>
             </div>
         </li>
+        <li class="deploymasternode"><a class="collapsible-header waves-effect waves-grey" href="https://ginplatform.io" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ginplatform_white.svg">Deploy Masternode</a>
     </ul>
 
     <!-- Information Header -->

@@ -677,3 +677,16 @@ a {
   font-size: 0.8em;
   padding-bottom: 20px;
 }
+
+/* Deploy masternode */
+
+.deploymasternode, .deploymasternode a:hover{
+  background-color: #7d5a4e!important;
+}
+
+.deploymasternode img{
+  position: relative;
+  width: 30px;
+  margin-right: 5px;
+  top: 10px;
+}
