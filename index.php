@@ -133,15 +133,6 @@
                     <li><a class="dropdown-trigger" data-target="paper">Papers</a></li>
                     <li><a class="dropdown-trigger" data-target="explorer">Explorers</a></li>
                 </ul>
-                <ul id="social_icons" class="right hide-on-med-and-down">
-                    <li><a href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer"><i class="fab fa-discord"></i></a></li>
-                    <li><a href="https://t.me/GalilelEN" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram-plane"></i></a></li>
-                    <li><a href="https://twitter.com/GalilelEN" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://bitcointalk.galilel.cloud" target="_blank" rel="noopener noreferrer"><i class="fab fa-bitcoin"></i></a></li>
-                    <li><a href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="https://youtube.com/channel/UC26rKBciicXp33dK8NkALmg" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a></li>
-                    <li><a href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
-                </ul>
                 <a class="sidenav-trigger right" data-target="nav-mobile" href="#"><i class="material-icons right">menu</i>MENU</a>
             </div>
         </nav>
@@ -269,6 +260,30 @@
                 <div class="carousel-item">
                     <h5><i class="material-icons">lightbulb_outline</i><br>Transparency and Trust</h5>
                     <p>The trust relationship between investors and the project team is the key to success. Therefore, we have created a GitHub organization named <a class="link-text" href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer">Galilel-Project</a>, which tracks all our development activities in public repositories including all our backend code and passed <a class="link-text" href="https://review.kydcoin.io/galicoin/" target="_blank" rel="noopener noreferrer">Know Your Developer (KYD)</a> public verification. The project uses mostly <a class="link-text" href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT</a>, <a class="link-text" href="https://www.gnu.org/licenses/gpl.txt" target="_blank" rel="noopener noreferrer">GPLv3</a> and <a class="link-text" href="https://creativecommons.org/licenses/by-nc/4.0/legalcode.txt" target="_blank" rel="noopener noreferrer">CC-BY-NC 4.0</a> open source and open content licenses. The translation and localization process uses <a class="link-text" href="https://www.transifex.com/galilel-project/galilel-project-translations/dashboard/" target="_blank" rel="noopener noreferrer">Transifex</a> platform.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- Social Content -->
+   <div class="container-fluid" id="social">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h5 class="center">Get in contact and join our community channels</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <ul id="social_icons">
+                        <li><a href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer"><i class="fab fa-discord"></i></a></li>
+                        <li><a href="https://t.me/GalilelEN" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram-plane"></i></a></li>
+                        <li><a href="https://twitter.com/GalilelEN" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://bitcointalk.galilel.cloud" target="_blank" rel="noopener noreferrer"><i class="fab fa-bitcoin"></i></a></li>
+                        <li><a href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://youtube.com/channel/UC26rKBciicXp33dK8NkALmg" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>

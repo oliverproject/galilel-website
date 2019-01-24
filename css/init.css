@@ -101,26 +101,6 @@ a {
   background-color: #795548!important;
 }
 
-/* Main menu social icons */
-
-#social_icons li a {
-  padding: 0 6px;
-}
-
-#social_icons li a:hover {
-  background-color: transparent!important;
-}
-
-#social_icons i {
-  font-size: 1.2em;
-  color: white;
-}
-
-#social_icons li:hover i, #social_icons i:hover {
-  font-size: 1.2em;
-  color: #795548;
-}
-
 /* Side nav */
 
 #nav-mobile {
@@ -411,6 +391,52 @@ a {
 
 #information .r-tabs-anchor:hover {
   background-color: #795548!important;
+}
+
+/* Social */
+
+#social {
+  background-color: #f2f0ef;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom:80px;
+}
+
+#social ul{
+  text-align:center;
+}
+
+#social li{
+  display: inline;
+  list-style-type: none;
+}
+
+#social_icons li a {
+  padding: 0 6px;
+}
+
+#social_icons li a:hover {
+  background-color: transparent!important;
+}
+
+#social_icons i {
+  font-size: 3em;
+  color: #bba38a;
+}
+
+#social_icons li:hover i, #social_icons i:hover {
+  color: #795548;
+}
+
+@media(max-width:768px) {
+  #social li{
+    width: 25%;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  #social li:last-child{
+    margin-bottom: 0px;
+  }
 }
 
 /* Wallets */
