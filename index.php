@@ -134,7 +134,7 @@
                     <li><a class="dropdown-trigger" data-target="explorer">Explorers</a></li>
                 </ul>
                 <ul class="main-menu right hide-on-med-and-down">
-                    <li class="deploymasternode"><a href="https://ginplatform.io" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ginplatform_white.svg">Deploy Masternode</a>
+                    <li class="deploymasternode"><a href="https://p.ginplatform.io/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ginplatform_white.svg">Deploy Masternode</a>
                 </ul>
                 <a class="sidenav-trigger right" data-target="nav-mobile" href="#"><i class="material-icons right">menu</i>MENU</a>
             </div>
@@ -206,7 +206,7 @@
                 </ul>
             </div>
         </li>
-        <li class="deploymasternode"><a class="collapsible-header waves-effect waves-grey" href="https://ginplatform.io" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ginplatform_white.svg">Deploy Masternode</a>
+        <li class="deploymasternode"><a class="collapsible-header waves-effect waves-grey" href="https://p.ginplatform.io/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ginplatform_white.svg">Deploy Masternode</a>
     </ul>
 
     <!-- Information Header -->
@@ -1570,10 +1570,10 @@
                 <div class="col s3">
                     <div class="card">
                         <div class="card-image">
-                            <a class="link-text" href="https://ginplatform.io" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ginplatform.svg"></a>
+                            <a class="link-text" href="https://p.ginplatform.io/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ginplatform.svg"></a>
                         </div>
                         <div class="center">
-                            <a class="link-text" href="https://ginplatform.io" target="_blank" rel="noopener noreferrer">ginplatform.io</a>
+                            <a class="link-text" href="https://p.ginplatform.io/" target="_blank" rel="noopener noreferrer">ginplatform.io</a>
                         </div>
                     </div>
                 </div>
