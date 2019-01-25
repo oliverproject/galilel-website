@@ -134,7 +134,14 @@
                     <li><a class="dropdown-trigger" data-target="explorer">Explorers</a></li>
                 </ul>
                 <ul class="main-menu right hide-on-med-and-down">
-                    <li class="deploymasternode"><a href="https://p.ginplatform.io/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ginplatform_white.svg">Deploy Masternode</a>
+                    <?php
+                        $deploy_masternodes = [
+                            '<li class="deploymasternode"><a href="https://p.ginplatform.io/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ginplatform.svg">Deploy Masternode</a>',
+                            '<li class="deploymasternode"><a href="https://ihostmn.com/hostmn.php?coin=GALI" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ihostmn.svg">Deploy Masternode</a>',
+                            '<li class="deploymasternode"><a href="https://dextro.io" target="_blank" rel="noopener noreferrer"><img src="images/marketing/dextro.svg">Deploy Masternode</a>'
+                        ];
+                        echo $deploy_masternodes[mt_rand(0, count($deploy_masternodes) - 1)];
+                    ?>
                 </ul>
                 <a class="sidenav-trigger right" data-target="nav-mobile" href="#"><i class="material-icons right">menu</i>MENU</a>
             </div>
@@ -206,7 +213,6 @@
                 </ul>
             </div>
         </li>
-        <li class="deploymasternode"><a class="collapsible-header waves-effect waves-grey" href="https://p.ginplatform.io/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ginplatform_white.svg">Deploy Masternode</a>
     </ul>
 
     <!-- Information Header -->
