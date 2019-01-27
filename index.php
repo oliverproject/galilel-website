@@ -16,7 +16,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="author" content="Maik Broemme">
-    <meta name="description" content="Galilel Project - Hybrid Offline Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes">
+    <meta name="description" content="Galilel Project - Hybrid Mobile Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes">
     <meta name="revisit-after" content="30 days">
     <meta name="keywords" content="Galilel, GALI, Cloud, Masternode, Hosting, Proof-of-Stake, PoS, Block Explorer, Service, Payment, Blockchain, Crypto, ghPoS, ghTD, ghMSC, gIOMN">
 
@@ -82,7 +82,7 @@
     <liNK rel="shortcut icon" href="images/favicon.ico">
 
     <!-- Website title -->
-    <title>Galilel Project - Hybrid Offline Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes</title>
+    <title>Galilel Project - Hybrid Mobile Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes</title>
 </head>
 
 <body>
@@ -252,12 +252,12 @@
                     <p>In traditional economics with money transfers between bank accounts, it is possible to specify a subject so that the recipient can assign the amount to a specific invoice. It is not possible in current wallet implementations. It allows specifying a comment or comment-to value, which is not part of the transaction and only stored locally. To assign an invoice to a particular payee it is necessary to create a wallet address with a one-to-one mapping between both stakeholders. In Galilel, we include an additional data field and attach it to the transaction, which is stored in the block. It is an encrypted field and decryption is only possible by the wallets, which negotiated the transaction. It solves the transaction assignment problem and allows payment-processing gateways to identify the payee of an invoice as it is with traditional fiat invoices.</p>
                 </div>
                 <div class="carousel-item">
-                    <h5><i class="material-icons">linear_scale</i><br>Hybrid Proof-of-Stake (ghPoS)</h5>
-                    <p>While Proof-of-Stake (PoS) is an environmentally friendly consensus algorithm, it creates rewards only as long as the wallet is running. One solution to this problem is to sign-up to any shared Proof-of-Stake pool and stake in the cloud. However, the disadvantage is that user need to trust the staking pool and transfer specific amount of coins to it. It can lead to situation that huge amount of coins are stored in a few wallets. This is a weak situation for a decentralized network approach and is a fundamental part to reach consensus. Private staking, so called Zerocoin Proof-of-Stake (zPoS), has the same problems and limitations. In Galilel, the solution to this problem will be a complete hybrid consensus algorithm named Galilel Hybrid Proof-of-Stake (ghPoS). We will extend online Proof-of-Stake with offline capability for both public and private staking.</p>
+                    <h5><i class="material-icons">smartphone</i><br>Hybrid Proof-of-Stake (ghPoS)</h5>
+                    <p>While Proof-of-Stake (PoS) is an environmentally friendly consensus algorithm, it creates rewards only as long as the desktop wallet is running. One solution to this problem is to sign-up to any shared Proof-of-Stake pool and stake in the cloud. However, the disadvantage is that user need to trust the staking pool and transfer specific amount of coins to it. It can lead to situation that huge amount of coins are stored in a few wallets. This is a weak situation for a decentralized network approach and is a fundamental part to reach consensus. Private staking, so called Zerocoin Proof-of-Stake (zPoS), has the same problems and limitations. In Galilel, the solution to this problem will be a complete hybrid consensus algorithm named Galilel Hybrid Proof-of-Stake (ghPoS). We will extend Proof-of-Stake with mobile staking capabilities for both public and private staking.</p>
                 </div>
                 <div class="carousel-item">
                     <h5><i class="material-icons">attach_money</i><br>Term Deposits (gTD)</h5>
-                    <p>While offline staking is dependent from network difficulty and amount of staked coins, the <a class="link-text" href="https://en.wikipedia.org/wiki/Time_deposit" target="_blank" rel="noopener noreferrer">Term Deposit</a> function allow to lock coins for a certain period and generate predictable rewards. The user decides the period to lock coins. Once locked, moving or spending coins for purchases is impossible, cancellation of term deposit before expiration time is impossible. This will effectively reduce the coin supply during the lock period.</p>
+                    <p>While mobile staking is dependent from network difficulty and amount of staked coins, the <a class="link-text" href="https://en.wikipedia.org/wiki/Time_deposit" target="_blank" rel="noopener noreferrer">Term Deposit</a> function allow to lock coins for a certain period and generate predictable rewards. The user decides the period to lock coins. Once locked, moving or spending coins for purchases is impossible, cancellation of term deposit before expiration time is impossible. This will effectively reduce the coin supply during the lock period.</p>
                 </div>
                 <div class="carousel-item">
                     <h5><i class="material-icons">money_off</i><br>Money Supply Control (gMSC)</h5>
