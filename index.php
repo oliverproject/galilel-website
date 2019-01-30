@@ -201,6 +201,7 @@
                     <li><a href="https://bitcointalk.galilel.cloud" target="_blank" rel="noopener noreferrer">BitcoinTalk</a></li>
                     <li><a href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer">Facebook</a></li>
                     <li><a href="https://youtube.com/channel/UC26rKBciicXp33dK8NkALmg" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                    <li><a href="https://instagram.com/galilel_en/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                 </ul>
             </div>
         </li>
@@ -293,6 +294,7 @@
                         <li><a href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="https://youtube.com/channel/UC26rKBciicXp33dK8NkALmg" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a></li>
                         <li><a href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://instagram.com/galilel_en/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -1622,6 +1624,7 @@
                         <li><a href="https://bitcointalk.galilel.cloud" target="_blank" rel="noopener noreferrer">BitcoinTalk</a></li>
                         <li><a href="https://facebook.com/GalilelEN" target="_blank" rel="noopener noreferrer">Facebook</a></li>
                         <li><a href="https://youtube.com/channel/UC26rKBciicXp33dK8NkALmg" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                        <li><a href="https://instagram.com/galilel_en/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m4">
