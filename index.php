@@ -987,29 +987,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/team/christian.png">
-                    </div>
-                    <div class="card-content">
-                        <p class="center">
-                            <span class="name">Christian Grieger</span>
-                            <br> Swooty#5527
-                            <br>
-                            <span class="role">Front-End & Back-End Developer</span>
-                        </p>
-                    </div>
-                    <div class="card-action">
-                        <div class="center">
-                            <a class="link-text" href="https://twitter.com/C_Grieger/" target="_blank" rel="noopener noreferrer"><img src="images/team/twitter.svg"></a>
-                            <a class="link-text" href="https://github.com/ChristianGrieger/" target="_blank" rel="noopener noreferrer"><img src="images/team/github.svg"></a>
-                            <a class="link-text" href="https://christiangrieger.de/" target="_blank" rel="noopener noreferrer"><img src="images/team/home.svg"></a>
-                            <a class="link-text" href="mailto:christian.grieger@galilel.cloud"><img src="images/team/email.svg"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 
