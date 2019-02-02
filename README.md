@@ -39,3 +39,8 @@ Description: The last carousel you'll ever need\
 Name: slick\
 Link: https://github.com/kenwheeler/slick \
 License: MIT License
+
+Description: jVectorMap uses only native browser technologies like JavaScript, CSS, HTML, SVG or VML. No Flash or any other proprietary browser plug-in is required. This allows jVectorMap to work in all modern mobile browsers.\
+Name: jVectorMap
+Link: http://jvectormap.com \
+License: GNU GPL

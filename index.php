@@ -67,6 +67,9 @@
     <link rel="stylesheet" type="text/css" href="css/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css" />
 
+    <!-- jvectormap -->
+    <link rel="stylesheet" type="text/css" href="css/jvectormap/jquery-jvectormap-2.0.3.css" />
+
     <!-- Tabs -->
     <link rel="stylesheet" type="text/css" href="css/responsive-tabs/responsive-tabs.css" />
 
@@ -76,6 +79,8 @@
     <script src="js/slick/slick.min.js"></script>
     <script src="js/inview/jquery.inview.min.js"></script>
     <script src="js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+    <script src="js/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
+    <script src="js/jvectormap/jquery-jvectormap-world-mill.js"></script>
     <script src="js/init.js"></script>
 
     <!-- Favicon -->
@@ -296,6 +301,14 @@
                         <li><a href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
                         <li><a href="https://instagram.com/galilel_en/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
                     </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <div id="map-container">
+                        <div id="world-map">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
