@@ -75,7 +75,7 @@ $(document).ready(
               "LV" : "#ae977f", 
               "RU" : "#bba38a", 
               "FR" : "#bba38a", 
-              "SL" : "#bba38a", 
+              "SK" : "#bba38a", 
               "CA" : "#bba38a", 
               "AU" : "#bba38a", 
               "IT" : "#bba38a", 
