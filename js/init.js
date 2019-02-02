@@ -99,11 +99,9 @@ $(document).ready(
     function filterRegion(region){
       switch (region)
         {
-          case 'gebiet0': 
-              name = 'moeller';
-              showPartner(name);
-          default:  
-              break;
+          /* 
+            Action by region for later use
+          */
       }
     }
   }
