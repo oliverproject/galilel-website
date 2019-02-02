@@ -92,8 +92,10 @@ $(document).ready(
           var region = myMap.getRegionName(code);
           filterRegion(region);
           console.log(region);
-      }  ,  onRegionTipShow: function (e, tip, code) {
-        e.preventDefault();
+      },  
+      onRegionTipShow: function (e, tip, code) {
+        tip.html(tip.html()+' ('+code+')');
+        //e.preventDefault();
       }
     });
     function filterRegion(region){
