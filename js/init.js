@@ -70,10 +70,10 @@ $(document).ready(
               "SE" : "#ae977f",
               "AT" : "#ae977f",
               "CH" : "#ae977f",
-              "CD" : "#ae977f",
+              "DO" : "#ae977f",
               "RU" : "#ae977f", 
               "LV" : "#ae977f",
-              "RU" : "#bba38a",
+              "RO" : "#bba38a",
               "FR" : "#bba38a",
               "SK" : "#bba38a",
               "CA" : "#bba38a",
@@ -82,7 +82,7 @@ $(document).ready(
               "NL" : "#bba38a",
               "BE" : "#bba38a",
               "TR" : "#bba38a",
-              "PH" : "#bba38a",  
+              "PH" : "#bba38a"
             },
             attribute: 'fill'
           }]
