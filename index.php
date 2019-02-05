@@ -112,6 +112,7 @@
         <li><a href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">Aiodex</a></li>
         <li><a href="https://cratex.io/index.php?pair=GALI/BTC" target="_blank" rel="noopener noreferrer">Cratex</a></li>
         <li><a href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</a></li>
+        <li><a href="https://trade.mct.plus" target="_blank" rel="noopener noreferrer">MCT+</a></li>
     </ul>
     <ul id="paper" class="dropdown-content">
         <li><a href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
@@ -186,6 +187,7 @@
                     <li><a href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">Aiodex</a></li>
                     <li><a href="https://cratex.io/index.php?pair=GALI/BTC" target="_blank" rel="noopener noreferrer">Cratex</a></li>
                     <li><a href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</a></li>
+                    <li><a href="https://trade.mct.plus" target="_blank" rel="noopener noreferrer">MCT+</a></li>
                 </ul>
             </div>
         </li>
@@ -1364,6 +1366,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://trade.mct.plus" target="_blank" rel="noopener noreferrer"><img src="images/exchange/mct.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://trade.mct.plus" target="_blank" rel="noopener noreferrer">trade.mct.plus</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -1680,6 +1692,7 @@
                         <li><a href="https://aiodex.com/exchange/GALI_BTC" target="_blank" rel="noopener noreferrer">Aiodex</a></li>
                         <li><a href="https://cratex.io/index.php?pair=GALI/BTC" target="_blank" rel="noopener noreferrer">Cratex</a></li>
                         <li><a href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</a></li>
+                        <li><a href="https://trade.mct.plus" target="_blank" rel="noopener noreferrer">MCT+</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m4">
