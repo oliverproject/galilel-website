@@ -1759,10 +1759,10 @@
         <div class="row">
             <h5 class="center">Galilel Whitepapers</h5>
             <div class="col s12 m6">
-                <a href="downloads/whitepaper/Galilel_Core_Whitepaper_ENG.pdf" target="_blank" rel="noopener noreferrer">ENG</a>
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper_EN.pdf" target="_blank" rel="noopener noreferrer">English (EN)</a>
             </div>
             <div class="col s12 m6">
-                <a href="downloads/whitepaper/Galilel_Core_Whitepaper_ITA.pdf" target="_blank" rel="noopener noreferrer">ITA</a>
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper_IT.pdf" target="_blank" rel="noopener noreferrer">Italian (IT)</a>
             </div>
         </div>
     </div>  
