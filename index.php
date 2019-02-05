@@ -138,6 +138,7 @@
                     <li><a class="dropdown-trigger" data-target="exchange">Exchanges</a></li>
                     <li><a class="dropdown-trigger" data-target="paper">Papers</a></li>
                     <li><a class="dropdown-trigger" data-target="explorer">Explorers</a></li>
+                    <li><a href="#media">Media</a></li>
                 </ul>
                 <ul class="main-menu right hide-on-med-and-down">
                     <?php
@@ -222,6 +223,7 @@
                 </ul>
             </div>
         </li>
+        <li><a href="#media">Media</a></li>
     </ul>
 
     <!-- Information Header -->
@@ -1399,7 +1401,7 @@
                             <a class="link-text" href="https://medium.com/@eshby/galilel-cloud-2018-a-year-in-review-c39d18a5713" target="_blank" rel="noopener noreferrer"><img src="images/media/medium.svg"></a>
                         </div>
                         <div class="center">
-                            <a class="link-text" href="https://medium.com/@eshby/galilel-cloud-2018-a-year-in-review-c39d18a5713" target="_blank" rel="noopener noreferrer">Medium - Review 2018</a>
+                            <a class="link-text" href="https://medium.com/@eshby/galilel-cloud-2018-a-year-in-review-c39d18a5713" target="_blank" rel="noopener noreferrer">Medium.com<br>Review 2018</a>
                         </div>
                     </div>
                 </div>
@@ -1409,7 +1411,7 @@
                             <a class="link-text" href="https://checkthischain.com/galilel-the-multifunctional-fiat-replacer/" target="_blank" rel="noopener noreferrer"><img src="images/media/checkthischain.svg"></a>
                         </div>
                         <div class="center">
-                            <a class="link-text" href="https://checkthischain.com/galilel-the-multifunctional-fiat-replacer/" target="_blank" rel="noopener noreferrer">checkthischain.com</a>
+                            <a class="link-text" href="https://checkthischain.com/galilel-the-multifunctional-fiat-replacer/" target="_blank" rel="noopener noreferrer">checkthischain.com<br>Multifunctional Fiat Replacer</a>
                         </div>
                     </div>
                 </div>
