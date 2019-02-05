@@ -121,7 +121,7 @@
     <ul id="paper" class="dropdown-content">
         <li><a href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
         <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
-        <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepaper</a></li>
+        <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepapers</a></li>
     </ul>
     <ul id="explorer" class="dropdown-content">
         <li><a href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Mainnet</a></li>
@@ -201,7 +201,7 @@
                 <ul>
                     <li><a href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
                     <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
-                    <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepaper</a></li>
+                    <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepapers</a></li>
                 </ul>
             </div>
         </li>
@@ -1759,7 +1759,7 @@
         <div class="row">
             <h5 class="center">Galilel Whitepapers</h5>
             <div class="col s12 m6">
-                <a href="downloads/whitepaper/Galilel_Core_Whitepaper.pdf" target="_blank" rel="noopener noreferrer">EN</a>
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper.pdf" target="_blank" rel="noopener noreferrer">ENG</a>
             </div>
             <div class="col s12 m6">
                 <a href="downloads/whitepaper/Galilel_Core_Whitepaper_ITA.pdf" target="_blank" rel="noopener noreferrer">ITA</a>
