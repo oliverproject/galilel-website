@@ -41,6 +41,11 @@ Link: https://github.com/kenwheeler/slick \
 License: MIT License
 
 Description: jVectorMap uses only native browser technologies like JavaScript, CSS, HTML, SVG or VML. No Flash or any other proprietary browser plug-in is required. This allows jVectorMap to work in all modern mobile browsers.\
-Name: jVectorMap
+Name: jVectorMap\
 Link: http://jvectormap.com \
 License: GNU GPL
+
+Description: Featherlight is a very lightweight jQuery lightbox.\
+Name: Featherlight.js\
+Link: https://noelboss.github.io/featherlight/ \
+License: MIT License

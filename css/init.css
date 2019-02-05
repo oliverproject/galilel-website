@@ -742,3 +742,39 @@ a {
     height:200px!important;
   }
 }
+
+/* Modals */
+
+.gali_modal{
+  display:none;
+}
+
+#whitepapers{
+  width: 500px;
+}
+
+#whitepapers h5{
+  text-transform:uppercase;
+}
+
+#whitepapers a{
+  display:block;
+  font-size:0.8em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+  color:white;
+  background-color: #7d5a4e;
+  border: 1px solid #7d5a4e;
+  padding: 10px;
+  -webkit-border-radius: 4px!important;
+  -moz-border-radius: 4px!important;
+  border-radius: 4px!important;
+  margin-bottom:10px;
+}
+
+@media(max-width:500px) {
+  #whitepapers{
+    width:100%;
+  }
+}

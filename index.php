@@ -70,6 +70,9 @@
     <!-- jvectormap -->
     <link rel="stylesheet" type="text/css" href="css/jvectormap/jquery-jvectormap-2.0.3.css" />
 
+    <!-- Featherlight -->
+    <link rel="stylesheet" type="text/css" href="css/featherlight/featherlight.min.css" />
+
     <!-- Tabs -->
     <link rel="stylesheet" type="text/css" href="css/responsive-tabs/responsive-tabs.css" />
 
@@ -81,6 +84,7 @@
     <script src="js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
     <script src="js/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
     <script src="js/jvectormap/jquery-jvectormap-world-mill.js"></script>
+    <script src="js/featherlight/featherlight.min.js"></script>
     <script src="js/init.js"></script>
 
     <!-- Favicon -->
@@ -117,7 +121,7 @@
     <ul id="paper" class="dropdown-content">
         <li><a href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
         <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
-        <li><a href="downloads/whitepaper/Galilel_Core_Whitepaper.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</a></li>
+        <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepaper</a></li>
     </ul>
     <ul id="explorer" class="dropdown-content">
         <li><a href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Mainnet</a></li>
@@ -197,7 +201,7 @@
                 <ul>
                     <li><a href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
                     <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
-                    <li><a href="downloads/whitepaper/Galilel_Core_Whitepaper.pdf" target="_blank" rel="noopener noreferrer">Whitepaper</a></li>
+                    <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepaper</a></li>
                 </ul>
             </div>
         </li>
@@ -1749,6 +1753,20 @@
             <a class="link-text" href="mailto:contact@galilel.cloud?subject=More%20Information">Copyright &copy; <?php echo date('Y'); ?> - Galilel Project</a>
         </div>
     </footer>
+
+    <!-- Modals -->
+    <div class="gali_modal" id="whitepapers">
+        <div class="row">
+            <h5 class="center">Galilel Whitepapers</h5>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper.pdf" target="_blank" rel="noopener noreferrer">EN</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper_ITA.pdf" target="_blank" rel="noopener noreferrer">ITA</a>
+            </div>
+        </div>
+    </div>  
+
 </body>
 
 </html>
