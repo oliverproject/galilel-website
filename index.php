@@ -290,6 +290,7 @@
             <div class="row">
                 <div class="col s12">
                     <h5 class="center">Get in contact and join our community channels</h5>
+                    <p class="center">Click on the country on the map to open the telegram link (if available).</p>
                 </div>
             </div>
             <div class="row">

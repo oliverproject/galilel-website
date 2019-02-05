@@ -99,11 +99,19 @@ $(document).ready(
       }
     });
     function filterRegion(region){
+      console.log(region);
       switch (region)
         {
-          /* 
-            Action by region for later use
-          */
+          case 'Brazil':
+            window.open('https://t.me/GalilelBR','_blank');
+            break;
+          case 'Germany':
+            window.open('https://t.me/GalilelDE','_blank');
+            break;
+          case 'United States':
+            window.open('https://t.me/GalilelEN','_blank');
+            break;
+        default:
       }
     }
   }
