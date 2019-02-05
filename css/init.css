@@ -594,10 +594,42 @@ a {
   }
 }
 
+/* Media */
+
+#media{
+  background-color: #f2f0ef;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#media .card {
+  padding-bottom: 10px;
+}
+
+#media .card .card-image {
+  padding: 10px 5px 0px 5px;
+  max-width: 80px;
+  margin: 0px auto;
+}
+
+#media .card .center a {
+  width: 100%;
+  text-align: center;
+  font-weight: lighter!important;
+  font-size: 0.8em;
+  display:block;
+  padding-top:10px;
+}
+
+@media(max-width:600px) {
+  #media .card .center a {
+    display: none;
+  }
+}
+
 /* Partners */
 
 #partners {
-  background-color: #f2f0ef;
   padding-top: 80px;
   padding-bottom: 80px;
 }

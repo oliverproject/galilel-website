@@ -1380,6 +1380,42 @@
         </div>
     </div>
 
+    <!-- Media Content -->
+    <div class="container-fluid" id="media">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div class="icon-block">
+                        <h5 class="center">Media</h5>
+                        <p class="center">Media articles reporting on the Galilel project.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://medium.com/@eshby/galilel-cloud-2018-a-year-in-review-c39d18a5713" target="_blank" rel="noopener noreferrer"><img src="images/media/medium.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://medium.com/@eshby/galilel-cloud-2018-a-year-in-review-c39d18a5713" target="_blank" rel="noopener noreferrer">Medium - Review 2018</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://checkthischain.com/galilel-the-multifunctional-fiat-replacer/" target="_blank" rel="noopener noreferrer"><img src="images/media/checkthischain.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://checkthischain.com/galilel-the-multifunctional-fiat-replacer/" target="_blank" rel="noopener noreferrer">checkthischain.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Partners Content -->
     <div class="container-fluid" id="partners">
         <div class="container">
