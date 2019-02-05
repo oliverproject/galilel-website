@@ -1024,6 +1024,27 @@
                     </div>
                 </div>
             </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/team/ehsan.png">
+                    </div>
+                    <div class="card-content">
+                        <p class="center">
+                            <span class="name">Ehsan Khademi</span>
+                            <br> eshby#4291
+                            <br>
+                            <span class="role">Business Manager</span>
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <div class="center">
+                            <a class="link-text" href="https://mobile.twitter.com/eshbycasablanca" target="_blank" rel="noopener noreferrer"><img src="images/team/twitter.svg"></a>
+                            <a class="link-text" href="mailto:ehsan.khademi@galilel.cloud"><img src="images/team/email.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
