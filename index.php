@@ -1759,6 +1759,9 @@
         <div class="row">
             <h5 class="center">Galilel Whitepapers</h5>
             <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper_AR.pdf" target="_blank" rel="noopener noreferrer">Arabic (AR)</a>
+            </div>
+            <div class="col s12 m6">
                 <a href="downloads/whitepaper/Galilel_Core_Whitepaper_EN.pdf" target="_blank" rel="noopener noreferrer">English (EN)</a>
             </div>
             <div class="col s12 m6">
