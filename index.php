@@ -48,7 +48,8 @@
     <meta name="twitter:image:src" content="https://galilel.cloud/images/logo.svg">
     <meta name="twitter:site" content="@GalilelEN">
 
-    <!-- Import Google Icon Font -->
+    <!-- Import Google Icons and Font -->
+    <liNK href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet">
 
     <!-- Import Font Awesome Font -->
