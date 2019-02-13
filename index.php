@@ -747,23 +747,28 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-win32.zip">galilel-v3.1.2-win32.zip</a></td>
-                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-lin32.tar.gz">galilel-v3.1.2-lin32.tar.gz</a></td>
-                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-osx64.tar.gz">galilel-v3.1.2-osx64.tar.gz</a></td>
+                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.2.0/galilel-v3.2.0-win32.zip">galilel-v3.2.0-win32.zip</a></td>
+                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.2.0/galilel-v3.2.0-lin32.tar.gz">galilel-v3.2.0-lin32.tar.gz</a></td>
+                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.2.0/galilel-v3.2.0-osx64.tar.gz">galilel-v3.2.0-osx64.tar.gz</a></td>
                                         </tr>
                                         <tr>
-                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-win64.zip">galilel-v3.1.2-win64.zip</a></td>
-                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-lin64.tar.gz">galilel-v3.1.2-lin64.tar.gz</a></td>
-                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-osx64-unsigned.dmg">galilel-v3.1.2-osx64-unsigned.dmg</a></td>
+                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.2.0/galilel-v3.2.0-win64.zip">galilel-v3.2.0-win64.zip</a></td>
+                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.2.0/galilel-v3.2.0-lin64.tar.gz">galilel-v3.2.0-lin64.tar.gz</a></td>
+                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.2.0/galilel-v3.2.0-osx64-unsigned.dmg">galilel-v3.2.0-osx64-unsigned.dmg</a></td>
                                         </tr>
                                         <tr>
-                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-win32-setup-unsigned.exe">galilel-v3.1.2-win32-setup-unsigned.exe</a></td>
-                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-armhf.tar.gz">galilel-v3.1.2-armhf.tar.gz</a></td>
+                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.2.0/galilel-v3.2.0-win32-setup-unsigned.exe">galilel-v3.2.0-win32-setup-unsigned.exe</a></td>
+                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.2.0/galilel-v3.2.0-armhf.tar.gz">galilel-v3.2.0-armhf.tar.gz</a></td>
                                             <td></td>
                                         </tr>
                                         <tr>
-                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-win64-setup-unsigned.exe">galilel-v3.1.2-win64-setup-unsigned.exe</a></td>
-                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.1.2/galilel-v3.1.2-aarch64.tar.gz">galilel-v3.1.2-aarch64.tar.gz</a></td>
+                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.2.0/galilel-v3.2.0-win64-setup-unsigned.exe">galilel-v3.2.0-win64-setup-unsigned.exe</a></td>
+                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.2.0/galilel-v3.2.0-aarch64.tar.gz">galilel-v3.2.0-aarch64.tar.gz</a></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td><a class="link-text" href="https://github.com/Galilel-Project/galilel/releases/download/v3.2.0/galilel-v3.2.0-riscv64.tar.gz">galilel-v3.2.0-riscv64.tar.gz</a></td>
                                             <td></td>
                                         </tr>
                                     </tbody>
@@ -1766,6 +1771,9 @@
     <div class="gali_modal" id="whitepapers">
         <div class="row">
             <h5 class="center">Galilel Whitepapers</h5>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper_AR.pdf" target="_blank" rel="noopener noreferrer">Arabic (AR)</a>
+            </div>
             <div class="col s12 m6">
                 <a href="downloads/whitepaper/Galilel_Core_Whitepaper_EN.pdf" target="_blank" rel="noopener noreferrer">English (EN)</a>
             </div>
