@@ -1739,6 +1739,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://www.cryptocompare.com/coins/gali/overview" target="_blank" rel="noopener noreferrer"><img src="images/marketing/cryptocompare.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://www.cryptocompare.com/coins/gali/overview" target="_blank" rel="noopener noreferrer">cryptocompare.com</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
