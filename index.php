@@ -871,6 +871,8 @@
                             <br> Babyface#7772
                             <br>
                             <span class="role">Founder & Developer</span>
+                            <br>
+                            Germany
                         </p>
                     </div>
                     <div class="card-action">
@@ -896,6 +898,8 @@
                             <br> Bossteck#6262
                             <br>
                             <span class="role">Co-Founder &amp; Designer</span>
+                            <br>
+                            United Kingdom
                         </p>
                     </div>
                     <div class="card-action">
@@ -919,6 +923,8 @@
                             <br> Cryptogerman#8070
                             <br>
                             <span class="role">Marketing &amp; Campaigns</span>
+                            <br>
+                            Germany
                         </p>
                     </div>
                     <div class="card-action">
@@ -944,6 +950,8 @@
                             <br> crypto5.0#6432
                             <br>
                             <span class="role">Marketing &amp; Campaigns</span>
+                            <br>
+                            Germany
                         </p>
                     </div>
                     <div class="card-action">
@@ -967,6 +975,8 @@
                             <br> Alex Mesquita#9361
                             <br>
                             <span class="role">Partnerships &amp; Business Development</span>
+                            <br>
+                            Brazil
                         </p>
                     </div>
                     <div class="card-action">
@@ -988,6 +998,8 @@
                             <br> coreyou#6882
                             <br>
                             <span class="role">Partnerships &amp; Business Development</span>
+                            <br>
+                            Germany
                         </p>
                     </div>
                     <div class="card-action">
@@ -1013,6 +1025,8 @@
                             <br> Bio_Logik#7089
                             <br>
                             <span class="role">Designer</span>
+                            <br>
+                            French
                         </p>
                     </div>
                     <div class="card-action">
@@ -1034,7 +1048,9 @@
                             <span class="name">Christian Grieger</span>
                             <br> Swooty#5527
                             <br>
-                            <span class="role">Front-End & Back-End Developer</span>
+                            <span class="role">Front-End & Back-End Developer</span>                            
+                            <br>
+                            Germany
                         </p>
                     </div>
                     <div class="card-action">
@@ -1058,6 +1074,8 @@
                             <br> eshby#4291
                             <br>
                             <span class="role">Business Manager</span>
+                            <br>
+                            Germany
                         </p>
                     </div>
                     <div class="card-action">
