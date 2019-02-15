@@ -16,7 +16,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="author" content="Maik Broemme">
-    <meta name="description" content="Galilel Project - Hybrid Mobile Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes">
+    <meta name="description" content="Galilel Core - Hybrid Mobile Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes">
     <meta name="revisit-after" content="30 days">
     <meta name="keywords" content="Galilel, GALI, Cloud, Masternode, Hosting, Proof-of-Stake, PoS, Block Explorer, Service, Payment, Blockchain, Crypto, ghPoS, ghTD, ghMSC, gIOMN">
 
@@ -100,7 +100,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Website title -->
-    <title>Galilel Project - Hybrid Mobile Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes</title>
+    <title>Galilel Core - Hybrid Mobile Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes</title>
 </head>
 
 <body>
@@ -248,7 +248,7 @@
                 <div class="row">
                     <div class="col m12">
                         <img id="header-logo" src="images/logo.svg">
-                        <h1 class="header">GALILEL PROJECT</h1>
+                        <h1 class="header">GALILEL CORE</h1>
                         <h3>The first general purpose crypto currency with Hybrid Consensus Algorithm, Dynamic Zerocoin Proof-of-Stake, Proof-of-Transaction and Masternode voting for period based reward burning</h3>
                         <a href="#wallets" class="btn-large waves-effect">Get Started</a>
                     </div>
@@ -1438,7 +1438,7 @@
                 <div class="col s12">
                     <div class="icon-block">
                         <h5 class="center">Media</h5>
-                        <p class="center">Media articles reporting on the Galilel project.</p>
+                        <p class="center">Media articles reporting on the Galilel Core.</p>
                     </div>
                 </div>
             </div>
@@ -1805,7 +1805,7 @@
             </div>
           </div>
         <div class="container center copyright">
-            <a class="link-text" href="mailto:contact@galilel.cloud?subject=More%20Information">Copyright &copy; <?php echo date('Y'); ?> - Galilel Project</a>
+            <a class="link-text" href="mailto:contact@galilel.cloud?subject=More%20Information">Copyright &copy; <?php echo date('Y'); ?> - Galilel Core</a>
         </div>
     </footer>
 
