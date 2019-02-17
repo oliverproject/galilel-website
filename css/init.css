@@ -13,6 +13,10 @@ h5{
   text-transform:uppercase;
 }
 
+.small{
+  text-transform:lowercase!important;
+}
+
 a {
   color: #795548;
   font-weight: bold;

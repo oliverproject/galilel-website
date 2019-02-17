@@ -266,32 +266,32 @@
         <div class="slick-container">
             <div class="slick">
                 <div class="carousel-item">
-                    <h5><img src="images/logo.svg"><br>Galilel Coin (GALI and zGALI)</h5>
+                    <h5><img src="images/logo.svg"><br>Galilel Coin (GALI and <span class="small">z</span>GALI)</h5>
                     <p>is an open-source public and private Proof-of-Stake digital crypto currency for fast (using SwiftX), private (Zerocoin protocol) and secure micro transactions. Our main goal is to create a decentralized fully secure and anonymous network to run applications, which do not rely on any central body control. By having a distributed system, thousands of users will be responsible for maintaining the application and data so that there is no single point of failure.</p>
                 </div>
                 <div class="carousel-item">
-                    <h5><i class="material-icons">tune</i><br>Dynamic Zerocoin Proof-of-Stake (dzPoS)</h5>
+                    <h5><i class="material-icons">tune</i><br>Dynamic Zerocoin Proof-of-Stake (<span class="small">dz</span>P<span class="small">o</span>S)</h5>
                     <p class="light">In Galilel, we implement a dynamic version of Zerocoin staking. Zerocoin staking generates rewards in denominations, which represent an integer value. The smallest possible denomination is one. In the first version - warmup phase - we always use the smallest denomination value for testing purposes. The drawback of this approach is that Zerocoin staking is very CPU intensive and probability to generate an orphan block is higher as a public coin stake can solve the block later but distribute it to the chain earlier. In the second version - full phase - we auto determine the best denomination structure based on the block reward amount. This significantly reduces the probability to generate orphan blocks.</p>
                 </div>
                 <div class="carousel-item">
-                    <h5><i class="material-icons">vpn_key</i><br>Proof-of-Transaction (ghPoT)</h5>
+                    <h5><i class="material-icons">vpn_key</i><br>Proof-of-Transaction (<span class="small">gh</span>P<span class="small">o</span>T)</h5>
                     <p>In traditional economics with money transfers between bank accounts, it is possible to specify a subject so that the recipient can assign the amount to a specific invoice. It is not possible in current wallet implementations. It allows specifying a comment or comment-to value, which is not part of the transaction and only stored locally. To assign an invoice to a particular payee it is necessary to create a wallet address with a one-to-one mapping between both stakeholders. In Galilel, we include an additional data field and attach it to the transaction, which is stored in the block. It is an encrypted field and decryption is only possible by the wallets, which negotiated the transaction. It solves the transaction assignment problem and allows payment-processing gateways to identify the payee of an invoice as it is with traditional fiat invoices.</p>
                 </div>
                 <div class="carousel-item">
-                    <h5><i class="material-icons">smartphone</i><br>Hybrid Proof-of-Stake (ghPoS)</h5>
-                    <p>While Proof-of-Stake (PoS) is an environmentally friendly consensus algorithm, it creates rewards only as long as the desktop wallet is running. One solution to this problem is to sign-up to any shared Proof-of-Stake pool and stake in the cloud. However, the disadvantage is that user need to trust the staking pool and transfer specific amount of coins to it. It can lead to situation that huge amount of coins are stored in a few wallets. This is a weak situation for a decentralized network approach and is a fundamental part to reach consensus. Private staking, so called Zerocoin Proof-of-Stake (zPoS), has the same problems and limitations. In Galilel, the solution to this problem will be a complete hybrid consensus algorithm named Galilel Hybrid Proof-of-Stake (ghPoS). We will extend Proof-of-Stake with mobile staking capabilities for both public and private staking.</p>
+                    <h5><i class="material-icons">smartphone</i><br>Hybrid Proof-of-Stake (<span class="small">gh</span>P<span class="small">o</span>S)</h5>
+                    <p>While Proof-of-Stake (PoS) is an environmentally friendly consensus algorithm, it creates rewards only as long as the desktop wallet is running. One solution to this problem is to sign-up to any shared Proof-of-Stake pool and stake in the cloud. However, the disadvantage is that user need to trust the staking pool and transfer specific amount of coins to it. It can lead to situation that huge amount of coins are stored in a few wallets. This is a weak situation for a decentralized network approach and is a fundamental part to reach consensus. Private staking, so called Zerocoin Proof-of-Stake (zPoS), has the same problems and limitations. In Galilel, the solution to this problem will be a complete hybrid consensus algorithm named Galilel Hybrid Proof-of-Stake (<span class="small">gh</span>P<span class="small">o</span>S). We will extend Proof-of-Stake with mobile staking capabilities for both public and private staking.</p>
                 </div>
                 <div class="carousel-item">
-                    <h5><i class="material-icons">attach_money</i><br>Term Deposits (gTD)</h5>
+                    <h5><i class="material-icons">attach_money</i><br>Term Deposits (<span class="small">g</span>TD)</h5>
                     <p>While mobile staking is dependent from network difficulty and amount of staked coins, the <a class="link-text" href="https://en.wikipedia.org/wiki/Time_deposit" target="_blank" rel="noopener noreferrer">Term Deposit</a> function allow to lock coins for a certain period and generate predictable rewards. The user decides the period to lock coins. Once locked, moving or spending coins for purchases is impossible, cancellation of term deposit before expiration time is impossible. This will effectively reduce the coin supply during the lock period.</p>
                 </div>
                 <div class="carousel-item">
-                    <h5><i class="material-icons">money_off</i><br>Money Supply Control (gMSC)</h5>
-                    <p>Inflation control is the most challenging part for digital money to be recognized and accepted as alternative to fiat money. Without any controlling mechanism, the value of any digital money is unpredictable. This leads to situation when investors' starts betting on the value and this can seriously damage the market within hours and immediately eliminates the possibility to push digital money into market as accepted payment option. With inflation control, we believe that people outside the digital money sphere are attracted to use it, as there is no need to look every day at their portfolio. Unlike central banks in case of fiat money, there will be no central place for watching and maintaining money supply. In Galilel, we implement a decentralized approach to burn coins, so called <a class="link-text" href="https://en.bitcoin.it/wiki/Proof_of_burn" target="_blank" rel="noopener noreferrer">Proof-of-Burn</a> mechanism for private and public staked coins. While this is one necessary step to control money circulation, masternode owners get the possibility to vote for reward reduction or complete burning for a specific period to reduce coin generation. We name it Galilel Money Supply Control (gMSC), effectively Proof-of-Burn v2. This mechanism burns only rewards, never term deposits and development budget.</p>
+                    <h5><i class="material-icons">money_off</i><br>Money Supply Control (<span class="small">g</span>MSC)</h5>
+                    <p>Inflation control is the most challenging part for digital money to be recognized and accepted as alternative to fiat money. Without any controlling mechanism, the value of any digital money is unpredictable. This leads to situation when investors' starts betting on the value and this can seriously damage the market within hours and immediately eliminates the possibility to push digital money into market as accepted payment option. With inflation control, we believe that people outside the digital money sphere are attracted to use it, as there is no need to look every day at their portfolio. Unlike central banks in case of fiat money, there will be no central place for watching and maintaining money supply. In Galilel, we implement a decentralized approach to burn coins, so called <a class="link-text" href="https://en.bitcoin.it/wiki/Proof_of_burn" target="_blank" rel="noopener noreferrer">Proof-of-Burn</a> mechanism for private and public staked coins. While this is one necessary step to control money circulation, masternode owners get the possibility to vote for reward reduction or complete burning for a specific period to reduce coin generation. We name it Galilel Money Supply Control (<span class="small">g</span>MSC), effectively Proof-of-Burn v2. This mechanism burns only rewards, never term deposits and development budget.</p>
                 </div>
                 <div class="carousel-item">
-                    <h5><i class="material-icons">cloud_done</i><br>Instant On Masternodes (gIOMN)</h5>
-                    <p>Masternodes gained already a lot of attraction in digital money sphere. While many new digital crypto currencies try to create ridiculous high return of investment (ROI) coins and fail after coin inflation kicks in as well as having unbalanced reward distribution between masternodes and staking wallets, this is not the main purpose for running a masternode. In Galilel, the main use-case for masternodes is securing the network while having the opportunity to vote of future development aspects as well as maintaining coin circulation. However, the main weak point for available masternode implementations is the requirement to have the blockchain synced and indexed on each machine acting as a masternode. Galilel Instant On Masternode (gIOMN) solves this problem by implementing a shared blockchain to run <a class="link-text" href="https://en.wikipedia.org/wiki/One-to-many_(data_model)" target="_blank" rel="noopener noreferrer">one-to-many</a> wallet daemons in a client server model. It is comparable to "Instant On" model available in Electrum client.</p>
+                    <h5><i class="material-icons">cloud_done</i><br>Instant On Masternodes (<span class="small">g</span>IOMN)</h5>
+                    <p>Masternodes gained already a lot of attraction in digital money sphere. While many new digital crypto currencies try to create ridiculous high return of investment (ROI) coins and fail after coin inflation kicks in as well as having unbalanced reward distribution between masternodes and staking wallets, this is not the main purpose for running a masternode. In Galilel, the main use-case for masternodes is securing the network while having the opportunity to vote of future development aspects as well as maintaining coin circulation. However, the main weak point for available masternode implementations is the requirement to have the blockchain synced and indexed on each machine acting as a masternode. Galilel Instant On Masternode (<span class="small">g</span>IOMN) solves this problem by implementing a shared blockchain to run <a class="link-text" href="https://en.wikipedia.org/wiki/One-to-many_(data_model)" target="_blank" rel="noopener noreferrer">one-to-many</a> wallet daemons in a client server model. It is comparable to "Instant On" model available in Electrum client.</p>
                 </div>
                 <div class="carousel-item">
                     <h5><i class="material-icons">lightbulb_outline</i><br>Transparency and Trust</h5>
@@ -480,7 +480,7 @@
                                         </tr>
                                         <tr>
                                             <td>Dynamic Coin Supply</td>
-                                            <td>All transaction fees and zGALI minting fees are burnt</td>
+                                            <td>All transaction fees and <span class="small">z</span>GALI minting fees are burnt</td>
                                         </tr>
                                         <tr>
                                             <td>Community Donation Address</td>
@@ -518,23 +518,23 @@
                                             <td>Block 245,000</td>
                                         </tr>
                                         <tr>
-                                            <td>zGALI Automint</td>
+                                            <td><span class="small">z</span>GALI Automint</td>
                                             <td>10%</td>
                                         </tr>
                                         <tr>
-                                            <td>zGALI Rewards (from block 245,001)</td>
-                                            <td>1 zGALI</td>
+                                            <td><span class="small">z</span>GALI Rewards (from block 245,001)</td>
+                                            <td>1 <span class="small">z</span>GALI</td>
                                         </tr>
                                         <tr>
-                                            <td>zGALI Rewards (from block 340,001)</td>
+                                            <td><span class="small">z</span>GALI Rewards (from block 340,001)</td>
                                             <td>MN 40%, zPoS 60%</td>
                                         </tr>
                                         <tr>
-                                            <td>zGALI Rewards (from block 430,001)</td>
+                                            <td><span class="small">z</span>GALI Rewards (from block 430,001)</td>
                                             <td>MN 40%, zPoS 60%</td>
                                         </tr>
                                         <tr>
-                                            <td>zGALI Denominators</td>
+                                            <td><span class="small">z</span>GALI Denominators</td>
                                             <td>1, 5, 10, 50, 100, 500, 1000, 5000</td>
                                         </tr>
                                         <tr>
@@ -551,7 +551,7 @@
                                         </tr>
                                         <tr>
                                             <td>Fees (mint)</td>
-                                            <td>0.01 GALI per minted zGALI denomination</td>
+                                            <td>0.01 GALI per minted <span class="small">z</span>GALI denomination</td>
                                         </tr>
                                         <tr>
                                             <td>Fees (spend)</td>
@@ -1246,7 +1246,7 @@
                                         <tbody>
                                             <tr>
                                                 <td>1.</td>
-                                                <td>Release Galilel v4.0.0 with Instant On Masternode (gIOMN) at block 380,000</td>
+                                                <td>Release Galilel v4.0.0 with Instant On Masternode (<span class="small">g</span>IOMN) at block 380,000</td>
                                                 <td><span class="new badge orange lighten-2" data-badge-caption=""><b>IN PROGRESS</b></span></td>
                                             </tr>
                                             <tr>
@@ -1268,12 +1268,12 @@
                                         <tbody>
                                             <tr>
                                                 <td>1.</td>
-                                                <td>Release Galilel v5.0.0 with Hybrid Proof-of-Stake (ghPoS) at block TBD</td>
+                                                <td>Release Galilel v5.0.0 with Hybrid Proof-of-Stake (<span class="small">gh</span>P<span class="small">o</span>S) at block TBD</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2.</td>
-                                                <td>Release Galilel Android wallet v1.0 with Instant On Masternode (gIOMN)</td>
+                                                <td>Release Galilel Android wallet v1.0 with Instant On Masternode (<span class="small">g</span>IOMN)</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                         </tbody>
@@ -1290,7 +1290,7 @@
                                         <tbody>
                                             <tr>
                                                 <td>1.</td>
-                                                <td>Release Galilel v5.1.0 with Term Deposit (gTD) at block TBD</td>
+                                                <td>Release Galilel v5.1.0 with Term Deposit (<span class="small">g</span>TD) at block TBD</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                         </tbody>
@@ -1307,12 +1307,12 @@
                                         <tbody>
                                             <tr>
                                                 <td>1.</td>
-                                                <td>Release Galilel v6.0.0 with Money Supply Control (gMSC)</td>
+                                                <td>Release Galilel v6.0.0 with Money Supply Control (<span class="small">g</span>MSC)</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2.</td>
-                                                <td>Release Galilel Android wallet v2.0 with Term Deposit (gTD)</td>
+                                                <td>Release Galilel Android wallet v2.0 with Term Deposit (<span class="small">g</span>TD)</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                         </tbody>
@@ -1329,7 +1329,7 @@
                                         <tbody>
                                             <tr>
                                                 <td>1.</td>
-                                                <td>Release Galilel Android wallet v3.0 with Money Supply Control (gMSC)</td>
+                                                <td>Release Galilel Android wallet v3.0 with Money Supply Control (<span class="small">g</span>MSC)</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                         </tbody>
