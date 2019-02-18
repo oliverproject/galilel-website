@@ -111,6 +111,9 @@ $(document).ready(
           case 'United States':
             window.open('https://t.me/GalilelEN','_blank');
             break;
+          case 'Dominican Rep.':
+            window.open('https://t.me/joinchat/Kd2SbQ3hfyFAsnOfwrSm1Q','_blank');
+            break;
         default:
       }
     }
