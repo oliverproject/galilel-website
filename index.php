@@ -160,7 +160,8 @@
                             '<li class="deploymasternode"><a href="https://p.ginplatform.io/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ginplatform.svg">Deploy Masternode</a>',
                             '<li class="deploymasternode"><a href="https://ihostmn.com/hostmn.php?coin=GALI" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ihostmn.svg">Deploy Masternode</a>',
                             '<li class="deploymasternode"><a href="https://dextro.io" target="_blank" rel="noopener noreferrer"><img src="images/marketing/dextro.svg">Deploy Masternode</a>',
-                            '<li class="deploymasternode"><a href="https://hub.kalkul.us" target="_blank" rel="noopener noreferrer"><img src="images/marketing/kalkulus.svg">Deploy Masternode</a>'
+                            '<li class="deploymasternode"><a href="https://hub.kalkul.us" target="_blank" rel="noopener noreferrer"><img src="images/marketing/kalkulus.svg">Deploy Masternode</a>',
+                            '<li class="deploymasternode"><a href="https://pecuniaplatform.io/99HOST" target="_blank" rel="noopener noreferrer"><img src="images/marketing/pecunia.svg">Deploy Masternode</a>'
                         ];
                         echo $deploy_masternodes[mt_rand(0, count($deploy_masternodes) - 1)];
                     ?>
@@ -1758,6 +1759,16 @@
                         </div>
                         <div class="center">
                             <a class="link-text" href="https://www.cryptocompare.com/coins/gali/overview" target="_blank" rel="noopener noreferrer">cryptocompare.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://pecuniaplatform.io/99HOST" target="_blank" rel="noopener noreferrer"><img src="images/marketing/pecunia.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://pecuniaplatform.io/99HOST" target="_blank" rel="noopener noreferrer">pecuniaplatform.io</a>
                         </div>
                     </div>
                 </div>
