@@ -131,7 +131,7 @@
         <li><a href="https://blocknet.co/galilel-2/" target="_blank" rel="noopener noreferrer">Block DX</a></li>
     </ul>
     <ul id="paper" class="dropdown-content">
-        <li><a href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
+        <li><a href="https://github.com/Galilel-Project/galilel-media/blob/master/%23%20Guidelines/Galilel%20Corporate%20Design%20Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
         <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
         <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepapers</a></li>
     </ul>
@@ -215,7 +215,7 @@
         <li><a class="collapsible-header waves-effect waves-grey">Papers</a>
             <div class="collapsible-body">
                 <ul>
-                    <li><a href="downloads/guides/Galilel_Brand_Guide_v2.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
+                    <li><a href="https://github.com/Galilel-Project/galilel-media/blob/master/%23%20Guidelines/Galilel%20Corporate%20Design%20Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
                     <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
                     <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepapers</a></li>
                 </ul>
