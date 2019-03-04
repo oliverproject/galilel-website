@@ -112,6 +112,7 @@
         <li><a href="#team">Team</a></li>
         <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#partners">Partners</a></li>
+        <li><a href="#merchants">Merchants</a></li>
     </ul>
     <ul id="wallet" class="dropdown-content">
         <li><a href="#wallets">Desktop Wallets</a></li>
@@ -181,6 +182,7 @@
                     <li><a href="#team">Team</a></li>
                     <li><a href="#roadmap">Roadmap</a></li>
                     <li><a href="#partners">Partners</a></li>
+                    <li><a href="#merchants">Merchants</a></li>
                 </ul>
             </div>
         </li>
@@ -1769,6 +1771,32 @@
                         </div>
                         <div class="center">
                             <a class="link-text" href="https://pecuniaplatform.io/99HOST" target="_blank" rel="noopener noreferrer">pecuniaplatform.io</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Merchants Content -->
+    <div class="container-fluid" id="merchants">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div class="icon-block">
+                        <h5 class="center">Merchants</h5>
+                        <p class="center">Service providers who accept Galilel as a payment method.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://dextro.io/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/dextro.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://dextro.io/" target="_blank" rel="noopener noreferrer">dextro.io</a>
                         </div>
                     </div>
                 </div>

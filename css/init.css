@@ -674,6 +674,39 @@ a {
   }
 }
 
+/* Merchants */
+
+#merchants {
+  background-color: #f2f0ef;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#merchants .card {
+  padding-bottom: 10px;
+}
+
+#merchants .card .card-image {
+  padding: 10px 5px 0px 5px;
+  max-width: 80px;
+  margin: 0px auto;
+}
+
+#merchants .card .center a {
+  width: 100%;
+  text-align: center;
+  font-weight: lighter!important;
+  font-size: 0.8em;
+  display:block;
+  padding-top:10px;
+}
+
+@media(max-width:600px) {
+  #merchants .card .center a {
+    display: none;
+  }
+}
+
 /* Footer */
 
 .page-footer {
