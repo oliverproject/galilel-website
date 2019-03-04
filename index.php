@@ -1787,6 +1787,18 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://blockspot.io/coin/galilel/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/blockspot.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://blockspot.io/coin/galilel/" target="_blank" rel="noopener noreferrer">blockspot.io</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
