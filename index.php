@@ -131,9 +131,10 @@
         <li><a href="https://blocknet.co/galilel-2/" target="_blank" rel="noopener noreferrer">Block DX</a></li>
     </ul>
     <ul id="paper" class="dropdown-content">
-        <li><a href="https://github.com/Galilel-Project/galilel-media/blob/master/%23%20Guidelines/Galilel%20Corporate%20Design%20Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
+        <li><a href="downloads/guides/Galilel_Corporate_Design_Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
         <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
         <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepapers</a></li>
+        <li><a href="#" target="_blank" data-featherlight="#walletguides">Wallet guides</a></li>       
     </ul>
     <ul id="explorer" class="dropdown-content">
         <li><a href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Mainnet</a></li>
@@ -215,9 +216,10 @@
         <li><a class="collapsible-header waves-effect waves-grey">Papers</a>
             <div class="collapsible-body">
                 <ul>
-                    <li><a href="https://github.com/Galilel-Project/galilel-media/blob/master/%23%20Guidelines/Galilel%20Corporate%20Design%20Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
+                    <li><a href="downloads/guides/Galilel_Corporate_Design_Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
                     <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
                     <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepapers</a></li>
+                    <li><a href="#" target="_blank" data-featherlight="#walletguides">Wallet guides</a></li>
                 </ul>
             </div>
         </li>
@@ -1809,7 +1811,7 @@
                 <div class="col s12">
                     <div class="icon-block">
                         <h5 class="center">Merchants</h5>
-                        <p class="center">Service providers who accept Galilel as a payment method.</p>
+                        <p class="center">Partners who accept Galilel as a payment method.</p>
                     </div>
                 </div>
             </div>
@@ -1885,6 +1887,15 @@
             </div>
             <div class="col s12 m6">
                 <a href="downloads/whitepaper/Galilel_Core_Whitepaper_IT.pdf" target="_blank" rel="noopener noreferrer">Italian (IT)</a>
+            </div>
+        </div>
+    </div>  
+
+    <div class="gali_modal" id="walletguides">
+        <div class="row">
+            <h5 class="center">Galilel Wallet Guides</h5>
+            <div class="col s12 m6">
+                <a href="downloads/guides/Galilel_Wallet_Guide_ES.pdf" target="_blank" rel="noopener noreferrer">Spanish (ES)</a>
             </div>
         </div>
     </div>  

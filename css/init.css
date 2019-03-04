@@ -793,15 +793,15 @@ a {
   display:none;
 }
 
-#whitepapers{
+#whitepapers, #walletguides{
   width: 500px;
 }
 
-#whitepapers h5{
+#whitepapers h5, #walletguides h5{
   text-transform:uppercase;
 }
 
-#whitepapers a{
+#whitepapers a, #walletguides a{
   display:block;
   font-size:0.8em;
   text-transform: uppercase;
@@ -818,7 +818,7 @@ a {
 }
 
 @media(max-width:500px) {
-  #whitepapers{
+  #whitepapers, #walletguides{
     width:100%;
   }
 }
