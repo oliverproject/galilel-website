@@ -164,7 +164,8 @@
                             '<li class="deploymasternode"><a href="https://ihostmn.com/hostmn.php?coin=GALI" target="_blank" rel="noopener noreferrer"><img src="images/marketing/ihostmn.svg">Deploy Masternode</a>',
                             '<li class="deploymasternode"><a href="https://dextro.io" target="_blank" rel="noopener noreferrer"><img src="images/marketing/dextro.svg">Deploy Masternode</a>',
                             '<li class="deploymasternode"><a href="https://hub.kalkul.us" target="_blank" rel="noopener noreferrer"><img src="images/marketing/kalkulus.svg">Deploy Masternode</a>',
-                            '<li class="deploymasternode"><a href="https://pecuniaplatform.io/99HOST" target="_blank" rel="noopener noreferrer"><img src="images/marketing/pecunia.svg">Deploy Masternode</a>'
+                            '<li class="deploymasternode"><a href="https://pecuniaplatform.io/99HOST" target="_blank" rel="noopener noreferrer"><img src="images/marketing/pecunia.svg">Deploy Masternode</a>',
+                            '<li class="deploymasternode"><a href="https://masternodes-germany.de/masternode-hosting/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/masternodesgermany.svg">Deploy Masternode</a>'
                         ];
                         echo $deploy_masternodes[mt_rand(0, count($deploy_masternodes) - 1)];
                     ?>
@@ -1807,6 +1808,26 @@
                         </div>
                         <div class="center">
                             <a class="link-text" href="https://blockspot.io/coin/galilel/" target="_blank" rel="noopener noreferrer">blockspot.io</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://crypos.io/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/crypos.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://crypos.io/" target="_blank" rel="noopener noreferrer">crypos.io</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://masternodes-germany.de/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/masternodesgermany.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://masternodes-germany.de/" target="_blank" rel="noopener noreferrer">masternodes-germany.de</a>
                         </div>
                     </div>
                 </div>
