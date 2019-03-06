@@ -1480,6 +1480,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://globalcryptonews.io/galilel-cloud-2018-a-year-in-review/" target="_blank" rel="noopener noreferrer"><img src="images/media/globalcryptonews.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://globalcryptonews.io/galilel-cloud-2018-a-year-in-review/" target="_blank" rel="noopener noreferrer">globalcryptonews.io<br>2018 a year in review</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
