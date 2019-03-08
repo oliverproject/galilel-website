@@ -128,7 +128,7 @@
         <li><a href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</a></li>
         <li><a href="https://trade.mct.plus" target="_blank" rel="noopener noreferrer">MCT+</a></li>
         <li><a href="https://www.finexbox.com/market/pair/GALI-BTC.html" target="_blank" rel="noopener noreferrer">Finexbox</a></li>
-        <li><a href="https://blocknet.co/galilel-2/" target="_blank" rel="noopener noreferrer">Block DX</a></li>
+        <li><a href="https://blocknet.co/galilel-2/about/" target="_blank" rel="noopener noreferrer">Block DX</a></li>
         <li><a href="https://bisq.network/markets/?currency=gali_btc" target="_blank" rel="noopener noreferrer">Bisq</a></li>
     </ul>
     <ul id="paper" class="dropdown-content">
@@ -211,7 +211,7 @@
                     <li><a href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</a></li>
                     <li><a href="https://trade.mct.plus" target="_blank" rel="noopener noreferrer">MCT+</a></li>
                     <li><a href="https://www.finexbox.com/market/pair/GALI-BTC.html" target="_blank" rel="noopener noreferrer">Finexbox</a></li>
-                    <li><a href="https://blocknet.co/galilel-2/" target="_blank" rel="noopener noreferrer">Block DX</a></li>
+                    <li><a href="https://blocknet.co/galilel-2/about/" target="_blank" rel="noopener noreferrer">Block DX</a></li>
                     <li><a href="https://bisq.network/markets/?currency=gali_btc" target="_blank" rel="noopener noreferrer">Bisq</a></li>
                 </ul>
             </div>
@@ -1440,10 +1440,10 @@
                 <div class="col s3">
                     <div class="card">
                         <div class="card-image">
-                            <a class="link-text" href="https://blocknet.co/galilel-2/" target="_blank" rel="noopener noreferrer"><img src="images/exchange/blockdx.svg"></a>
+                            <a class="link-text" href="https://blocknet.co/galilel-2/about/" target="_blank" rel="noopener noreferrer"><img src="images/exchange/blockdx.svg"></a>
                         </div>
                         <div class="center">
-                            <a class="link-text" href="https://blocknet.co/galilel-2/" target="_blank" rel="noopener noreferrer">Block DX</a>
+                            <a class="link-text" href="https://blocknet.co/galilel-2/about/" target="_blank" rel="noopener noreferrer">Block DX</a>
                         </div>
                     </div>
                 </div>
@@ -1901,7 +1901,7 @@
                         <li><a href="https://raisex.io/trade/GALI_BTC" target="_blank" rel="noopener noreferrer">Raisex</a></li>
                         <li><a href="https://trade.mct.plus" target="_blank" rel="noopener noreferrer">MCT+</a></li>
                         <li><a href="https://www.finexbox.com/market/pair/GALI-BTC.html" target="_blank" rel="noopener noreferrer">Finexbox</a></li>
-                        <li><a href="https://blocknet.co/galilel-2/" target="_blank" rel="noopener noreferrer">Block DX</a></li>
+                        <li><a href="https://blocknet.co/galilel-2/about/" target="_blank" rel="noopener noreferrer">Block DX</a></li>
                         <li><a href="https://bisq.network/markets/?currency=gali_btc" target="_blank" rel="noopener noreferrer">bisq</a></li>
                     </ul>
                 </div>
