@@ -134,7 +134,7 @@
     </ul>
     <ul id="paper" class="dropdown-content">
         <li><a href="downloads/guides/Galilel_Corporate_Design_Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
-        <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
+        <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide_EN.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
         <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepapers</a></li>
         <li><a href="#" target="_blank" data-featherlight="#walletguides">Wallet guides</a></li>       
     </ul>
@@ -222,7 +222,7 @@
             <div class="collapsible-body">
                 <ul>
                     <li><a href="downloads/guides/Galilel_Corporate_Design_Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
-                    <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
+                    <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide_EN.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
                     <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepapers</a></li>
                     <li><a href="#" target="_blank" data-featherlight="#walletguides">Wallet guides</a></li>
                 </ul>
