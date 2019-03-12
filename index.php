@@ -130,6 +130,7 @@
         <li><a href="https://www.finexbox.com/market/pair/GALI-BTC.html" target="_blank" rel="noopener noreferrer">Finexbox</a></li>
         <li><a href="https://blocknet.co/galilel-2/" target="_blank" rel="noopener noreferrer">Block DX</a></li>
         <li><a href="https://bisq.network/markets/?currency=gali_btc" target="_blank" rel="noopener noreferrer">Bisq</a></li>
+        <li><a href="https://amsterdex.com/exchange?market=gali" target="_blank" rel="noopener noreferrer">Amsterdex</a></li>
     </ul>
     <ul id="paper" class="dropdown-content">
         <li><a href="downloads/guides/Galilel_Corporate_Design_Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
@@ -213,6 +214,7 @@
                     <li><a href="https://www.finexbox.com/market/pair/GALI-BTC.html" target="_blank" rel="noopener noreferrer">Finexbox</a></li>
                     <li><a href="https://blocknet.co/galilel-2/" target="_blank" rel="noopener noreferrer">Block DX</a></li>
                     <li><a href="https://bisq.network/markets/?currency=gali_btc" target="_blank" rel="noopener noreferrer">Bisq</a></li>
+                    <li><a href="https://amsterdex.com/exchange?market=gali" target="_blank" rel="noopener noreferrer">Amsterdex</a></li>
                 </ul>
             </div>
         </li>
@@ -1459,6 +1461,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://amsterdex.com/exchange?market=gali" target="_blank" rel="noopener noreferrer"><img src="images/exchange/amsterdex.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://amsterdex.com/exchange?market=gali" target="_blank" rel="noopener noreferrer">amsterdex.com</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -1903,6 +1915,7 @@
                         <li><a href="https://www.finexbox.com/market/pair/GALI-BTC.html" target="_blank" rel="noopener noreferrer">Finexbox</a></li>
                         <li><a href="https://blocknet.co/galilel-2/" target="_blank" rel="noopener noreferrer">Block DX</a></li>
                         <li><a href="https://bisq.network/markets/?currency=gali_btc" target="_blank" rel="noopener noreferrer">bisq</a></li>
+                        <li><a href="https://amsterdex.com/exchange?market=gali" target="_blank" rel="noopener noreferrer">Amsterdex</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m4">
