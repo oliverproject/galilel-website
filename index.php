@@ -1947,6 +1947,9 @@
             <div class="col s12 m6">
                 <a href="downloads/whitepaper/Galilel_Core_Whitepaper_IT.pdf" target="_blank" rel="noopener noreferrer">Italian (IT)</a>
             </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper_ES.pdf" target="_blank" rel="noopener noreferrer">Spanish (ES)</a>
+            </div>
         </div>
     </div>  
 
