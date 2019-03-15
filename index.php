@@ -113,6 +113,7 @@
         <li><a href="#roadmap">Roadmap</a></li>
         <li><a href="#partners">Partners</a></li>
         <li><a href="#merchants">Merchants</a></li>
+        <li><a href="#media">Media</a></li>
     </ul>
     <ul id="wallet" class="dropdown-content">
         <li><a href="#wallets">Desktop Wallets</a></li>
@@ -132,11 +133,11 @@
         <li><a href="https://bisq.network/markets/?currency=gali_btc" target="_blank" rel="noopener noreferrer">Bisq</a></li>
         <li><a href="https://amsterdex.com/exchange?market=gali" target="_blank" rel="noopener noreferrer">Amsterdex</a></li>
     </ul>
-    <ul id="paper" class="dropdown-content">
+    <ul id="guides" class="dropdown-content">
         <li><a href="downloads/guides/Galilel_Corporate_Design_Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
+        <li><a href="https://galilel.gitbook.io/guide/" target="_blank" rel="noopener noreferrer">Masternode Guide</a></li>
         <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide_EN.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
-        <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepapers</a></li>
-        <li><a href="#" target="_blank" data-featherlight="#walletguides">Wallet guides</a></li>       
+        <li><a href="#" target="_blank" data-featherlight="#walletguides">Wallet Guides</a></li>       
     </ul>
     <ul id="explorer" class="dropdown-content">
         <li><a href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Mainnet</a></li>
@@ -155,9 +156,9 @@
                     <li><a class="dropdown-trigger" data-target="about">About</a></li>
                     <li><a class="dropdown-trigger" data-target="wallet">Wallets</a></li>
                     <li><a class="dropdown-trigger" data-target="exchange">Exchanges</a></li>
-                    <li><a class="dropdown-trigger" data-target="paper">Papers</a></li>
                     <li><a class="dropdown-trigger" data-target="explorer">Explorers</a></li>
-                    <li><a href="#media">Media</a></li>
+                    <li><a class="dropdown-trigger" data-target="guides">Guides</a></li>
+                    <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepapers</a></li>
                 </ul>
                 <ul class="main-menu right hide-on-med-and-down">
                     <?php
@@ -188,6 +189,7 @@
                     <li><a href="#roadmap">Roadmap</a></li>
                     <li><a href="#partners">Partners</a></li>
                     <li><a href="#merchants">Merchants</a></li>
+                    <li><a href="#media">Media</a></li>
                 </ul>
             </div>
         </li>
@@ -218,16 +220,26 @@
                 </ul>
             </div>
         </li>
-        <li><a class="collapsible-header waves-effect waves-grey">Papers</a>
+        <li><a class="collapsible-header waves-effect waves-grey">Explorers</a>
             <div class="collapsible-body">
                 <ul>
-                    <li><a href="downloads/guides/Galilel_Corporate_Design_Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
-                    <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide_EN.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
-                    <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepapers</a></li>
-                    <li><a href="#" target="_blank" data-featherlight="#walletguides">Wallet guides</a></li>
+                    <li><a href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Mainnet</a></li>
+                    <li><a href="https://explorer.aiodex.com/GALI" target="_blank" rel="noopener noreferrer">Mainnet (Aiodex)</a></li>
+                    <li><a href="https://explorer.testnet.galilel.cloud">Testnet</a></li>
                 </ul>
             </div>
         </li>
+        <li><a class="collapsible-header waves-effect waves-grey">Guides</a>
+            <div class="collapsible-body">
+                <ul>
+                    <li><a href="downloads/guides/Galilel_Corporate_Design_Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
+                    <li><a href="https://galilel.gitbook.io/guide/" target="_blank" rel="noopener noreferrer">Masternode Guide</a></li>
+                    <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide_EN.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
+                    <li><a href="#" target="_blank" data-featherlight="#walletguides">Wallet Guides</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#" target="_blank" data-featherlight="#whitepapers">Whitepapers</a></li>
         <li><a class="collapsible-header waves-effect waves-grey">Community</a>
             <div class="collapsible-body">
                 <ul>
@@ -241,16 +253,6 @@
                 </ul>
             </div>
         </li>
-        <li><a class="collapsible-header waves-effect waves-grey">Explorers</a>
-            <div class="collapsible-body">
-                <ul>
-                    <li><a href="https://explorer.galilel.cloud" target="_blank" rel="noopener noreferrer">Mainnet</a></li>
-                    <li><a href="https://explorer.aiodex.com/GALI" target="_blank" rel="noopener noreferrer">Mainnet (Aiodex)</a></li>
-                    <li><a href="https://explorer.testnet.galilel.cloud">Testnet</a></li>
-                </ul>
-            </div>
-        </li>
-        <li><a href="#media">Media</a></li>
     </ul>
 
     <!-- Information Header -->
