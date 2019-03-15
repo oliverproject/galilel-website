@@ -1241,7 +1241,7 @@
                                             <tr>
                                                 <td>2.</td>
                                                 <td>Start Android wallet development</td>
-                                                <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
+                                                <td><span class="new badge orange lighten-2" data-badge-caption=""><b>IN PROGRESS</b></span></td>
                                             </tr>
                                         </tbody>
                                     </table>
