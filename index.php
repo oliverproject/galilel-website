@@ -884,7 +884,7 @@
                             <span class="name">Maik Broemme</span>
                             <br> Babyface#7772
                             <br>
-                            <span class="role">Founder & Developer</span>
+                            <span class="role">Lead Developer</span>
                             <br>
                             Germany
                         </p>
