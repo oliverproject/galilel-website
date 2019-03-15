@@ -71,7 +71,8 @@ $(document).ready(
               "AT" : "#bca389",
               "CH" : "#bca389",
               "DO" : "#bca389",
-              "RU" : "#bca389", 
+              "RU" : "#bca389",
+              "US" : "#bca389", 
               "LV" : "#bca389",
               "RO" : "#c9b5a0",
               "FR" : "#c9b5a0",
@@ -82,7 +83,8 @@ $(document).ready(
               "NL" : "#c9b5a0",
               "BE" : "#c9b5a0",
               "TR" : "#c9b5a0",
-              "PH" : "#c9b5a0"
+              "PH" : "#c9b5a0",
+              "JP" : "#c9b5a0"
             },
             attribute: 'fill'
           }]
