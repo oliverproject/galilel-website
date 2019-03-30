@@ -168,7 +168,8 @@
                             '<li class="deploymasternode"><a href="https://dextro.io" target="_blank" rel="noopener noreferrer"><img src="images/marketing/dextro.svg">Deploy Masternode</a>',
                             '<li class="deploymasternode"><a href="https://hub.kalkul.us" target="_blank" rel="noopener noreferrer"><img src="images/marketing/kalkulus.svg">Deploy Masternode</a>',
                             '<li class="deploymasternode"><a href="https://pecuniaplatform.io/99HOST" target="_blank" rel="noopener noreferrer"><img src="images/marketing/pecunia.svg">Deploy Masternode</a>',
-                            '<li class="deploymasternode"><a href="https://masternodes-germany.de/masternode-hosting/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/masternodesgermany.svg">Deploy Masternode</a>'
+                            '<li class="deploymasternode"><a href="https://masternodes-germany.de/masternode-hosting/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/masternodesgermany.svg">Deploy Masternode</a>',
+                            '<li class="deploymasternode"><a href="https://platform.apollon.network/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/apollonnetwork.svg">Deploy Masternode</a>'
                         ];
                         echo $deploy_masternodes[mt_rand(0, count($deploy_masternodes) - 1)];
                     ?>
@@ -1841,6 +1842,18 @@
                         </div>
                         <div class="center">
                             <a class="link-text" href="https://masternodesgo.com/" target="_blank" rel="noopener noreferrer">masternodesgo.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://platform.apollon.network/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/apollonnetwork.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://platform.apollon.network/" target="_blank" rel="noopener noreferrer">apollon.network</a>
                         </div>
                     </div>
                 </div>
