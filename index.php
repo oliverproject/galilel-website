@@ -1834,6 +1834,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://masternodesgo.com/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/mngo.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://masternodesgo.com/" target="_blank" rel="noopener noreferrer">masternodesgo.com</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
