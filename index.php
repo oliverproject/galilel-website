@@ -1511,6 +1511,16 @@
                 </div>
             </div>
             <div class="row">
+            <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://coinmarketcap.com/currencies/galilel/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/coinmarketcap.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://coinmarketcap.com/currencies/galilel/" target="_blank" rel="noopener noreferrer">coinmarketcap.com</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col s3">
                     <div class="card">
                         <div class="card-image">
@@ -1538,16 +1548,6 @@
                         </div>
                         <div class="center">
                             <a class="link-text" href="https://mntop.co.in/" target="_blank" rel="noopener noreferrer">mntop.co.in</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s3">
-                    <div class="card">
-                        <div class="card-image">
-                            <a class="link-text" href="https://mnode.club/g/info/GALI" target="_blank" rel="noopener noreferrer"><img src="images/marketing/mnode.svg"></a>
-                        </div>
-                        <div class="center">
-                            <a class="link-text" href="https://mnode.club/g/info/GALI" target="_blank" rel="noopener noreferrer">mnode.club</a>
                         </div>
                     </div>
                 </div>
@@ -1586,10 +1586,10 @@
                 <div class="col s3">
                     <div class="card">
                         <div class="card-image">
-                            <a class="link-text" href="https://gali.chopcoin.io/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/chopcoin.svg"></a>
+                            <a class="link-text" href="https://mnode.club/g/info/GALI" target="_blank" rel="noopener noreferrer"><img src="images/marketing/mnode.svg"></a>
                         </div>
                         <div class="center">
-                            <a class="link-text" href="https://gali.chopcoin.io/" target="_blank" rel="noopener noreferrer">chopcoin.io</a>
+                            <a class="link-text" href="https://mnode.club/g/info/GALI" target="_blank" rel="noopener noreferrer">mnode.club</a>
                         </div>
                     </div>
                 </div>
@@ -1854,6 +1854,16 @@
                         </div>
                         <div class="center">
                             <a class="link-text" href="https://platform.apollon.network/" target="_blank" rel="noopener noreferrer">apollon.network</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="card">
+                        <div class="card-image">
+                            <a class="link-text" href="https://gali.chopcoin.io/" target="_blank" rel="noopener noreferrer"><img src="images/marketing/chopcoin.svg"></a>
+                        </div>
+                        <div class="center">
+                            <a class="link-text" href="https://gali.chopcoin.io/" target="_blank" rel="noopener noreferrer">chopcoin.io</a>
                         </div>
                     </div>
                 </div>
