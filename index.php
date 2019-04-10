@@ -1226,7 +1226,7 @@
                                     </table>
                                 </div>
                             </li>
-                            <li class="active">
+                            <li>
                                 <div class="collapsible-header">
                                     Q1/2019
                                     <span class="badge">2</span>
@@ -1236,19 +1236,19 @@
                                         <tbody>
                                             <tr>
                                                 <td>1.</td>
-                                                <td>Release Galilel v4.0.0 with Instant On Masternode (<span class="small">g</span>IOMN) at block 380,000</td>
-                                                <td><span class="new badge orange lighten-2" data-badge-caption=""><b>IN PROGRESS</b></span></td>
+                                                <td>Release Galilel v3.2.0 with Dynamic Zerocoin Proof-of-Stake</td>
+                                                <td><span class="new badge green lighten-2" data-badge-caption=""><b>RESOLVED</b></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2.</td>
                                                 <td>Start Android wallet development</td>
-                                                <td><span class="new badge orange lighten-2" data-badge-caption=""><b>IN PROGRESS</b></span></td>
+                                                <td><span class="new badge green lighten-2" data-badge-caption=""><b>RESOLVED</b></span></td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </li>
-                            <li>
+                            <li class="active">
                                 <div class="collapsible-header">
                                     Q2/2019
                                     <span class="badge">2</span>
@@ -1258,12 +1258,22 @@
                                         <tbody>
                                             <tr>
                                                 <td>1.</td>
-                                                <td>Release Galilel v5.0.0 with Hybrid Proof-of-Stake (<span class="small">gh</span>P<span class="small">o</span>S) at block TBD</td>
-                                                <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
+                                                <td>Release Galilel v3.3.0 with Zerocoin Light Node Protocol, Precomputed Proofs and Governance</td>
+                                                <td><span class="new badge orange lighten-2" data-badge-caption=""><b>IN PROGRESS</b></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2.</td>
-                                                <td>Release Galilel Android wallet v1.0 with Instant On Masternode (<span class="small">g</span>IOMN)</td>
+                                                <td>Release Galilel Android wallet v1.0</td>
+                                                <td><span class="new badge orange lighten-2" data-badge-caption=""><b>IN PROGRESS</b></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.</td>
+                                                <td>Creating legal entity in Germany for binding contracts and mobile wallet publishing</td>
+                                                <td><span class="new badge orange lighten-2" data-badge-caption=""><b>IN PROGRESS</b></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>4.</td>
+                                                <td>Creating legal entity in Estonia for DAO governance related activities</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                         </tbody>
@@ -1280,7 +1290,12 @@
                                         <tbody>
                                             <tr>
                                                 <td>1.</td>
-                                                <td>Release Galilel v5.1.0 with Term Deposit (<span class="small">g</span>TD) at block TBD</td>
+                                                <td>Release Galilel v4.0.0 with Proof-of-Transaction (<span class="small">gh</span>P<span class="small">o</span>T)</td>
+                                                <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.</td>
+                                                <td>Start iOS wallet development v1.0</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                         </tbody>
@@ -1297,12 +1312,17 @@
                                         <tbody>
                                             <tr>
                                                 <td>1.</td>
-                                                <td>Release Galilel v6.0.0 with Money Supply Control (<span class="small">g</span>MSC)</td>
+                                                <td>Release Galilel v4.1.0 with Instant On Masternode (<span class="small">g</span>IOMN)</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2.</td>
-                                                <td>Release Galilel Android wallet v2.0 with Term Deposit (<span class="small">g</span>TD)</td>
+                                                <td>Release iOS wallet v1.0</td>
+                                                <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>3.</td>
+                                                <td>Release Galilel Android wallet v2.0 with Proof-of-Transaction (<span class="small">gh</span>P<span class="small">o</span>T)</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                         </tbody>
@@ -1319,7 +1339,63 @@
                                         <tbody>
                                             <tr>
                                                 <td>1.</td>
-                                                <td>Release Galilel Android wallet v3.0 with Money Supply Control (<span class="small">g</span>MSC)</td>
+                                                <td>Release Galilel v5.0.0 with Hybrid Proof-of-Stake (<span class="small">gh</span>P<span class="small">o</span>S)</td>
+                                                <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.</td>
+                                                <td>Release iOS wallet v2.0 with Proof-of-Transaction (<span class="small">gh</span>P<span class="small">o</span>T)</td>
+                                                <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
+                                            </tr>
+
+
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Release Galilel v5.1.0 with Term Deposit (<span class="small">g</span>TD)</td>
+                                                <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Release Galilel v6.0.0 with Money Supply Control (<span class="small">g</span>MSC)</td>
+                                                <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    Q2/2020
+                                    <span class="badge">1</span>
+                                </div>
+                                <div class="collapsible-body">
+                                    <table class="highlight">
+                                        <tbody>
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Release Galilel v5.1.0 with Term Deposit (<span class="small">g</span>TD)</td>
+                                                <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Release Galilel v6.0.0 with Money Supply Control (<span class="small">g</span>MSC)</td>
+                                                <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">
+                                    Q3/2020
+                                    <span class="badge">1</span>
+                                </div>
+                                <div class="collapsible-body">
+                                    <table class="highlight">
+                                        <tbody>
+                                            <tr>
+                                                <td>1.</td>
+                                                <td>Release Galilel v6.0.0 with Money Supply Control (<span class="small">g</span>MSC)</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                         </tbody>
