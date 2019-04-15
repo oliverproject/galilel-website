@@ -1177,7 +1177,7 @@
                             <li>
                                 <div class="collapsible-header">
                                     Q4/2018
-                                    <span class="badge">7</span>
+                                    <span class="badge">8</span>
                                 </div>
                                 <div class="collapsible-body">
                                     <table class="highlight">
@@ -1251,7 +1251,7 @@
                             <li class="active">
                                 <div class="collapsible-header">
                                     Q2/2019
-                                    <span class="badge">2</span>
+                                    <span class="badge">4</span>
                                 </div>
                                 <div class="collapsible-body">
                                     <table class="highlight">
@@ -1283,7 +1283,7 @@
                             <li>
                                 <div class="collapsible-header">
                                     Q3/2019
-                                    <span class="badge">1</span>
+                                    <span class="badge">2</span>
                                 </div>
                                 <div class="collapsible-body">
                                     <table class="highlight">
@@ -1305,7 +1305,7 @@
                             <li>
                                 <div class="collapsible-header">
                                     Q4/2019
-                                    <span class="badge">2</span>
+                                    <span class="badge">3</span>
                                 </div>
                                 <div class="collapsible-body">
                                     <table class="highlight">
@@ -1332,7 +1332,7 @@
                             <li>
                                 <div class="collapsible-header">
                                     Q1/2020
-                                    <span class="badge">1</span>
+                                    <span class="badge">4</span>
                                 </div>
                                 <div class="collapsible-body">
                                     <table class="highlight">
@@ -1347,15 +1347,13 @@
                                                 <td>Release iOS wallet v2.0 with Proof-of-Transaction (<span class="small">gh</span>P<span class="small">o</span>T)</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
-
-
                                             <tr>
-                                                <td>1.</td>
+                                                <td>3.</td>
                                                 <td>Release Galilel v5.1.0 with Term Deposit (<span class="small">g</span>TD)</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                             <tr>
-                                                <td>1.</td>
+                                                <td>4.</td>
                                                 <td>Release Galilel v6.0.0 with Money Supply Control (<span class="small">g</span>MSC)</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
@@ -1366,7 +1364,7 @@
                             <li>
                                 <div class="collapsible-header">
                                     Q2/2020
-                                    <span class="badge">1</span>
+                                    <span class="badge">2</span>
                                 </div>
                                 <div class="collapsible-body">
                                     <table class="highlight">
@@ -1377,7 +1375,7 @@
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
                                             <tr>
-                                                <td>1.</td>
+                                                <td>2.</td>
                                                 <td>Release Galilel v6.0.0 with Money Supply Control (<span class="small">g</span>MSC)</td>
                                                 <td><span class="new badge red lighten-2" data-badge-caption=""><b>OPEN</b></span></td>
                                             </tr>
