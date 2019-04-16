@@ -1259,7 +1259,7 @@
                                             <tr>
                                                 <td>1.</td>
                                                 <td>Release Galilel v3.3.0 with Zerocoin Light Node Protocol, Precomputed Proofs and Governance</td>
-                                                <td><span class="new badge orange lighten-2" data-badge-caption=""><b>IN PROGRESS</b></span></td>
+                                                <td><span class="new badge green lighten-2" data-badge-caption=""><b>RESOLVED</b></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2.</td>
