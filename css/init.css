@@ -451,6 +451,24 @@ a {
   }
 }
 
+/* Budget propsals / Hire */
+
+.external_link{
+  background-color: #986a5a;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding:5px;
+  text-align:center;
+  width:100%;
+  margin-bottom:10px;
+}
+
+.external_link a, .external_link a:visited, .external_link a:active{
+  color: white;
+  text-decoration: none!important;
+}
+
 /* Wallets */
 
 #wallets {
