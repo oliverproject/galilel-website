@@ -322,10 +322,12 @@
             <div class="row">
                 <div class="col s12 m6">
                     <h5 class="center">Budget propsals</h5>
+                    <p class="center">Check our latest budget propsals under the following links.</p>
                     <a class="external_link" href="https://galilel.cloud/budget/1">Coming soon.</a>
                 </div>   
                 <div class="col s12 m6">
                     <h5 class="center">We hire</h5>
+                    <p class="center">Galilel would love to welcome you in our team.</p>
                     <a class="external_link" href="https://galilel.cloud/hire/technical-community-support">Technical Community Support at Galilel</a>
                     <a class="external_link" href="https://galilel.cloud/hire/technical-writer">Technical writer for Galilel</a>
                 </div>

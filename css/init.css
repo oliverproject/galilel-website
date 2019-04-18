@@ -454,9 +454,9 @@ a {
 /* Budget propsals / Hire */
 
 #budget_hire{
-  margin-bottom: 50px;
-  margin-top: 50px;
-  background-color: #d5c6b6;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: #f2f0ef;
 }
 
 .external_link{
