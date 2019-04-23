@@ -317,6 +317,13 @@
     </div>
 
     <!-- Budget propsals / hire -->
+    <?php
+        function getStringBetween($str,$from,$to)
+        {
+            $sub = substr($str, strpos($str,$from)+strlen($from),strlen($str));
+            return substr($sub,0,strpos($sub,$to));
+        }
+    ?>
     <div class="container-fluid" id="budget_hire">
         <div class="container">
             <div class="row">
@@ -324,14 +331,33 @@
                     <img src="images/propsals.svg">
                     <h5 class="center">Budget propsals</h5>
                     <p class="center">Check our latest budget propsals under the following links.</p>
-                    <a class="external_link" href="https://galilel.cloud/budget/1">Coming soon.</a>
+                    <?php
+                        $propsals_dir = 'budget';
+                        $propsals_files = array_diff(scandir($propsals_dir), array('.', '..'));
+                        foreach($propsals_files as $propsals_file)
+                        {
+                            $propsal_file_content = file_get_contents($propsals_dir.'/'.$propsals_file);
+                            $propsal_header = getStringBetween($propsal_file_content,"<h1>","</h1>");
+                            $remove_extension = str_replace(".html", "", $propsals_file);
+                            echo '<a class="external_link" href="https://galilel.cloud/budget/'.$remove_extension.'">'.$propsal_header.'</a>';
+                        }
+                    ?>
                 </div>   
                 <div class="col s12 m6">
                     <img src="images/hire.svg">
                     <h5 class="center">We hire</h5>
                     <p class="center">Galilel would love to welcome you in our team.</p>
-                    <a class="external_link" href="https://galilel.cloud/hire/technical-community-support">Technical Community Support at Galilel</a>
-                    <a class="external_link" href="https://galilel.cloud/hire/technical-writer">Technical writer for Galilel</a>
+                    <?php
+                        $propsals_dir = 'hire';
+                        $hire_files = array_diff(scandir($hire_dir), array('.', '..'));
+                        foreach($hire_files as $hire_file)
+                        {
+                            $hire_file_content = file_get_contents($hire_dir.'/'.$hire_file);
+                            $hire_header = getStringBetween($hire_file_content,"<h1>","</h1>");
+                            $remove_extension = str_replace(".html", "", $hire_file);
+                            echo '<a class="external_link" href="https://galilel.cloud/budget/'.$remove_extension.'">'.$hire_header.'</a>';
+                        }
+                    ?>
                 </div>
             </div>
         </div>
