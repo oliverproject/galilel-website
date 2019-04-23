@@ -119,7 +119,7 @@
         },
         "theme": "edgeless",
         "content": {
-            "href": "/data-protection"
+            "href": "https://galilel.cloud/legal/data-protection"
         }
         })});
     </script>
@@ -2106,7 +2106,7 @@
           </div>
         <div class="container center copyright">
             <a class="link-text" href="mailto:contact@galilel.cloud?subject=More%20Information">Copyright &copy; <?php echo date('Y'); ?> - Galilel Core</a><br>
-            <a href="#" data-featherlight="#imprint">Imprint</a> <a href="/data-protection" class="data-protection" >Data protection</a>
+            <a href="#" data-featherlight="#imprint">Imprint</a> <a href="https://galilel.cloud/legal/data-protection" class="data-protection" >Data protection</a>
         </div>
     </footer>
 
