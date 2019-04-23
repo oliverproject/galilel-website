@@ -456,7 +456,19 @@ a {
 #budget_hire{
   padding-bottom: 50px;
   padding-top: 50px;
-  background-color: #f2f0ef;
+  text-align:center;
+  background-color: #ededed;
+}
+
+#budget_hire img{
+  max-width:200px;
+  margin: 0px auto;
+}
+
+@media(max-width:600px) {
+  #budget_hire img{
+    margin-top: 30px;
+  }
 }
 
 .external_link{
