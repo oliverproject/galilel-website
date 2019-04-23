@@ -135,7 +135,7 @@
     </ul>
     <ul id="guides" class="dropdown-content">
         <li><a href="downloads/guides/Galilel_Corporate_Design_Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
-        <li><a href="https://galilel.gitbook.io/guide/" target="_blank" rel="noopener noreferrer">Masternode Guide</a></li>
+        <li><a href="#" target="_blank" data-featherlight="#masternodeguides">Masternode Guides</a></li>
         <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide_EN.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
         <li><a href="#" target="_blank" data-featherlight="#walletguides">Wallet Guides</a></li>       
     </ul>
@@ -234,7 +234,7 @@
             <div class="collapsible-body">
                 <ul>
                     <li><a href="downloads/guides/Galilel_Corporate_Design_Guidelines.pdf" target="_blank" rel="noopener noreferrer">Brand Guide</a></li>
-                    <li><a href="https://galilel.gitbook.io/guide/" target="_blank" rel="noopener noreferrer">Masternode Guide</a></li>
+                    <li><a href="#" target="_blank" data-featherlight="#masternideguides">Masternode Guides</a></li>
                     <li><a href="downloads/guides/Galilel_TOR_Masternode_Guide_EN.pdf" target="_blank" rel="noopener noreferrer">Tor Masternode Guide</a></li>
                     <li><a href="#" target="_blank" data-featherlight="#walletguides">Wallet Guides</a></li>
                 </ul>
@@ -2084,11 +2084,20 @@
         </div>
     </div>  
 
+    <div class="gali_modal" id="masternodeguides">
+        <div class="row">
+            <h5 class="center">Galilel Masternode Guides</h5>
+            <div class="col s12 m6">
+                <a href="https://galilel.gitbook.io/guide/masternode-guides/galilel-masternode-guide" target="_blank" rel="noopener noreferrer">English (EN)</a>
+            </div>
+        </div>
+    </div>  
+
     <div class="gali_modal" id="walletguides">
         <div class="row">
             <h5 class="center">Galilel Wallet Guides</h5>
             <div class="col s12 m6">
-                <a href="downloads/guides/Galilel_Wallet_Guide_ES.pdf" target="_blank" rel="noopener noreferrer">Spanish (ES)</a>
+                <a href="https://galilel.gitbook.io/guide/wallet-guides-galilel/guias" target="_blank" rel="noopener noreferrer">Spanish (ES)</a>
             </div>
         </div>
     </div>  

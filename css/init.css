@@ -834,15 +834,15 @@ a {
   display:none;
 }
 
-#whitepapers, #walletguides{
+#whitepapers, #walletguides, #masternodeguides{
   width: 500px;
 }
 
-#whitepapers h5, #walletguides h5{
+#whitepapers h5, #walletguides h5, #masternodeguides h5{
   text-transform:uppercase;
 }
 
-#whitepapers a, #walletguides a{
+#whitepapers a, #walletguides a, #masternodeguides a{
   display:block;
   font-size:0.8em;
   text-transform: uppercase;
@@ -857,9 +857,9 @@ a {
   border-radius: 4px!important;
   margin-bottom:10px;
 }
-
+ 
 @media(max-width:500px) {
-  #whitepapers, #walletguides{
+  #whitepapers, #walletguides, #masternodeguides{
     width:100%;
   }
 }
