@@ -348,14 +348,14 @@
                     <h5 class="center">We hire</h5>
                     <p class="center">Galilel would love to welcome you in our team.</p>
                     <?php
-                        $propsals_dir = 'hire';
+                        $hire_dir = 'hire';
                         $hire_files = array_diff(scandir($hire_dir), array('.', '..'));
                         foreach($hire_files as $hire_file)
                         {
                             $hire_file_content = file_get_contents($hire_dir.'/'.$hire_file);
                             $hire_header = getStringBetween($hire_file_content,"<h1>","</h1>");
                             $remove_extension = str_replace(".html", "", $hire_file);
-                            echo '<a class="external_link" href="https://galilel.cloud/hire/'.$remove_extension.'">'.$hire_header.'</a>';
+                            echo '<a class="external_link" href="https://galilel.cloud/budget/'.$remove_extension.'">'.$hire_header.'</a>';
                         }
                     ?>
                 </div>
