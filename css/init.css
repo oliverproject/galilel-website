@@ -834,15 +834,15 @@ a {
   display:none;
 }
 
-#whitepapers, #walletguides, #masternodeguides{
+#whitepapers, #walletguides, #masternodeguides, #imprint, #data-protection{
   width: 500px;
 }
 
-#whitepapers h5, #walletguides h5, #masternodeguides h5{
+#whitepapers h5, #walletguides h5, #masternodeguides h5, #imprint h5, #data-protection h5{
   text-transform:uppercase;
 }
 
-#whitepapers a, #walletguides a, #masternodeguides a{
+#whitepapers a, #walletguides a, #masternodeguides a, #imprint a, #data-protection a{
   display:block;
   font-size:0.8em;
   text-transform: uppercase;
@@ -859,7 +859,7 @@ a {
 }
  
 @media(max-width:500px) {
-  #whitepapers, #walletguides, #masternodeguides{
+  #whitepapers, #walletguides, #masternodeguides, #imprint , #data-protection {
     width:100%;
   }
 }

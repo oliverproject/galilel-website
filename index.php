@@ -87,6 +87,8 @@
     <script src="js/jvectormap/jquery-jvectormap-world-mill.js"></script>
     <script src="js/featherlight/featherlight.min.js"></script>
     <script src="js/init.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
@@ -101,6 +103,48 @@
 
     <!-- Website title -->
     <title>Galilel Core - Hybrid Mobile Proof-of-Stake, Proof-of-Burn, Term Deposits and Instant On Masternodes</title>
+
+    <script>
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+            "background": "#bca389",
+            "text": "#ffffff"
+            },
+            "button": {
+            "background": "#795548",
+            "text": "#ffffff"
+            }
+        },
+        "theme": "edgeless",
+        "content": {
+            "href": "/data-protection"
+        }
+        })});
+    </script>
+
+    <script> 
+        var gaProperty = 'UA-138941572-1'; 
+        var disableStr = 'ga-disable-' + gaProperty; 
+        if (document.cookie.indexOf(disableStr + '=true') > -1) { 
+            window[disableStr] = true;
+        } 
+        function gaOptout() { 
+            document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/'; 
+            window[disableStr] = true; 
+            alert('Google Analytics tracking is now disabled.'); 
+        } 
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); 
+
+        ga('create', 'UA-138941572-1', 'auto'); 
+        ga('set', 'anonymizeIp', true); 
+        ga('send', 'pageview'); 
+    </script>
+
 </head>
 
 <body>
@@ -2061,7 +2105,8 @@
             </div>
           </div>
         <div class="container center copyright">
-            <a class="link-text" href="mailto:contact@galilel.cloud?subject=More%20Information">Copyright &copy; <?php echo date('Y'); ?> - Galilel Core</a>
+            <a class="link-text" href="mailto:contact@galilel.cloud?subject=More%20Information">Copyright &copy; <?php echo date('Y'); ?> - Galilel Core</a><br>
+            <a href="#" data-featherlight="#imprint">Imprint</a> <a href="/data-protection" class="data-protection" >Data protection</a>
         </div>
     </footer>
 
@@ -2101,6 +2146,27 @@
             </div>
         </div>
     </div>  
+
+    <div class="gali_modal" id="imprint">
+        <div class="row">
+            <h5 class="center">Imprint - Information in accordance with section 5 of the german telemedia act (TMG):</h5>
+            <div class="col s12">
+            <h5>Maik Broemme</h5>
+            Roermonder Bahn 11<br>
+            41844 Wegberg<br>
+            Germany<br>
+            <h5>Contact</h5>
+            E-Mail: <a href="maik.broemme@galilel.cloud">maik.broemme@galilel.cloud</a><br>
+            <h5>DISCLAIMER</h5>
+            <h6>Liability regarding content</h6>
+            <p>As a supplier of services, we carry responsibility for the contents of our pages in accordance with Section 7 of the TMG, Paragraph 1. However, in accordance with Sub-sections 8 and 10 of the TMG, as a supplier of services we are not obliged to monitor the transmitted or saved information of third parties or to investigate circumstances pointing to illegal activity. Our obligation to remove or block the use of information under generally applicable laws remain unaffected by this. Any liability in this respect, however, can only be incurred from the moment of actual notice of a specific infringement. As soon as we become aware of an infringement, we shall immediately remove the content concerned.</p>
+            <h6>Liability regarding links</h6>
+            <p>Our offerings contain links to external third-party web pages over whose content we have no influence. For this reason we accept no liability for the content of such content, such liability lying solely with the supplier or operator of the pages linked to. At the time of creation of the link, checks were carried out regarding any possible infringement of the law, but no violations were ascertained. Should any infringement become known to us, we will immediately remove the link concerned.</p>
+            <h6>Copyright</h6>
+            <p>Our web pages and their contents are subject to German copyright law. All forms of reproduction, editing, or distribution, including all forms of use not covered by the copyright laws, require the prior written consent of the respective owner of the rights. Downloads or the making of copies of these pages are only permitted for private, non-commercial purposes. If the contents of the pages concerned have been created by one or more third parties, their copyrights apply. Content belonging to one or more third parties is specifically marked as such. Should you become aware of a copyright infringement, please inform us accordingly. Upon such an infringement being made known to us, we will immediately remove the content concerned.</p>
+            </div>
+        </div>
+    </div> 
 
 </body>
 
