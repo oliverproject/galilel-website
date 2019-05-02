@@ -2064,7 +2064,7 @@
     <footer class="page-footer">
         <div class="container">
             <div class="row">
-                <div class="col s12 m4">
+                <div class="col s12 m3">
                     <h3>Social channels</h3>
                     <ul>
                         <li><a href="https://discord.galilel.cloud" target="_blank" rel="noopener noreferrer">Discord</a></li>
@@ -2076,7 +2076,7 @@
                         <li><a href="https://instagram.com/galilel_en/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                     </ul>
                 </div>
-                <div class="col s12 m4">
+                <div class="col s12 m3">
                     <h3>Exchanges</h3>
                     <ul>
                         <li><a href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">Graviex</a></li>
@@ -2090,7 +2090,7 @@
                         <li><a href="https://bisq.network/markets/?currency=gali_btc" target="_blank" rel="noopener noreferrer">bisq</a></li>
                     </ul>
                 </div>
-                <div class="col s12 m4">
+                <div class="col s12 m3">
                     <h3>Wallets</h3>
                     <ul>
                         <li><a href="#wallets">Desktop Wallets</a></li>
@@ -2099,11 +2099,19 @@
                         <li><a href="#wallets">Snapshots</a></li>
                     </ul>
                 </div>
+                <div class="col s12 m3">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#" data-featherlight="#imprint">Imprint</a></li>
+                        <li><a href="https://galilel.cloud/legal/data-protection" target="_blank" rel="noopener noreferrer">Paper Wallets</a></li>
+                        <li><a href="https://paper.galilel.cloud/" target="_blank" rel="noopener noreferrer">Instant Wallets</a></li>
+                        <li><a href="https://github.com/Galilel-Project/galilel-media" target="_blank" rel="noopener noreferrer">Galilel media files</a></li>
+                    </ul>
+                </div>
             </div>
           </div>
         <div class="container center copyright">
             <a class="link-text" href="mailto:contact@galilel.cloud?subject=More%20Information">Copyright &copy; <?php echo date('Y'); ?> - Galilel Core</a><br>
-            <a href="#" data-featherlight="#imprint">Imprint</a> <a href="https://galilel.cloud/legal/data-protection" class="data-protection" >Data protection</a>
         </div>
     </footer>
 
