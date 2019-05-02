@@ -163,7 +163,7 @@
         <li><a href="#wallets">Desktop Wallets</a></li>
         <li><a href="#wallets">Paper Wallets</a></li>
         <li><a href="https://paper.galilel.cloud/" target="_blank" rel="noopener noreferrer">Instant Wallets</a></li>
-        <li><a href="#wallets">Bootstrap</a></li>
+        <li><a href="#wallets">Snapshots</a></li>
     </ul>
     <ul id="exchange" class="dropdown-content">
         <li><a href="https://graviex.net/markets/galibtc" target="_blank" rel="noopener noreferrer">Graviex</a></li>
@@ -243,7 +243,7 @@
                     <li><a href="#wallets">Desktop Wallets</a></li>
                     <li><a href="#wallets">Paper Wallets</a></li>
                     <li><a href="https://paper.galilel.cloud/" target="_blank" rel="noopener noreferrer">Instant Wallets</a></li>
-                    <li><a href="#wallets">Bootstrap</a></li>
+                    <li><a href="#wallets">Snapshots</a></li>
                     <li><a href="https://github.com/Galilel-Project" target="_blank" rel="noopener noreferrer">Repositories</a></li>
                 </ul>
             </div>
@@ -839,7 +839,7 @@
                         <ul>
                             <li><a href="#desktop-wallets-1" class="btn-small waves-effect">Desktop Wallets</a></li>
                             <li><a href="#paper-wallets-2" class="btn-small waves-effect">Paper Wallets</a></li>
-                            <li><a href="#bootstrap-3" class="btn-small waves-effect">Blockchain Snapshot</a></li>
+                            <li><a href="#bootstrap-3" class="btn-small waves-effect">Blockchain Snapshots</a></li>
                         </ul>
                         <div id="desktop-wallets-1">
                             <p class="center">Galilel wallet is available for a wide range of platforms and architectures.</p>
@@ -914,7 +914,7 @@
                             </div>
                         </div>
                         <div id="bootstrap-3">
-                            <p class="center">Galilel blockchain snapshot is created every night, used for fast bootstrap of new wallets.</p>
+                            <p class="center">Galilel blockchain snapshot is created every night, used for fast sync of new wallets.</p>
                             <div style="overflow-x:auto;">
                                 <table class="highlight">
                                     <thead>
@@ -2086,7 +2086,7 @@
                         <li><a href="#wallets">Desktop Wallets</a></li>
                         <li><a href="#wallets">Paper Wallets</a></li>
                         <li><a href="https://paper.galilel.cloud/" target="_blank" rel="noopener noreferrer">Instant Wallets</a></li>
-                        <li><a href="#wallets">Bootstrap</a></li>
+                        <li><a href="#wallets">Snapshots</a></li>
                     </ul>
                 </div>
             </div>
