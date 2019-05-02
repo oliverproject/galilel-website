@@ -2103,8 +2103,7 @@
                     <h3>Links</h3>
                     <ul>
                         <li><a href="#" data-featherlight="#imprint">Imprint</a></li>
-                        <li><a href="https://galilel.cloud/legal/data-protection" target="_blank" rel="noopener noreferrer">Paper Wallets</a></li>
-                        <li><a href="https://paper.galilel.cloud/" target="_blank" rel="noopener noreferrer">Instant Wallets</a></li>
+                        <li><a href="https://galilel.cloud/legal/data-protection" target="_blank" rel="noopener noreferrer">Data protection</a></li>
                         <li><a href="https://github.com/Galilel-Project/galilel-media" target="_blank" rel="noopener noreferrer">Galilel media files</a></li>
                     </ul>
                 </div>
