@@ -1132,7 +1132,7 @@
                             <br>
                             <span class="role">Designer</span>
                             <br>
-                            French
+                            France
                         </p>
                     </div>
                     <div class="card-action">
