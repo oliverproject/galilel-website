@@ -2119,16 +2119,52 @@
         <div class="row">
             <h5 class="center">Galilel Whitepapers</h5>
             <div class="col s12 m6">
-                <a href="downloads/whitepaper/Galilel_Core_Whitepaper_AR.pdf" target="_blank" rel="noopener noreferrer">Arabic (AR)</a>
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-ara.pdf" target="_blank" rel="noopener noreferrer">Arabic (ara)</a>
             </div>
             <div class="col s12 m6">
-                <a href="downloads/whitepaper/Galilel_Core_Whitepaper_EN.pdf" target="_blank" rel="noopener noreferrer">English (EN)</a>
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-eng.pdf" target="_blank" rel="noopener noreferrer">English (eng)</a>
             </div>
             <div class="col s12 m6">
-                <a href="downloads/whitepaper/Galilel_Core_Whitepaper_IT.pdf" target="_blank" rel="noopener noreferrer">Italian (IT)</a>
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-fra.pdf" target="_blank" rel="noopener noreferrer">French (fra)</a>
             </div>
             <div class="col s12 m6">
-                <a href="downloads/whitepaper/Galilel_Core_Whitepaper_ES.pdf" target="_blank" rel="noopener noreferrer">Spanish (ES)</a>
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-deu.pdf" target="_blank" rel="noopener noreferrer">German (deu)</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-ind.pdf" target="_blank" rel="noopener noreferrer">Indonesian (ind)</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-ita.pdf" target="_blank" rel="noopener noreferrer">Italian (ita)</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-jpn.pdf" target="_blank" rel="noopener noreferrer">Japanese (jpn)</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-tlh_latin.pdf" target="_blank" rel="noopener noreferrer">Klingon (tlh_latin)</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-tlh_pIqaD.pdf" target="_blank" rel="noopener noreferrer">Klingon (tlh_pIqaD)</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-pol.pdf" target="_blank" rel="noopener noreferrer">Polish (pol)</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-por.pdf" target="_blank" rel="noopener noreferrer">Portuguese (por)</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-rus.pdf" target="_blank" rel="noopener noreferrer">Russian (rus)</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-spa.pdf" target="_blank" rel="noopener noreferrer">Spanish (spa)</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-ukr.pdf" target="_blank" rel="noopener noreferrer">Ukrainian (ukr)</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-zho_sc.pdf" target="_blank" rel="noopener noreferrer">Chinese (zho_sc)</a>
+            </div>
+            <div class="col s12 m6">
+                <a href="downloads/whitepaper/Galilel_Core_Whitepaper-zho_tc.pdf" target="_blank" rel="noopener noreferrer">Chinese (zho_tc)</a>
             </div>
         </div>
     </div>  
